@@ -15,6 +15,12 @@ npm run dev
 
 Open http://localhost:3000. Search, categories, sorting, browser-local saved mods, and installation details work without accounts or a database.
 
+## Try a mod
+
+The cc-arcade listing includes **Try this mod**, opening a playable [2048 browser demo](https://modshelf.vercel.app/mods/cc-arcade/demo). Use arrow keys or WASD while the board is focused, swipe on touch screens, or use the direction buttons. The demo includes score, best tile, one-step undo, new games, and win/continue and game-over states.
+
+This is a browser adaptation of cc-arcade's MIT-licensed rules, with creator credit and pinned source in [ATTRIBUTION.md](ATTRIBUTION.md). It needs no credentials or server execution. Game rules and input/state helpers live in `lib/cc-arcade-2048.ts` and `lib/arcade-demo.ts`; the isolated client interface is in `components/arcade-2048.tsx`.
+
 ## Contribute through the repository
 
 Open this project in Claude Code and use the included skills:

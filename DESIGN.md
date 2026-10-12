@@ -50,6 +50,16 @@ typography:
     fontSize: "11px"
     fontWeight: 400
     lineHeight: 1.6
+  game-tile:
+    fontFamily: "Newsreader, serif"
+    fontSize: "40px"
+    fontWeight: 600
+    lineHeight: 1
+  game-score:
+    fontFamily: "Inter, sans-serif"
+    fontSize: "25px"
+    fontWeight: 600
+    lineHeight: 1
 rounded:
   inset: "4px"
   control: "5px"
@@ -116,6 +126,17 @@ components:
     rounded: "{rounded.inset}"
     padding: "8px 10px"
     height: "44px"
+  demo-action:
+    backgroundColor: "{colors.soft}"
+    textColor: "{colors.rust}"
+    rounded: "{rounded.control}"
+    height: "44px"
+  game-direction-control:
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.control}"
+    height: "44px"
+    width: "44px"
 ---
 
 # Design System: Modshelf
@@ -164,6 +185,8 @@ The palette uses warm neutrals for reading, rust for action, and sage for a quie
 
 **The Action Ink Rule.** Use rust for actionable or selected interface states; keep ordinary prose in ink or muted text.
 
+The arcade board also uses rust and sage within its numeric tile states. Light paper, sage, clay, rust, ochre, and olive fills distinguish increasing values; the numeral remains the explicit state label. These game-state colors stay within the board rather than adding new global action roles.
+
 ## Typography
 
 **Display Font:** Newsreader, with serif fallback. The build self-hosts weights 400, 500, and 600.
@@ -181,6 +204,8 @@ The palette uses warm neutrals for reading, rust for action, and sage for a quie
 - **Command title:** Newsreader at the frontmatter command-title size introduces each contribution skill.
 - **Command:** monospace with the frontmatter command treatment; contribution commands become (12px) on narrow screens. Installation commands use (12px) with the same line height.
 - **Label:** Inter at weight 500 for primary controls. Compact metadata and supporting notes use the smaller note tier.
+- **Game tile:** Newsreader at the frontmatter game-tile treatment, with lining and tabular numerals. Values of four digits or more reduce to (31px). On phones, the normal and long-value sizes use `clamp(29px, 8vw, 40px)` and `clamp(22px, 6vw, 31px)` respectively.
+- **Game score:** Inter at the frontmatter game-score treatment, with tabular numerals. Muted labels sit above the score and best tile.
 
 **The Two Voices Rule.** Use Newsreader for headings and Inter for controls and prose; reserve monospace for commands and code.
 
@@ -191,6 +216,10 @@ The main container centers at a maximum width of (1320px), with desktop side mar
 The catalog combines a category rail and grid, separated by a thin vertical divider. The rail starts at (228px), narrows to (195px) in the intermediate layout, then becomes a labeled select on phones. Cards use three columns on large screens, two at (1150px) and below, and one at (480px) and below. Desktop card gaps are (20px) vertically and (18px) horizontally; phone gaps become (18px) and (14px).
 
 Contribution pairs the introduction and illustration in a (1.4fr / 1fr) grid with a (30px) gap. Its ordered guidance uses three columns with (38px) gaps; two full-width command panels follow vertically. At (700px) and below, the introduction and guidance become single columns, step gaps become (28px), and command-panel padding reduces from (26px) to (20px).
+
+The arcade demo caps its shared container at (1040px) and pairs a game column of up to (440px) with supporting artwork and prose, separated by an (88px) gap. At (1000px) and below, the game column becomes (420px) with a (48px) gap. At (760px) and below, the layout stacks the game before its supporting context, keeps the board at up to (440px), and uses a (40px) section gap. The supporting context gains a fine top divider.
+
+On desktop viewports at least (761px) wide and at most (800px) high, the game column contracts to (352px), the title steps from (60px) to (48px), and the lead-in and toolbar spacing tighten so the board and its controls remain reachable in the first viewport. Phone titles use (43px). This height-sensitive treatment belongs to the arcade surface.
 
 Shared controls use close internal grouping and larger gaps between sections. Icon controls and category/filter selects are at least (44px) on phones; contribution copy actions retain a (44px) minimum height at all widths. The compact header navigation disappears at the phone breakpoint while the wordmark and add-mod action remain.
 
@@ -210,6 +239,8 @@ Resting cards and inputs are flat: quiet surface shifts, fine borders, and divid
 ## Shapes
 
 Corners are modest: buttons use the control radius, cards, search, and command panels use the surface radius, and inset artwork, commands, and icon controls use the inset radius. Borders are fine and neutral; the illustration silhouettes carry the organic character. Empty states use dashed outlines to distinguish their function. The detail dialog is the larger rounded exception (12px).
+
+The arcade repeats the same shape scale: its board uses the surface radius, square tiles use the inset radius, and directional controls use the control radius. Board and tile depth comes from muted fills and a fine perimeter border, without shadows.
 
 ## Components
 
@@ -244,6 +275,18 @@ Each skill uses a pale sage-neutral panel with a serif title and copy action on 
 ### Ordered Guidance
 
 Contribution steps use an unboxed ordered list, a rust serif ordinal, a serif title, and muted prose. Thin horizontal dividers separate the larger sections. The visible numbers express the actual fork, prepare, and review sequence; the list becomes vertical on narrow screens.
+
+### Demo Actions
+
+A playable catalog entry adds a labeled soft-clay link below its author/bookmark footer. It uses rust text, a fine clay border, the control radius, a minimum height of (44px), and small stroked gamepad and arrow SVGs. Fine-pointer hover deepens the clay fill; keyboard focus retains the shared rust outline. The detail layer uses the existing rust button for the same “Try this mod” action.
+
+### Arcade Board and Controls
+
+A flat, four-by-four board places centered serif numerals on square tiles. Its muted surround uses (12px) padding and (10px) gaps; phones reduce these to (10px) and (8px). Tile fills encode value, empty cells carry no visible numeral, and longer values use the smaller type treatment. The original hand-drawn arcade illustration continues the catalog art treatment beside the game or below it on phones.
+
+Score and best tile sit above the board alongside the outlined “New game” action. Four directional SVG buttons sit below it, each (44px) square, with a labeled (44px) undo action opposite. Directional and undo controls use a fine neutral border, transparent resting fill, and quiet-surface hover over (120ms); unavailable game actions fade to (0.45) opacity. A short muted instruction line follows. Win and no-moves messages appear below a fine divider with an existing rust action.
+
+The board receives visible keyboard focus and keeps arrow-key and WASD input within that focus target. Swipes belong to the board, pinch zoom remains available, and the page scrolls outside it. Moves update immediately without decorative animation; reduced-motion preferences remove control transitions. Accessible grid labels and polite state announcements accompany the visual state.
 
 ## Do's and Don'ts
 

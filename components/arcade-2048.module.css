@@ -1,0 +1,84 @@
+.page {
+  max-width: 1040px;
+  margin: 42px auto 88px;
+}
+.page .backLink { margin-bottom: 24px; min-height: 44px; }
+.intro { margin-bottom: 32px; }
+.intro h1 { font-size: 60px; line-height: 1.08; letter-spacing: -0.03em; text-wrap: balance; }
+.intro p { margin-top: 12px; color: var(--muted); font-size: 15px; line-height: 1.7; max-width: 520px; }
+.layout { display: grid; grid-template-columns: minmax(0, 440px) minmax(0, 1fr); gap: 88px; align-items: start; }
+.game { min-width: 0; }
+.gameToolbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 16px; }
+.scores { display: flex; gap: 32px; margin: 0; }
+.scores dt { font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+.scores dd { font-size: 25px; font-weight: 600; font-variant-numeric: tabular-nums; margin: 0; line-height: 1; }
+.newGame { min-height: 44px; padding-inline: 14px; gap: 8px; }
+.board { background: #d8d7ca; border: 1px solid #cbcbbc; border-radius: 7px; padding: 12px; display: grid; gap: 10px; touch-action: pinch-zoom; user-select: none; }
+.row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.tile { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 4px; background: #444b32; color: #fff; font-family: Newsreader, serif; font-size: 40px; font-weight: 600; font-variant-numeric: lining-nums tabular-nums; line-height: 1; }
+.tile[data-value="0"] { background: #e8e7df; }
+.tile[data-value="2"] { background: #f7f4eb; color: #383a30; }
+.tile[data-value="4"] { background: var(--sage); color: #34442e; }
+.tile[data-value="8"] { background: #eacfb6; color: #62412d; }
+.tile[data-value="16"] { background: #dfb894; color: #563222; }
+.tile[data-value="32"] { background: #a95b42; }
+.tile[data-value="64"] { background: var(--rust); }
+.tile[data-value="128"], .tile[data-value="256"], .tile[data-value="512"] { background: #806c32; }
+.tile[data-value="1024"], .tile[data-value="2048"] { background: #5d653c; }
+.tile[data-long="true"] { font-size: 31px; }
+.controls { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 16px; }
+.directionControls { display: flex; gap: 8px; }
+.directionControls button, .undo { display: inline-flex; align-items: center; justify-content: center; height: 44px; border: 1px solid #bcbdb3; border-radius: 5px; background: transparent; transition: background-color 120ms; }
+.directionControls button { width: 44px; }
+.undo { padding-inline: 12px; gap: 7px; font-size: 12px; }
+.game button:disabled { cursor: default; opacity: 0.45; }
+.instructions { margin-top: 14px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.result { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 24px; display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.result h2 { font-size: 29px; }
+.result p { color: var(--muted); font-size: 13px; line-height: 1.6; margin-top: 6px; }
+.about { padding-top: 8px; }
+.art { width: 100%; max-width: 340px; height: auto; margin: 0 auto 26px; mix-blend-mode: multiply; }
+.about h2 { font-size: 32px; line-height: 1.1; }
+.byline { font-size: 12px; color: var(--muted); margin-top: 10px; }
+.byline a { color: var(--rust); }
+.description { margin-top: 20px; color: var(--muted); font-size: 14px; line-height: 1.75; max-width: 360px; }
+.aboutActions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.source { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; min-height: 44px; color: var(--rust); }
+.credit { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; color: var(--muted); font-size: 11px; line-height: 1.8; max-width: 360px; }
+.credit a { text-decoration: underline; text-underline-offset: 3px; }
+@media (hover: hover) {
+  .directionControls button:hover:not(:disabled), .undo:hover:not(:disabled) { background: #eeeee6; }
+  .source:hover, .byline a:hover { text-decoration: underline; text-underline-offset: 3px; }
+}
+@media (max-width: 1000px) {
+  .layout { gap: 48px; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); }
+}
+@media (min-width: 761px) and (max-height: 800px) {
+  .page { margin-top: 12px; }
+  .page .backLink { min-height: 32px; margin-bottom: 8px; }
+  .intro { margin-bottom: 20px; }
+  .intro h1 { font-size: 48px; }
+  .layout { grid-template-columns: minmax(0, 352px) minmax(0, 1fr); }
+  .gameToolbar { margin-bottom: 12px; }
+  .controls { margin-top: 12px; }
+  .art { max-width: 260px; margin-bottom: 20px; }
+}
+@media (max-width: 760px) {
+  .page { margin-top: 26px; margin-bottom: 56px; }
+  .page .backLink { margin-bottom: 16px; }
+  .intro { margin-bottom: 26px; }
+  .intro h1 { font-size: 43px; }
+  .intro p { font-size: 14px; }
+  .layout { grid-template-columns: minmax(0, 440px); gap: 40px; }
+  .board { padding: 10px; gap: 8px; }
+  .row { gap: 8px; }
+  .tile { font-size: clamp(29px, 8vw, 40px); }
+  .tile[data-long="true"] { font-size: clamp(22px, 6vw, 31px); }
+  .scores { gap: 24px; }
+  .about { border-top: 1px solid var(--line); padding-top: 28px; }
+  .art { max-width: 240px; margin-bottom: 20px; }
+  .description, .credit { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .directionControls button, .undo { transition: none; }
+}

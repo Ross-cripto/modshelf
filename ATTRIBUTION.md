@@ -29,7 +29,11 @@ Modshelf is an independent community catalog inspired by the Claude Code mods co
 - [taskline](https://github.com/pepperonas/taskline) — pepperonas; MIT
 - [clawd-buddy](https://github.com/FynnXland/fynn-mods/tree/main/mods/clawd-buddy) — FynnXland; MIT
 
-Each mod retains its own license and authorship. This project contains source links and installation instructions, not copies of the listed mod packages. The discovery process and pinned source/license links for the reviewed additions are recorded in [catalog/discovery.md](catalog/discovery.md).
+Each mod retains its own license and authorship. Listings contain source links and installation instructions rather than copies of mod packages. The browser demo below includes an attributed adaptation of cc-arcade's game rules. The discovery process and pinned source/license links for the reviewed additions are recorded in [catalog/discovery.md](catalog/discovery.md).
+
+## cc-arcade browser demo
+
+The 2048 rules in `lib/cc-arcade-2048.ts` are adapted from [cc-arcade's twenty48.ts](https://github.com/sezaakgun/cc-arcade/blob/0baff06d31295850283c2eebe052f39bbc35473f/hooks/games/twenty48.ts), pinned to commit `0baff06d31295850283c2eebe052f39bbc35473f`. Copyright (c) 2026 Seza Akgün, licensed under MIT. The full upstream [license](public/licenses/cc-arcade-MIT.txt) is retained in the repository and source download. Modshelf adds the browser interface, keyboard and touch input, undo, and game-state feedback. The preview runs locally in the visitor's browser and does not execute a Claude Code session or the mod's terminal host.
 
 ## Website assets
 
