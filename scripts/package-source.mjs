@@ -3,7 +3,7 @@ import { join, relative } from 'node:path';
 import { zipSync } from 'fflate';
 
 const PROJECT_ROOT = process.cwd();
-const SOURCE_DIRECTORIES = ['app', 'components', 'lib', 'public', 'scripts', 'tests', 'catalog', '.claude', '.github'];
+const SOURCE_DIRECTORIES = ['app', 'components', 'lib', 'public', 'scripts', 'tests', 'docs', 'catalog', '.claude', '.github'];
 const SOURCE_FILES = ['package.json', 'package-lock.json', 'tsconfig.json', 'next.config.ts', 'vercel.json', '.gitignore', 'README.md', 'CONTRIBUTING.md', 'PRODUCT.md', 'DESIGN.md', '.impeccable/design.json', 'LICENSE', 'ATTRIBUTION.md', 'SECURITY.md', 'AGENTS.md', 'CLAUDE.md'];
 const ARCHIVE_PATH = 'public/modshelf-source.zip';
 const archiveEntries = {};

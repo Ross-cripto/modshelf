@@ -29,7 +29,11 @@ Modshelf is an independent community catalog inspired by the Claude Code mods co
 - [taskline](https://github.com/pepperonas/taskline) — pepperonas; MIT
 - [clawd-buddy](https://github.com/FynnXland/fynn-mods/tree/main/mods/clawd-buddy) — FynnXland; MIT
 
-Each mod retains its own license and authorship. Listings contain source links and installation instructions rather than copies of mod packages. The browser demo below includes an attributed adaptation of cc-arcade's game rules. The discovery process and pinned source/license links for the reviewed additions are recorded in [catalog/discovery.md](catalog/discovery.md).
+Each mod retains its own license and authorship. Listings contain source links and installation instructions rather than copies of mod packages. The browser demos reproduce mod behavior with original local fixture adapters; cc-arcade also includes an attributed adaptation of its game rules. The discovery process and pinned source/license links for the reviewed additions are recorded in [catalog/discovery.md](catalog/discovery.md).
+
+## Prompt-driven local demos
+
+Every listing has a source-grounded local adapter. The [behavior and source matrix](docs/mod-demos.md) links each pinned implementation. These browser simulations do not distribute or execute upstream mod packages. Creator credit, source links, fixture disclosures and subset limitations remain visible on every demo route. All newly written session and adapter code uses the site MIT license.
 
 ## cc-arcade browser demo
 
