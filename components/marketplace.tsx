@@ -9,6 +9,7 @@ import {
   Bookmark,
   Grid2X2,
   Gamepad2,
+  Terminal,
   ChartNoAxesColumn,
   Cog,
   Clock3,
@@ -97,7 +98,7 @@ function ModCard({
       </div>
       {demoHref && (
         <Link href={demoHref} className="card-demo-action" aria-label={`Try this mod: ${mod.name}`}>
-          <Gamepad2 size={16} aria-hidden="true" /> Try this mod <ArrowRight size={14} aria-hidden="true" />
+          <Terminal size={16} aria-hidden="true" /> Try this mod <ArrowRight size={14} aria-hidden="true" />
         </Link>
       )}
     </article>
@@ -195,7 +196,7 @@ function ModDetail({
         <div className="detail-bottom">
           {demoHref && (
             <Link className="button button-rust" href={demoHref}>
-              Try this mod <Gamepad2 size={16} aria-hidden="true" />
+              Try this mod <Terminal size={16} aria-hidden="true" />
             </Link>
           )}
           {mod.repository ? (

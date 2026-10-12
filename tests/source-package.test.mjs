@@ -6,7 +6,7 @@ import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { unzipSync } from "fflate";
 
-const SOURCE_DIRECTORIES = ["app", "components", "lib", "public", "scripts", "tests", "catalog", ".claude", ".github"];
+const SOURCE_DIRECTORIES = ["app", "components", "lib", "public", "scripts", "tests", "docs", "catalog", ".claude", ".github"];
 
 test("source download includes contributions and leaves local credentials out", async () => {
   const fixtureRoot = await mkdtemp(join(tmpdir(), "modshelf-source-"));
@@ -14,6 +14,7 @@ test("source download includes contributions and leaves local credentials out", 
     for (const directory of SOURCE_DIRECTORIES) await mkdir(join(fixtureRoot, directory), { recursive: true });
     await mkdir(join(fixtureRoot, ".claude/skills/example"), { recursive: true });
     await writeFile(join(fixtureRoot, "catalog/mods.json"), "[]");
+    await writeFile(join(fixtureRoot, "docs/mod-demos.md"), "Pinned demo behavior and contribution guide");
     await writeFile(join(fixtureRoot, ".claude/skills/example/SKILL.md"), "public contribution guide");
     await writeFile(join(fixtureRoot, "app/.env.local"), "LOCAL_SECRET=fixture-sentinel");
     await writeFile(join(fixtureRoot, ".claude/settings.local.json"), '{"local":"fixture-sentinel"}');
@@ -24,6 +25,7 @@ test("source download includes contributions and leaves local credentials out", 
     execFileSync(process.execPath, ["scripts/package-source.mjs"], { cwd: fixtureRoot });
     const archive = unzipSync(new Uint8Array(await readFile(join(fixtureRoot, "public/modshelf-source.zip"))));
     assert.ok(archive["modshelf/catalog/mods.json"]);
+    assert.ok(archive["modshelf/docs/mod-demos.md"]);
     assert.ok(archive["modshelf/.claude/skills/example/SKILL.md"]);
     assert.ok(archive["modshelf/.claude/settings.json"]);
     assert.equal(archive["modshelf/app/.env.local"], undefined);

@@ -1,0 +1,13 @@
+export const SIMULATION_TICK_MS = 400;
+export const WORK_TICKS = 60;
+export const READ_TICK = 12;
+export const AGENT_TICK = 22;
+export const EDIT_TICK = 32;
+export const CHECK_TICK = 44;
+export const REPLY_TICK = 52;
+export const MAX_PROMPT_LENGTH = 500;
+export const MAX_QUEUED_PROMPTS = 8;
+export const MAX_TRANSCRIPT_ENTRIES = 40;
+export const MUSIC_DURATION_SECONDS = 194;
+export const DINO_LEFT_COLUMN = 4;
+export const DINO_WIDTH = 5;

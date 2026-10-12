@@ -74,7 +74,7 @@ typography:
     fontSize: "13px"
     fontWeight: 400
     lineHeight: 1.25
-  game-control:
+  demo-control:
     fontFamily: "Inter, sans-serif"
     fontSize: "12px"
     fontWeight: 400
@@ -149,27 +149,43 @@ components:
     textColor: "{colors.rust}"
     rounded: "{rounded.control}"
     height: "44px"
-  arcade-terminal:
+  demo-terminal:
     backgroundColor: "{colors.terminal-ground}"
     textColor: "{colors.terminal-text}"
     typography: "{typography.terminal}"
     rounded: "{rounded.surface}"
     padding: "18px"
-  arcade-terminal-phone:
+  demo-terminal-phone:
     padding: "12px"
-  arcade-terminal-host:
-    height: "324px"
-  game-action-control:
+  demo-terminal-host:
+    height: "420px"
+  demo-terminal-host-phone:
+    height: "500px"
+  demo-terminal-host-short:
+    height: "clamp(220px, calc(100svh - 380px), 420px)"
+  demo-composer-field:
+    backgroundColor: "transparent"
+    textColor: "{colors.terminal-text}"
+    typography: "{typography.terminal}"
+    padding: "0 4px"
+    height: "44px"
+  demo-composer-submit:
+    backgroundColor: "{colors.terminal-text}"
+    textColor: "#171717"
+    rounded: "{rounded.inset}"
+    padding: "0 15px"
+    height: "44px"
+  demo-action-control:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    typography: "{typography.game-control}"
+    typography: "{typography.demo-control}"
     rounded: "{rounded.control}"
     padding: "0 12px"
     height: "44px"
-  game-direction-control:
+  arcade-direction-control:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
-    typography: "{typography.game-control}"
+    typography: "{typography.demo-control}"
     rounded: "{rounded.control}"
     height: "44px"
     width: "44px"
@@ -224,9 +240,9 @@ The palette uses warm neutrals for reading, rust for action, and sage for a quie
 
 ### Scoped Terminal Theme
 
-The cc-arcade preview uses the terminal color roles in frontmatter, independently of the catalog palette. Terminal ground supplies both the viewport and ANSI black; terminal foreground supplies ordinary text, ANSI white, and the cursor. Dim text carries trace, empty dots, status, and prompt rules. Bright text carries ANSI bright white and selected text; the selection role supplies its background. The perimeter is a fine charcoal border.
+All mod demos share the terminal color roles in frontmatter, independently of the catalog palette. Terminal ground supplies the viewport and ANSI black; terminal foreground supplies ordinary text, ANSI white, and the cursor. Dim text carries transcript tools, fixture disclosures and secondary status. Bright text carries ANSI bright white and emphasis; the selection role supplies its background. The perimeter is a fine charcoal border. Source-specific true-color pigments remain local to the mod that uses them, including native transcript themes, breathing art, graphs and bounded graphic previews.
 
-The theme includes red, green, yellow, blue, magenta, and cyan, each with its observed bright variant. The board uses this mapping:
+The shared ANSI theme includes red, green, yellow, blue, magenta, and cyan, each with its observed bright variant. The cc-arcade board keeps its source-specific mapping:
 
 | Value / state | Text treatment |
 | --- | --- |
@@ -244,9 +260,9 @@ The theme includes red, green, yellow, blue, magenta, and cyan, each with its ob
 | 2048 | Bold green |
 | Larger values | Bold bright green |
 
-The box-character board border is yellow during play and red when no moves remain. Terminal keyboard focus repeats yellow; the supplemental controls retain the shelf's rust focus.
+The cc-arcade box-character board border is yellow during play and red when no moves remain. Its completion banner is yellow. Terminal keyboard focus repeats yellow across demos; supplemental controls retain the shelf's rust focus.
 
-**The Terminal Color Rule.** Keep ANSI and true-color game states within terminal text; retain paper, ink, and rust for the surrounding shelf controls.
+**The Terminal Color Rule.** Keep ANSI and source-specific true-color treatments within terminal demo content; retain paper, ink, and rust for the surrounding shelf controls.
 
 ## Typography
 
@@ -267,12 +283,12 @@ The box-character board border is yellow during play and red when no moves remai
 - **Command title:** Newsreader at the frontmatter command-title size introduces each contribution skill.
 - **Command:** monospace with the frontmatter command treatment; contribution commands become (12px) on narrow screens. Installation commands use (12px) with the same line height.
 - **Label:** Inter at weight 500 for primary controls. Compact metadata and supporting notes use the smaller note tier.
-- **Terminal:** the frontmatter terminal treatment is fixed across desktop and phone widths. ANSI bold distinguishes bracketed actions, the terminal heading, and values from 128 upward; score and best are inline terminal text at the same cell size.
-- **Game control:** the frontmatter game-control treatment applies to the supplemental Play, Restart, and Undo labels outside the terminal.
+- **Terminal:** the frontmatter terminal treatment is fixed across desktop and phone widths. ANSI bold distinguishes source headings, bracketed actions and selected native content. The cc-arcade score, best and values remain inline text at the same cell size, with bold values from 128 upward.
+- **Demo control:** the frontmatter demo-control treatment applies to supplemental mod action labels outside the terminal. The composer retains terminal monospace inside the dark surface.
 
 **The Two Voices Rule.** Use Newsreader for headings and Inter for controls and prose; reserve monospace for commands, code, and native terminal content.
 
-**The Terminal Cell Rule.** Preserve the terminal font size and cell geometry across viewport sizes; reflow the surrounding controls and context rather than enlarging game numerals or turning text cells into filled tiles.
+**The Terminal Cell Rule.** Preserve terminal font size and cell geometry across viewport sizes; reflow panes, controls and context around the native text.
 
 ## Layout
 
@@ -282,9 +298,9 @@ The catalog combines a category rail and grid, separated by a thin vertical divi
 
 Contribution pairs the introduction and illustration in a (1.4fr / 1fr) grid with a (30px) gap. Its ordered guidance uses three columns with (38px) gaps; two full-width command panels follow vertically. At (700px) and below, the introduction and guidance become single columns, step gaps become (28px), and command-panel padding reduces from (26px) to (20px).
 
-The arcade demo caps its shared container at (1040px). The terminal occupies the full available width, followed by controls, instructions, and supporting context, with a (44px) gap between the game section and context. The terminal host remains (324px) high with (18px) desktop inset padding. Its compact text board stays at the left of the broader terminal viewport rather than stretching to fill it. Below a fine top divider, the original illustration occupies a (180px) column beside creator, source, license, and installation context, with a (32px) column gap and (32px) top padding. At (760px) and below, the terminal inset becomes (12px), the section gap becomes (32px), and context stacks with (24px) top padding and a centered illustration capped at (200px). Supplemental controls wrap into separate direction and action groups with a (12px) group gap; every button retains its (44px) height.
+All terminal demos share a centered (1120px) container. A title and mod selector precede the full-width terminal. The desktop host is (420px) high with (18px) inset padding; phones use a (500px) host and (12px) inset. Right panes dock at 110 terminal columns and stack above the composer on narrower surfaces. The existing illustration occupies a (160px) column beside creator, source, license and install context, separated by a (28px) gap and fine top rule. At (760px) and below, context stacks and artwork caps at (170px). Supplemental controls wrap with (8px) gaps and (44px) targets.
 
-On desktop viewports at least (761px) wide and at most (800px) high, the arcade title steps from (60px) to (48px), the page top margin becomes (12px), and the back link and lead-in spacing tighten. The terminal host and font stay the same size. Phone titles use (43px). This height-sensitive title and spacing treatment belongs to the arcade surface.
+On desktop widths at least (761px) and heights at most (800px), titles step from (54px) to (44px), the page top margin becomes (8px), and the host follows clamp(220px, 100svh - 380px, 420px). This keeps the complete composer visible on short screens while preserving the fixed terminal lettering. Phone titles use (42px).
 
 Shared controls use close internal grouping and larger gaps between sections. Icon controls and category/filter selects are at least (44px) on phones; contribution copy actions retain a (44px) minimum height at all widths. The compact header navigation disappears at the phone breakpoint while the wordmark and add-mod action remain.
 
@@ -292,7 +308,7 @@ Shared controls use close internal grouping and larger gaps between sections. Ic
 
 ## Elevation & Depth
 
-Resting cards and inputs are flat: quiet surface shifts, fine borders, and dividers establish structure. Cards gain a faint, softly blurred shadow only for hover on a fine pointer. The detail dialog uses a deeper ambient shadow and translucent charcoal backdrop to separate an active layer. Focus outlines are interaction feedback, not surface elevation. The arcade terminal is a flat dark ground with a fine perimeter, without a shadow. Its active input outline uses terminal yellow (1px) at an offset of (6px); external controls retain the shared rust outline.
+Resting cards and inputs are flat: quiet surface shifts, fine borders, and dividers establish structure. Cards gain a faint, softly blurred shadow only for hover on a fine pointer. The detail dialog uses a deeper ambient shadow and translucent charcoal backdrop to separate an active layer. Focus outlines are interaction feedback, not surface elevation. The shared demo terminal is a flat dark ground with a fine perimeter, without a shadow. Its focused xterm outline uses terminal yellow (1px) at an offset of (3px); external controls retain the shared rust outline. The browser composer uses the shared rust focus at a closer offset of (1px).
 
 ### Shadow Vocabulary
 
@@ -305,7 +321,7 @@ Resting cards and inputs are flat: quiet surface shifts, fine borders, and divid
 
 Corners are modest: buttons use the control radius, cards, search, and command panels use the surface radius, and inset artwork, commands, and icon controls use the inset radius. Borders are fine and neutral; the illustration silhouettes carry the organic character. Empty states use dashed outlines to distinguish their function. The detail dialog is the larger rounded exception (12px).
 
-The arcade terminal surround uses the surface radius and its external controls use the control radius. Inside it, the board is a (27-column), six-line text box: rounded box characters enclose four rows of four right-aligned values or centered dots, each cell occupying six character columns. The box is text geometry rather than a CSS card; cells have no background fills, individual borders, or radii.
+The shared terminal surround uses the surface radius and its external controls use the control radius. Native panes use their source text geometry and dividers; bounded image, browser and document graphics occupy reserved terminal rectangles. Within cc-arcade, the board is a (27-column), six-line text box: rounded box characters enclose four rows of four right-aligned values or centered dots, each cell occupying six character columns. The box is text geometry rather than a CSS card; cells have no background fills, individual borders, or radii.
 
 ## Components
 
@@ -343,17 +359,17 @@ Contribution steps use an unboxed ordered list, a rust serif ordinal, a serif ti
 
 ### Demo Actions
 
-A playable catalog entry adds a labeled soft-clay link below its author/bookmark footer. It uses rust text, a fine clay border, the control radius, a minimum height of (44px), and small stroked gamepad and arrow SVGs. Fine-pointer hover deepens the clay fill; keyboard focus retains the shared rust outline. The detail layer uses the existing rust button for the same “Try this mod” action.
+Every current catalog card has a “Try this mod” link below its author/bookmark footer. Rust text, a fine clay border, (44px) minimum height and stroked terminal/arrow SVGs preserve the shelf controls. The detail layer uses the existing rust action. Each route opens the chosen mod and includes a selector for the other demos.
 
-### Arcade Terminal and Controls
+### Prompt-driven Terminals and Controls
 
-A functioning xterm.js frontend renders the original cc-arcade text board on the scoped terminal ground and font. The terminal contains a short preview trace, native bracketed games/close actions, the compact six-line board, inline score/controls/best status, and a visible prompt between dim horizontal rules. The board's shape and colors follow the scoped terminal rules above. Text lines clip to the available terminal columns; the fixed cell size remains readable on phones. The original hand-drawn arcade illustration and creator, installation, source, and license context follow below the game section.
+A scoped xterm.js surface recreates a local Claude work loop. Visitors type arbitrary text into a real browser input, then observe Read, Agent, Edit, checks, streaming reply and completion. The persistent simulation label, limitation copy and pinned source evidence explain that messages and all account/project data are browser-local fixtures. No AI, shell, GitHub, music or remote-browser service is connected. A second prompt repeats the cycle; Stop cancels pending work and Reset restores the local fixture.
 
-Clicking the board gives it keyboard focus. Arrows or WASD move, R restarts, and Esc returns input to the visible prompt. Native bracketed actions respond to terminal clicks: games opens the limited picker, 2048 starts a game, and close leaves the prompt. The prompt supports `/arcade`, `/arcade 2048`, and `/arcade stop`; unsupported commands explain that limited set. Tab can leave the terminal. The game continues automatically after reaching 2048, and best records completed-game scores within the current preview session.
+Each source-grounded adapter keeps its native placement, activation and lifecycle. Working-only breathing disappears after the main reply; games retain their yellow completion banner until interaction; completion-sampled meters differ from live dashboards; queues drain only explicitly queued prompts; guards pause before the relevant prompt or tool. Native transcript renderers, attachments, file trees, PR feedback and independent task/music clocks retain distinct controls. Supported subsets are recorded in docs/mod-demos.md.
 
-The external control row places four (44px) square directional SVG buttons opposite labeled Play, Restart, and Undo buttons at the same height. All use a fine neutral border, transparent resting fill, and quiet-surface hover over (120ms). Labels and SVGs are grouped with a (7px) gap; buttons within each group use an (8px) gap. Unavailable actions fade to (0.45) opacity. A muted instruction line and a smaller preview-status note follow. Loading and failure notices remain within the terminal ground; failure offers a labeled retry action.
+The playable cc-arcade board retains its original terminal cells, scoring, best and game keys. External arrows use the same stroked SVG family as the shelf; native glyphs remain inside xterm. All terminal hit actions have keyboard-focusable supplemental controls. Tab leaves the terminal and Esc returns to the composer. Guard explanations wrap to full terminal cell width, keeping their decisions and countdown visible. Both browser context actions include the currently selected local page without submitting automatically.
 
-Moves update immediately without decorative animation or a blinking cursor. Reduced-motion preferences remove external control transitions. Swipes belong to the text board, pinch zoom remains available, and the page scrolls outside it. A separate accessible grid and polite state announcements accompany terminal output. The visible preview note states that only 2048 runs locally and no Claude session is connected; the terminal does not fabricate model output, usage counters, or connected status.
+Terminal text uses fixed (13px) monospace with (1.25) line height. Transcript wrapping and hit targets count Unicode terminal cells. Graphics reserve bounded rectangles and never cover native buttons. A stable polite conversation log and phase announcements accompany non-live browseable mod output. The 2048 board also has an accessible grid. Reduced-motion preferences freeze the decorative breathing pulse and mascot animation clock while tool events and replies continue.
 
 ## Do's and Don'ts
 
