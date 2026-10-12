@@ -20,7 +20,7 @@ An independent open-source marketplace exclusively for Claude Code function-hook
 
 ## Capabilities and Constraints
 
-Search, category filters, sorting, browser-local bookmarks, source links, and installation instructions. The cc-arcade listing also opens a playable browser adaptation of its 2048 rules, with keyboard/touch controls, scoring, undo, and win/loss states. This preview does not run a Claude Code session. The catalog is version-controlled JSON. Contributions use project skills and reviewed pull requests. The website needs no database, accounts, AI API keys, or environment file. All website copy is English. Generic skills, prompt packs, MCP servers, and ordinary shell hooks alone are outside the catalog.
+Search, category filters, sorting, browser-local bookmarks, source links, and installation instructions. The cc-arcade listing opens a playable xterm.js terminal preview of its 2048 rules and original text interface. Click-to-focus, arrows/WASD, R restart, Esc-to-prompt, a limited /arcade command flow, scoring, session best scores, undo, and supplemental touch controls work locally. The preview includes only 2048 and does not run a Claude Code session. The catalog is version-controlled JSON. Contributions use project skills and reviewed pull requests. The website needs no database, accounts, AI API keys, or environment file. All website copy is English. Generic skills, prompt packs, MCP servers, and ordinary shell hooks alone are outside the catalog.
 
 ## Brand Commitments
 

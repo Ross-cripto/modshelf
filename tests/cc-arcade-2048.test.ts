@@ -82,17 +82,24 @@ test("blocked moves do not overwrite the undo history", () => {
   assert.deepEqual(reduceDemo(blocked, { type: "undo" }).game, state.game);
 });
 
-test("the win pauses play until continued, and a new game clears win and undo state", () => {
+test("reaching 2048 continues automatically as in cc-arcade, and restart clears the board and undo state", () => {
   const state = createDemoState(gameWithCells([1024, 1024, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]));
   const won = reduceDemo(state, { type: "move", direction: "left", positionSample: 0, valueSample: 0 });
-  assert.equal(reduceDemo(won, { type: "move", direction: "down", positionSample: 0, valueSample: 0 }), won);
-  const continued = reduceDemo(won, { type: "continue" });
-  assert.notEqual(reduceDemo(continued, { type: "move", direction: "down", positionSample: 0, valueSample: 0 }), continued);
+  assert.notEqual(reduceDemo(won, { type: "move", direction: "down", positionSample: 0, valueSample: 0 }), won);
   const resetGame = createGame(() => 0.5);
-  const reset = reduceDemo(continued, { type: "reset", game: resetGame });
+  const reset = reduceDemo(won, { type: "reset", game: resetGame });
   assert.equal(reset.game, resetGame);
-  assert.equal(reset.hasContinued, false);
+  assert.equal(reset.game.won, false);
   assert.equal(reset.previousGame, null);
+});
+
+test("best tracks completed scores rather than tile values and survives a restart", () => {
+  const state = createDemoState(gameWithCells([4, 8, 4, 8, 8, 4, 8, 4, 4, 16, 32, 16, 8, 4, 8, 0], 100));
+  const finished = reduceDemo(state, { type: "move", direction: "right", positionSample: 0, valueSample: 0 });
+  assert.equal(finished.bestScore, 100);
+  assert.equal(reduceDemo(finished, { type: "reset", game: createGame(() => 0.5) }).bestScore, 100);
+  const playing = reduceDemo(createDemoState(gameWithCells([2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])), { type: "move", direction: "left", positionSample: 0, valueSample: 0 });
+  assert.equal(playing.bestScore, 0);
 });
 
 test("keyboard and swipe controls map directions without treating taps as moves", () => {
