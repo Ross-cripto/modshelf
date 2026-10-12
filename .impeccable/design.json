@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T13:01:05.280309Z",
+  "title": "Design System: Modshelf",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Ivory paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00571 84.57)",
+          "oklch(26.43% 0.00571 84.57)",
+          "oklch(37.86% 0.00571 84.57)",
+          "oklch(49.29% 0.00571 84.57)",
+          "oklch(60.71% 0.00571 84.57)",
+          "oklch(72.14% 0.00571 84.57)",
+          "oklch(83.57% 0.00571 84.57)",
+          "oklch(95.00% 0.00571 84.57)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00911 107.02)",
+          "oklch(26.43% 0.00911 107.02)",
+          "oklch(37.86% 0.00911 107.02)",
+          "oklch(49.29% 0.00911 107.02)",
+          "oklch(60.71% 0.00911 107.02)",
+          "oklch(72.14% 0.00911 107.02)",
+          "oklch(83.57% 0.00911 107.02)",
+          "oklch(95.00% 0.00911 107.02)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted reading text",
+        "tonalRamp": [
+          "oklch(15.00% 0.01140 273.20)",
+          "oklch(26.43% 0.01140 273.20)",
+          "oklch(37.86% 0.01140 273.20)",
+          "oklch(49.29% 0.01140 273.20)",
+          "oklch(60.71% 0.01140 273.20)",
+          "oklch(72.14% 0.01140 273.20)",
+          "oklch(83.57% 0.01140 273.20)",
+          "oklch(95.00% 0.01140 273.20)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.00817 98.89)",
+          "oklch(26.43% 0.00817 98.89)",
+          "oklch(37.86% 0.00817 98.89)",
+          "oklch(49.29% 0.00817 98.89)",
+          "oklch(60.71% 0.00817 98.89)",
+          "oklch(72.14% 0.00817 98.89)",
+          "oklch(83.57% 0.00817 98.89)",
+          "oklch(95.00% 0.00817 98.89)"
+        ]
+      },
+      "rust": {
+        "role": "primary",
+        "displayName": "Rust",
+        "tonalRamp": [
+          "oklch(15.00% 0.12545 37.40)",
+          "oklch(26.43% 0.12545 37.40)",
+          "oklch(37.86% 0.12545 37.40)",
+          "oklch(49.29% 0.12545 37.40)",
+          "oklch(60.71% 0.12545 37.40)",
+          "oklch(72.14% 0.12545 37.40)",
+          "oklch(83.57% 0.12545 37.40)",
+          "oklch(95.00% 0.12545 37.40)"
+        ]
+      },
+      "soft": {
+        "role": "primary",
+        "displayName": "Soft clay",
+        "tonalRamp": [
+          "oklch(15.00% 0.01873 62.45)",
+          "oklch(26.43% 0.01873 62.45)",
+          "oklch(37.86% 0.01873 62.45)",
+          "oklch(49.29% 0.01873 62.45)",
+          "oklch(60.71% 0.01873 62.45)",
+          "oklch(72.14% 0.01873 62.45)",
+          "oklch(83.57% 0.01873 62.45)",
+          "oklch(95.00% 0.01873 62.45)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "oklch(15.00% 0.02143 127.40)",
+          "oklch(26.43% 0.02143 127.40)",
+          "oklch(37.86% 0.02143 127.40)",
+          "oklch(49.29% 0.02143 127.40)",
+          "oklch(60.71% 0.02143 127.40)",
+          "oklch(72.14% 0.02143 127.40)",
+          "oklch(83.57% 0.02143 127.40)",
+          "oklch(95.00% 0.02143 127.40)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Button white",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "charcoal-action": {
+        "role": "neutral",
+        "displayName": "Charcoal action",
+        "tonalRamp": [
+          "oklch(15.00% 0.00738 118.31)",
+          "oklch(26.43% 0.00738 118.31)",
+          "oklch(37.86% 0.00738 118.31)",
+          "oklch(49.29% 0.00738 118.31)",
+          "oklch(60.71% 0.00738 118.31)",
+          "oklch(72.14% 0.00738 118.31)",
+          "oklch(83.57% 0.00738 118.31)",
+          "oklch(95.00% 0.00738 118.31)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Catalog surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.00451 78.30)",
+          "oklch(26.43% 0.00451 78.30)",
+          "oklch(37.86% 0.00451 78.30)",
+          "oklch(49.29% 0.00451 78.30)",
+          "oklch(60.71% 0.00451 78.30)",
+          "oklch(72.14% 0.00451 78.30)",
+          "oklch(83.57% 0.00451 78.30)",
+          "oklch(95.00% 0.00451 78.30)"
+        ]
+      },
+      "quiet-surface": {
+        "role": "neutral",
+        "displayName": "Quiet surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.01062 106.60)",
+          "oklch(26.43% 0.01062 106.60)",
+          "oklch(37.86% 0.01062 106.60)",
+          "oklch(49.29% 0.01062 106.60)",
+          "oklch(60.71% 0.01062 106.60)",
+          "oklch(72.14% 0.01062 106.60)",
+          "oklch(83.57% 0.01062 106.60)",
+          "oklch(95.00% 0.01062 106.60)"
+        ]
+      },
+      "command-panel": {
+        "role": "neutral",
+        "displayName": "Contribution command panel",
+        "tonalRamp": [
+          "oklch(15.00% 0.01196 111.76)",
+          "oklch(26.43% 0.01196 111.76)",
+          "oklch(37.86% 0.01196 111.76)",
+          "oklch(49.29% 0.01196 111.76)",
+          "oklch(60.71% 0.01196 111.76)",
+          "oklch(72.14% 0.01196 111.76)",
+          "oklch(83.57% 0.01196 111.76)",
+          "oklch(95.00% 0.01196 111.76)"
+        ]
+      },
+      "command-surface": {
+        "role": "neutral",
+        "displayName": "Command inset and copy action",
+        "tonalRamp": [
+          "oklch(15.00% 0.00790 106.54)",
+          "oklch(26.43% 0.00790 106.54)",
+          "oklch(37.86% 0.00790 106.54)",
+          "oklch(49.29% 0.00790 106.54)",
+          "oklch(60.71% 0.00790 106.54)",
+          "oklch(72.14% 0.00790 106.54)",
+          "oklch(83.57% 0.00790 106.54)",
+          "oklch(95.00% 0.00790 106.54)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Newsreader display",
+        "purpose": "Main catalog statement and wordmark; shared family with secondary page titles."
+      },
+      "headline": {
+        "displayName": "Newsreader headline",
+        "purpose": "Catalog and search headings."
+      },
+      "title": {
+        "displayName": "Newsreader title",
+        "purpose": "Mod card titles."
+      },
+      "body": {
+        "displayName": "Inter body",
+        "purpose": "General prose and reading sections."
+      },
+      "label": {
+        "displayName": "Inter label",
+        "purpose": "Action labels."
+      },
+      "note": {
+        "displayName": "Inter note",
+        "purpose": "Helper text and compact metadata."
+      },
+      "command-title": {
+        "displayName": "Newsreader command title",
+        "purpose": "Repeated contribution skill headings."
+      },
+      "command": {
+        "displayName": "Monospace command",
+        "purpose": "Contribution commands; narrow screens reduce size to 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-hover",
+        "value": "0 6px 18px #27291b09",
+        "purpose": "Faint depth on card hover for a fine pointer."
+      },
+      {
+        "name": "dialog",
+        "value": "0 18px 70px #282a2438",
+        "purpose": "Active mod-detail layer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": "150ms",
+        "purpose": "Buttons, categories, and card hover feedback."
+      },
+      {
+        "name": "bookmark-settle",
+        "value": "220ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Saved bookmark settles from sage and a slight raised rotation into clay and rust."
+      },
+      {
+        "name": "button-press",
+        "value": "scale(0.98)",
+        "purpose": "Short press feedback; removed with reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition-duration: 0s; scroll-behavior: auto",
+        "purpose": "Remove authored motion for the user preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "single-column-phone",
+        "value": "480px"
+      },
+      {
+        "name": "contribution-stack",
+        "value": "700px"
+      },
+      {
+        "name": "phone",
+        "value": "760px"
+      },
+      {
+        "name": "intermediate",
+        "value": "1150px"
+      },
+      {
+        "name": "wide",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Shared labeled action with the shipped hover, focus, disabled, and press treatments.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Explore mods<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:0 21px;border:1px solid transparent;border-radius:5px;font-family:Inter,sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 150ms,color 150ms,transform 150ms;background:var(--rust,#a94f34);color:#fff;}.ds-button-primary:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-button-primary:active{transform:scale(.98)}.ds-button-primary:disabled{opacity:.65;cursor:wait}@media(hover:hover) and (pointer:fine){.ds-button-primary:hover{background:#913f28;}}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition-duration:0s}.ds-button-primary:active{transform:none}}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Shared labeled action with the shipped hover, focus, disabled, and press treatments.",
+      "html": "<button class=\"ds-button-dark\" type=\"button\">Add a mod<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-button-dark{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:0 21px;border:1px solid transparent;border-radius:5px;font-family:Inter,sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 150ms,color 150ms,transform 150ms;background:#262723;color:#fff;}.ds-button-dark:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-button-dark:active{transform:scale(.98)}.ds-button-dark:disabled{opacity:.65;cursor:wait}@media(hover:hover) and (pointer:fine){.ds-button-dark:hover{background:#41453a;}}@media(prefers-reduced-motion:reduce){.ds-button-dark{transition-duration:0s}.ds-button-dark:active{transform:none}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Shared labeled action with the shipped hover, focus, disabled, and press treatments.",
+      "html": "<button class=\"ds-button-outline\" type=\"button\">Explore all mods<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></button>",
+      "css": ".ds-button-outline{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:0 21px;border:1px solid transparent;border-radius:5px;font-family:Inter,sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 150ms,color 150ms,transform 150ms;background:transparent;color:var(--ink,#24241f);border-color:#bcbdb3;}.ds-button-outline:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-button-outline:active{transform:scale(.98)}.ds-button-outline:disabled{opacity:.65;cursor:wait}@media(hover:hover) and (pointer:fine){.ds-button-outline:hover{background:#eeeee6;}}@media(prefers-reduced-motion:reduce){.ds-button-outline{transition-duration:0s}.ds-button-outline:active{transform:none}}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "description": "Wide search field with a stroked icon and quiet placeholder.",
+      "html": "<label class=\"ds-search\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" aria-label=\"Search Claude Code mods\" placeholder=\"Find your next mod...\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:17px;min-height:55px;padding:0 20px;border:1px solid #c9c9cc;border-radius:7px;background:#fffdfb;color:#6b6d67;font-family:Inter,sans-serif}.ds-search input{flex:1;width:0;min-height:52px;border:0;background:none;outline:0;font:15px Inter,sans-serif;color:var(--ink,#24241f)}.ds-search input::placeholder{color:#757572}.ds-search:focus-within{border-color:var(--rust,#a94f34);box-shadow:0 0 0 3px #a94f3410}@media(max-width:760px){.ds-search{padding:0 14px;gap:12px}.ds-search input{font-size:14px}}"
+    },
+    {
+      "name": "Category Navigation",
+      "kind": "nav",
+      "refersTo": "category-active",
+      "description": "Left-aligned category actions with the selected clay fill and rust text.",
+      "html": "<nav class=\"ds-categories\" aria-label=\"Mod categories\"><button type=\"button\" class=\"ds-category ds-category-selected\" aria-pressed=\"true\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 12h18M12 3v18\"/></svg><span>All mods</span></button><button type=\"button\" class=\"ds-category\" aria-pressed=\"false\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/></svg><span>Saved mods</span></button></nav>",
+      "css": ".ds-categories{display:grid;gap:0}.ds-category{display:flex;align-items:center;gap:14px;min-height:44px;width:100%;padding:10px 12px;border:0;border-radius:5px;background:none;text-align:left;font:13px Inter,sans-serif;color:#515650;cursor:pointer;transition:background-color 150ms,color 150ms}.ds-category-selected{background:var(--soft,#f4e8de);color:#94452e;font-weight:500}.ds-category:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@media(hover:hover) and (pointer:fine){.ds-category:hover{background:#eeeee6}.ds-category-selected:hover{background:#eddccd}}@media(prefers-reduced-motion:reduce){.ds-category{transition-duration:0s}}"
+    },
+    {
+      "name": "Catalog Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Catalog card title, description, and author/bookmark footer; shipping illustrations occupy the inset art bay above this excerpt.",
+      "html": "<article class=\"ds-card\"><button class=\"ds-card-main\" type=\"button\" aria-label=\"Explore cc-arcade\"><h3>cc-arcade</h3><p>A small arcade for the moments while Claude works.</p></button><div class=\"ds-card-footer\"><span><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 20h10M10 20c5.5-2.5.8-6.4 3-10M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.7 4.3-1.5 1-1 1.6-2.5 1.7-4.5-2.7.1-4.1 1-4.9 2\"/></svg>by sezaakgun</span><button class=\"ds-card-save\" type=\"button\" aria-label=\"Save cc-arcade\" aria-pressed=\"false\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/></svg></button></div></article>",
+      "css": ".ds-card{max-width:330px;border:1px solid #dedddd;border-radius:7px;background:#fdfbf8;overflow:hidden;color:var(--ink,#24241f);transition:border-color 150ms,box-shadow 150ms}.ds-card-main{display:block;width:100%;padding:18px 17px 0;border:0;background:none;text-align:left;color:inherit;cursor:pointer}.ds-card h3{margin:0;font:500 26px/1.1 Newsreader,serif;letter-spacing:-.015em}.ds-card p{margin:10px 0 0;max-width:250px;min-height:42px;font:15px/1.4 Inter,sans-serif;color:var(--muted,#5e6067)}.ds-card-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line,#deddd7);margin:7px 17px 0;padding:4px 0 5px}.ds-card-footer>span{display:flex;align-items:center;gap:7px;font:12px Inter,sans-serif;color:#6b7066}.ds-card-save{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border:0;border-radius:4px;background:none;color:#55594e;cursor:pointer}.ds-card-main:focus-visible,.ds-card-save:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@media(hover:hover) and (pointer:fine){.ds-card:hover{border-color:#b5b7a6;box-shadow:0 6px 18px #27291b09}.ds-card-save:hover{background:#eeeee6}}@media(max-width:760px){.ds-card-save{width:44px;height:44px}}@media(prefers-reduced-motion:reduce){.ds-card{transition-duration:0s}}"
+    },
+    {
+      "name": "Saved Bookmark",
+      "kind": "button",
+      "refersTo": "bookmark-saved",
+      "description": "Saved icon state with the authored sage-to-clay settle and rust fill.",
+      "html": "<button class=\"ds-bookmark\" type=\"button\" aria-label=\"Unsave cc-arcade\" aria-pressed=\"true\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/></svg></button>",
+      "css": ".ds-bookmark{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border:0;border-radius:4px;background:var(--soft,#f4e8de);color:var(--rust,#a94f34);cursor:pointer;animation:ds-bookmark-settle 220ms cubic-bezier(.16,1,.3,1)}.ds-bookmark svg{fill:currentColor}.ds-bookmark:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@keyframes ds-bookmark-settle{from{background:var(--sage,#dde4d5);transform:translateY(-1px) rotate(-4deg)}to{background:var(--soft,#f4e8de);transform:none}}@media(hover:hover) and (pointer:fine){.ds-bookmark:hover{background:#eeeee6}}@media(max-width:760px){.ds-bookmark{width:44px;height:44px}}@media(prefers-reduced-motion:reduce){.ds-bookmark{animation:none;transition-duration:0s}}"
+    },
+    {
+      "name": "Installation Block",
+      "kind": "custom",
+      "refersTo": "code-block",
+      "description": "Wrapped real commands on the quiet code surface with a compact copy control.",
+      "html": "<section class=\"ds-install\"><div><h3>Installation</h3><button class=\"ds-copy\" type=\"button\">Copy</button></div><pre><code>export CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1\nclaude</code></pre></section>",
+      "css": ".ds-install{border-top:1px solid var(--line,#deddd7);padding-top:22px;margin-top:25px;color:var(--ink,#24241f)}.ds-install>div{display:flex;align-items:center;justify-content:space-between}.ds-install h3{margin:0;font:500 27px Newsreader,serif}.ds-copy{display:inline-flex;align-items:center;gap:7px;padding:8px 10px;border:1px solid #c4c8b9;border-radius:4px;background:none;color:inherit;font:11px Inter,sans-serif;cursor:pointer}.ds-copy:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-install pre{font-size:12px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;background:#eeeee6;border:1px solid #dcded1;padding:17px 19px;border-radius:5px;margin:15px 0}"
+    },
+    {
+      "name": "Contribution Command Panel",
+      "kind": "custom",
+      "refersTo": "command-panel",
+      "description": "Repeated contribution skill panel with title, copy action, wrapped command, and source link.",
+      "html": "<article class=\"ds-command-panel\"><div class=\"ds-command-heading\"><h3>Add a mod</h3><button class=\"ds-command-copy\" type=\"button\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg><span>Copy</span></button></div><p>From a Claude Code mod repository to a source-linked listing, an original illustration, and a pull request.</p><pre><code>/add-mod https://github.com/you/your-mod --pr</code></pre><a class=\"ds-command-link\" href=\"https://github.com/Ross-cripto/modshelf/blob/main/.claude/skills/add-mod/SKILL.md\" target=\"_blank\" rel=\"noopener noreferrer\">View the skill <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></a></article>",
+      "css": ".ds-command-panel{background:#f0f1e8;border:1px solid #dcded1;border-radius:7px;padding:26px;margin-top:20px;color:var(--ink,#24241f)}.ds-command-heading{display:flex;gap:16px;align-items:center;justify-content:space-between}.ds-command-panel h3{margin:0;font:500 30px Newsreader,serif}.ds-command-panel p{margin:12px 0 0;max-width:700px;color:var(--muted,#5e6067);font:14px/1.75 Inter,sans-serif}.ds-command-panel pre{margin:22px 0;padding:17px;border:1px solid #d4d7c8;border-radius:4px;background:#fbfbf5;white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.7}.ds-command-panel code{font-family:monospace}.ds-command-copy{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:8px 10px;border:1px solid #c4c8b9;border-radius:4px;background:#fbfbf5;color:inherit;font:12px Inter,sans-serif;cursor:pointer}.ds-command-link{display:inline-flex;align-items:center;gap:8px;color:inherit;text-decoration:none;font:500 12px Inter,sans-serif}.ds-command-copy:focus-visible,.ds-command-link:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@media(hover:hover) and (pointer:fine){.ds-command-link:hover{color:var(--rust,#a94f34)}}@media(max-width:700px){.ds-command-panel{padding:20px}.ds-command-panel pre{font-size:12px;padding:13px}}"
+    },
+    {
+      "name": "Ordered Contribution Guidance",
+      "kind": "custom",
+      "description": "Unboxed sequential guidance, in three desktop columns and one narrow-screen column.",
+      "html": "<section class=\"ds-steps\"><h2>A small contribution. A shared shelf.</h2><ol><li><span>01</span><h3>Make yourself at home</h3><p>Fork or clone Modshelf, then open the project in Claude Code.</p></li><li><span>02</span><h3>Let the skill do the prep</h3><p>Share your mod’s repository. The skill reads its source and creates a listing with matching artwork.</p></li><li><span>03</span><h3>Bring it to the community</h3><p>Review the changes and open a pull request. Once merged, your mod joins the shelf.</p></li></ol></section>",
+      "css": ".ds-steps{border-top:1px solid var(--line,#deddd7);padding-top:38px;margin-top:66px;color:var(--ink,#24241f)}.ds-steps h2{margin:0;font:500 32px Newsreader,serif}.ds-steps ol{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;gap:38px;margin-top:32px}.ds-steps li>span{font:27px Newsreader,Georgia,serif;color:var(--rust,#a94f34)}.ds-steps h3{font:500 24px Newsreader,serif;margin:16px 0 10px}.ds-steps p{margin:0;color:var(--muted,#5e6067);font:14px/1.75 Inter,sans-serif}@media(max-width:700px){.ds-steps{margin-top:30px}.ds-steps ol{grid-template-columns:1fr;gap:28px}.ds-steps h2{font-size:29px}.ds-steps h3{margin-top:8px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Community Shelf",
+    "overview": "Modshelf combines warm paper, charcoal lettering, and hand-drawn objects into an approachable community catalog. The illustrations share ink contours, muted fills, and familiar desk materials; the surrounding interface gives titles, descriptions, and controls room to be read.\n\nThe same restrained controls and editorial type continue through repository contribution guidance, installation instructions, and mod details. Color marks actions and saved states; thin dividers and modest corners organize the rest.",
+    "keyCharacteristics": [
+      "Warm ivory surfaces and charcoal ink.",
+      "Newsreader headings paired with Inter controls and prose.",
+      "One family of hand-drawn ink illustrations with muted color.",
+      "Flat resting surfaces, soft hover depth, and visible keyboard focus.",
+      "A short authored bookmark settle with reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "The Action Ink Rule",
+        "body": "Use rust for actionable or selected interface states; keep ordinary prose in ink or muted text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Newsreader for headings and Inter for controls and prose; reserve monospace for commands and code.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reflow Rule",
+        "body": "Use each surface's observed breakpoint to collapse category controls into a labeled select and stack paired content or ordered guidance; preserve readable titles and reachable actions.",
+        "section": "layout"
+      },
+      {
+        "name": "The Quiet Depth Rule",
+        "body": "Keep catalog surfaces flat at rest; use the existing soft shadow only for hover or the active detail layer.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the paper, ink, and rust roles consistently across catalog, contribution, and guidance.",
+      "Do continue the hand-drawn ink illustration family with muted fills and fully visible objects.",
+      "Do keep visible labels, rust keyboard focus, and the established phone control sizes.",
+      "Do preserve the authored bookmark state change and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don't replace the heading and body pairing with a single display voice.",
+      "Don't add resting card shadows when a surface tone and fine border provide the existing separation.",
+      "Don't use monospace for ordinary descriptions or action labels.",
+      "Don't crop catalog illustrations into generic icon badges."
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "cc-arcade",
+    "name": "cc-arcade",
+    "description": "A small arcade for the moments while Claude works.",
+    "author": "sezaakgun",
+    "category": "Games",
+    "repository": "https://github.com/sezaakgun/cc-arcade",
+    "install": "claude plugin marketplace add sezaakgun/cc-arcade\nclaude plugin install cc-arcade@cc-arcade",
+    "tags": [
+      "arcade",
+      "terminal",
+      "snake",
+      "tetris",
+      "games"
+    ],
+    "illustration": "arcade-art",
+    "createdAt": "2026-10-12T00:00:00Z",
+    "featured": true,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/sezaakgun/cc-arcade/blob/HEAD/README.md"
+  },
+  {
+    "id": "cctop",
+    "name": "cctop",
+    "description": "A clearer view of your Claude Code session.",
+    "author": "tomstagl",
+    "category": "Dashboards",
+    "repository": "https://github.com/tomstagl/cctop",
+    "install": "brew install tomstagl/tap/cctop\nclaude plugin marketplace add tomstagl/cctop\nclaude plugin install cctop",
+    "tags": [
+      "dashboard",
+      "tokens",
+      "cost",
+      "session",
+      "context"
+    ],
+    "illustration": "dashboard-art",
+    "createdAt": "2026-10-12T00:00:00Z",
+    "featured": true,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/tomstagl/cctop/blob/HEAD/README.md"
+  },
+  {
+    "id": "flowpane",
+    "name": "flowpane",
+    "description": "Turn multi-agent work into a live visual map.",
+    "author": "mpolatcan",
+    "category": "Workflow",
+    "repository": "https://github.com/mpolatcan/flowpane",
+    "install": "claude plugin marketplace add mpolatcan/cc-plugins\nclaude plugin install flowpane",
+    "tags": [
+      "workflow",
+      "agents",
+      "graph",
+      "pane"
+    ],
+    "illustration": "workflow-art",
+    "createdAt": "2026-10-12T00:00:00Z",
+    "featured": true,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/mpolatcan/flowpane/blob/HEAD/README.md"
+  },
+  {
+    "id": "mindful-claude",
+    "name": "Mindful Claude",
+    "description": "Take a quiet breath while Claude thinks.",
+    "author": "halluton",
+    "category": "While you wait",
+    "repository": "https://github.com/halluton/Mindful-Claude",
+    "install": "claude plugin marketplace add halluton/Mindful-Claude\nclaude plugin install mindful-claude@mindful-claude",
+    "tags": [
+      "breathing",
+      "calm",
+      "waiting",
+      "terminal"
+    ],
+    "illustration": "mindful-art",
+    "createdAt": "2026-10-11T00:00:00Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/halluton/Mindful-Claude/blob/HEAD/README.md"
+  },
+  {
+    "id": "context-lens",
+    "name": "context-lens",
+    "description": "Keep an eye on context, before it slips away.",
+    "author": "Arunjay4213",
+    "category": "Memory & context",
+    "repository": "https://github.com/Arunjay4213/claude-mods/tree/main/plugins/context-lens",
+    "install": "claude plugin marketplace add Arunjay4213/claude-mods\nclaude plugin install context-lens@claude-mods",
+    "tags": [
+      "context",
+      "memory",
+      "compaction",
+      "dashboard"
+    ],
+    "illustration": "context-art",
+    "createdAt": "2026-10-11T00:00:00Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/Arunjay4213/claude-mods/blob/HEAD/README.md"
+  },
+  {
+    "id": "cc-dino",
+    "name": "cc-dino",
+    "description": "A familiar little dinosaur, right in your terminal.",
+    "author": "manfye",
+    "category": "Games",
+    "repository": "https://github.com/manfye/cc-dino",
+    "install": "claude plugin marketplace add manfye/cc-dino\nclaude plugin install cc-dino@cc-dino",
+    "tags": [
+      "dinosaur",
+      "game",
+      "terminal",
+      "runner"
+    ],
+    "illustration": "dino-art",
+    "createdAt": "2026-10-11T00:00:00Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/manfye/cc-dino/blob/HEAD/README.md"
+  }
+]

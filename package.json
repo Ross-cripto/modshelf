@@ -1,0 +1,33 @@
+{
+  "name": "modshelf",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/package-source.mjs && next build",
+    "build:vercel": "npm run build",
+    "start": "next start",
+    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs",
+    "source:zip": "node scripts/package-source.mjs",
+    "catalog:add": "node --experimental-strip-types scripts/add-mod.mjs",
+    "catalog:validate": "node --experimental-strip-types scripts/validate-catalog.mjs",
+    "artwork:generate": "node scripts/generate-mod-artwork.mjs"
+  },
+  "dependencies": {
+    "fflate": "0.7.5",
+    "lucide-react": "1.31.0",
+    "next": "16.3.8",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
