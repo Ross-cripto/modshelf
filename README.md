@@ -1,5 +1,7 @@
 # Modshelf
 
+[![Validate](https://github.com/Ross-cripto/modshelf/actions/workflows/validate.yml/badge.svg)](https://github.com/Ross-cripto/modshelf/actions/workflows/validate.yml) [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 An open-source marketplace exclusively for Claude Code function-hook mods. Built with Next.js and TypeScript, with a shared family of hand-drawn ink illustrations.
 
 ## Run locally
@@ -36,7 +38,7 @@ npm test
 npm run build
 ```
 
-Vercel deployment requires connecting the repository to your own Vercel account. This project does not include a Vercel deployment made on your behalf.
+Merging into main updates the Vercel site when your GitHub integration is connected. Forks can be imported into a separate Vercel project.
 
 ## Source download
 
@@ -48,6 +50,10 @@ npm run source:zip
 
 ## Content and artwork
 
-The six initial listings link to real community repositories. Original summaries and source installation instructions were verified on October 12, 2026. Listing dates are catalog dates, not repository release dates. Creators maintain their own projects; see [ATTRIBUTION.md](ATTRIBUTION.md).
+Catalog entries link to the original creator and verified function-hook source. Listing dates are catalog dates, not repository release dates. Repository review does not replace runtime testing. See [ATTRIBUTION.md](ATTRIBUTION.md) for sources and [catalog/discovery.md](catalog/discovery.md) for the discovery process.
 
 The generated illustrations share an ink and muted-color style. Inter and Newsreader use the SIL Open Font License; their licenses are included in `public/fonts/licenses/`. Website code is licensed under MIT. Independent community project, not affiliated with Anthropic.
+
+## Community and support
+
+Use the [issue templates](https://github.com/Ross-cripto/modshelf/issues/new/choose) for website bugs and mod suggestions. Contributions are reviewed through pull requests; see [CONTRIBUTING.md](CONTRIBUTING.md). Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).

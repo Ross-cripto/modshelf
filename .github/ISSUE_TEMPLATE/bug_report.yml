@@ -1,0 +1,25 @@
+name: Website bug
+description: Report a reproducible problem with Modshelf.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the page, expected behavior, and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or errors
+      description: Remove personal data and credentials.

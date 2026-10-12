@@ -4,7 +4,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { CopyButton } from "@/components/copy-button";
 export const metadata = { title: "How mods work — Modshelf" };
-const ENABLE_HOOKS = "export CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1\nclaude";
+const VERSION_CHECK = "claude --version";
 const ARCADE_INSTALL =
   "claude plugin marketplace add sezaakgun/cc-arcade\nclaude plugin install cc-arcade@cc-arcade";
 export default function InstallPage() {
@@ -34,10 +34,10 @@ export default function InstallPage() {
         <section className="guide-section">
           <h2>Start with the requirements</h2>
           <p>
-            Function hooks are an early-access feature. Check each mod’s
-            repository for the supported Claude Code version and platform before
-            installing. Some mods also need a separate tool, such as Homebrew or
-            tmux.
+            Mods are available in Claude Code 2.1.287 and later. Check each
+            mod’s repository for its supported version, platform, and extra
+            tools before installing. Some need a compatible terminal, Homebrew,
+            or another local application.
           </p>
           <p>
             Find a mod you like and open <strong>View source</strong> to read
@@ -45,18 +45,20 @@ export default function InstallPage() {
           </p>
         </section>
         <section className="guide-section">
-          <CopyButton text={ENABLE_HOOKS} />
-          <h2>Enable function hooks</h2>
+          <CopyButton text={VERSION_CHECK} />
+          <h2>Check your Claude Code version</h2>
           <p>
-            On macOS or Linux, start Claude Code with function hooks enabled:
+            Check that your Claude Code supports the mod you want to install:
           </p>
           <pre>
-            <code>{ENABLE_HOOKS}</code>
+            <code>{VERSION_CHECK}</code>
           </pre>
           <p>
-            For a persistent setup, add the export to your shell configuration.
-            On Windows, use your shell’s environment-variable syntax.
+            Mods are enabled by default in Claude Code 2.1.287 and later.
+            Older builds may require a feature flag; follow the mod’s README
+            for those versions.
           </p>
+          <p><a href="https://claude.dev/blog/getting-started-with-claude-code-mods/" target="_blank" rel="noopener noreferrer">Read Anthropic’s mod guide</a></p>
         </section>
         <section className="guide-section">
           <CopyButton text={ARCADE_INSTALL} />

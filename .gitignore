@@ -1,10 +1,12 @@
 node_modules/
 .next/
 .env*
-!.env.example
+.claude/settings.local.json
 .vercel/
 *.tsbuildinfo
 public/modshelf-source.zip
 
 work/
 .DS_Store
+
+.impeccable/review/

@@ -51,14 +51,14 @@ The CLI rejects invalid fields, duplicate ids/repositories, missing assets, and 
 
 Use `/mod-artwork <id>` for an existing listing or `/mod-artwork work/my-mod.json` for a draft. The shared recipe is in `.claude/skills/mod-artwork/references/style.md`. Inspect the existing arcade, dashboard, and workflow artwork before generating. Save the image with an adjacent `<asset>.json` containing its exact `prompt` and UTC `createdAt`.
 
-A connected image-generation tool is preferred. If unavailable, the optional helper uses the OpenAI image API with the existing illustrations as references:
+The website needs no AI service, API keys, or environment file. Image generation is optional contributor tooling. Use your connected image-generation tool with the shared references, or configure the API helper only in your own shell:
 
 ```bash
 export OPENAI_API_KEY="your-local-key"
 npm run artwork:generate -- work/my-mod.json --concept "a tiny notebook and terminal connected by ink arrows"
 ```
 
-This makes one paid image request; the key stays local. Never paste real credentials into a draft, issue, pull request, or tracked file. The website itself needs no API keys or database. A missing generator is an incomplete contribution, not a reason to use a placeholder.
+The optional helper uses the OpenAI image API and makes one paid image request; the key stays local. No AI environment template is shipped. Close the shell or run `unset OPENAI_API_KEY` after using it if you do not want the key to remain in that shell. Never paste real credentials into a draft, issue, pull request, or tracked file. The website itself needs no API keys or database. A missing generator is an incomplete contribution, not a reason to use a placeholder.
 
 For requested regeneration, add `--replace`. The helper saves `/art/<id>.png` and provenance; it does not edit catalog metadata. Update the entry's `illustration` if the path changed. Preserve every other listing field and keep shared legacy art used by other listings.
 
@@ -71,3 +71,15 @@ For requested regeneration, add `--replace`. The helper saves `/art/<id>.png` an
 5. Return the PR URL. Maintainers review it; merging rebuilds the site on Vercel when the repository is connected. The skills do not merge PRs or deploy a contributor's changes.
 
 All contribution and website copy is in English. Keep descriptions useful and concise; avoid invented popularity, testimonials, performance claims, or endorsements.
+
+## Maintainer review
+
+Review the linked function-hook source and license, check the documented install command against the marketplace manifest, inspect the illustration and provenance, then run the catalog validator, tests, and production build. CI must pass before merging. A source review is not a runtime compatibility test; state clearly which checks were performed.
+
+Keep the original creator's name and repository. Prefer one listing per installable mod, including separate plugin paths for collections. Do not add forks as duplicate listings unless they offer a distinct maintained mod. Corrections and removals can be proposed through a pull request.
+
+## Other contributions
+
+Use the bug-report template for reproducible website problems. For a new feature, open an issue explaining the use case before preparing a large change. Keep changes focused and preserve the documented design system. Be respectful, credit other contributors, and discuss the work rather than the person.
+
+Site code is licensed under MIT. By contributing code, copy, or original artwork, you agree to make that contribution available under the project license. Third-party mod packages remain in their own repositories under their own licenses; link to them rather than copying their code into this project. Report security problems using [SECURITY.md](SECURITY.md).

@@ -126,5 +126,365 @@
     "license": "MIT",
     "modType": "claude-code-mod",
     "functionHookEvidence": "https://github.com/manfye/cc-dino/blob/HEAD/README.md"
+  },
+  {
+    "id": "quota-meter",
+    "name": "quota-meter",
+    "description": "Watch plan usage and the countdown to your next reset.",
+    "author": "Arunjay4213",
+    "category": "Dashboards",
+    "repository": "https://github.com/Arunjay4213/claude-mods/tree/main/plugins/quota-meter",
+    "install": "claude plugin marketplace add Arunjay4213/claude-mods\nclaude plugin install quota-meter@claude-mods",
+    "tags": [
+      "quota",
+      "usage",
+      "limits"
+    ],
+    "illustration": "/art/quota-meter.webp",
+    "createdAt": "2026-10-12T14:13:31.120Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/Arunjay4213/claude-mods/blob/d4fffd7de9204a62b10e7b3604fc893158fa25fd/plugins/quota-meter/hooks/register.tsx"
+  },
+  {
+    "id": "token-ledger",
+    "name": "token-ledger",
+    "description": "Keep session costs and token usage in a readable ledger.",
+    "author": "Arunjay4213",
+    "category": "Dashboards",
+    "repository": "https://github.com/Arunjay4213/claude-mods/tree/main/plugins/token-ledger",
+    "install": "claude plugin marketplace add Arunjay4213/claude-mods\nclaude plugin install token-ledger@claude-mods",
+    "tags": [
+      "cost",
+      "tokens",
+      "ledger"
+    ],
+    "illustration": "/art/token-ledger.webp",
+    "createdAt": "2026-10-12T14:13:31.249Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/Arunjay4213/claude-mods/blob/d4fffd7de9204a62b10e7b3604fc893158fa25fd/plugins/token-ledger/hooks/register.tsx"
+  },
+  {
+    "id": "budget-guard",
+    "name": "budget-guard",
+    "description": "Pause tool calls when your session reaches a budget limit.",
+    "author": "Arunjay4213",
+    "category": "Safety & privacy",
+    "repository": "https://github.com/Arunjay4213/claude-mods/tree/main/plugins/budget-guard",
+    "install": "claude plugin marketplace add Arunjay4213/claude-mods\nclaude plugin install budget-guard@claude-mods",
+    "tags": [
+      "budget",
+      "guard",
+      "tools"
+    ],
+    "illustration": "/art/budget-guard.webp",
+    "createdAt": "2026-10-12T14:13:31.417Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/Arunjay4213/claude-mods/blob/d4fffd7de9204a62b10e7b3604fc893158fa25fd/plugins/budget-guard/hooks/register.tsx"
+  },
+  {
+    "id": "mermaid-draw",
+    "name": "mermaid-draw",
+    "description": "Turn Mermaid source into diagrams inside the transcript.",
+    "author": "galElmalah",
+    "category": "Interface",
+    "repository": "https://github.com/galElmalah/claude-mods/tree/main/claude-mermaid",
+    "install": "claude plugin marketplace add galElmalah/claude-mods\nclaude plugin install mermaid-draw@gal-mods",
+    "tags": [
+      "mermaid",
+      "diagrams",
+      "transcript"
+    ],
+    "illustration": "/art/mermaid-draw.webp",
+    "createdAt": "2026-10-12T14:13:31.323Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/galElmalah/claude-mods/blob/f7e8416f994738293cb39fea75cc9f0ba387e91a/claude-mermaid/hooks/register.ts"
+  },
+  {
+    "id": "prompt-queue",
+    "name": "prompt-queue",
+    "description": "Queue your next prompts while Claude finishes its turn.",
+    "author": "galElmalah",
+    "category": "Workflow",
+    "repository": "https://github.com/galElmalah/claude-mods/tree/main/claude-queue",
+    "install": "claude plugin marketplace add galElmalah/claude-mods\nclaude plugin install prompt-queue@gal-mods",
+    "tags": [
+      "queue",
+      "prompts",
+      "workflow"
+    ],
+    "illustration": "/art/prompt-queue.webp",
+    "createdAt": "2026-10-12T14:13:33.265Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/galElmalah/claude-mods/blob/f7e8416f994738293cb39fea75cc9f0ba387e91a/claude-queue/hooks/register.ts"
+  },
+  {
+    "id": "mission-control",
+    "name": "mission-control",
+    "description": "See agents, tool calls, and the files they touch in one pane.",
+    "author": "hamzafer",
+    "category": "Dashboards",
+    "repository": "https://github.com/hamzafer/claude-code-mods/tree/main/mods/mission-control",
+    "install": "claude plugin marketplace add hamzafer/claude-code-mods\nclaude plugin install mission-control@claude-code-mods",
+    "tags": [
+      "agents",
+      "tools",
+      "dashboard"
+    ],
+    "illustration": "/art/mission-control.webp",
+    "createdAt": "2026-10-12T14:13:33.577Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/hamzafer/claude-code-mods/blob/11abba8c305b0d7563e1c89254c6d5e708746b47/mods/mission-control/hooks/register.tsx"
+  },
+  {
+    "id": "blast-radius",
+    "name": "blast-radius",
+    "description": "Inspect destructive commands before they reach your repo.",
+    "author": "hamzafer",
+    "category": "Safety & privacy",
+    "repository": "https://github.com/hamzafer/claude-code-mods/tree/main/mods/blast-radius",
+    "install": "claude plugin marketplace add hamzafer/claude-code-mods\nclaude plugin install blast-radius@claude-code-mods",
+    "tags": [
+      "commands",
+      "guard",
+      "review"
+    ],
+    "illustration": "/art/blast-radius.webp",
+    "createdAt": "2026-10-12T14:13:33.633Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/hamzafer/claude-code-mods/blob/11abba8c305b0d7563e1c89254c6d5e708746b47/mods/blast-radius/hooks/register.tsx"
+  },
+  {
+    "id": "md-preview",
+    "name": "md-preview",
+    "description": "Compare rendered Markdown edits side by side.",
+    "author": "hamzafer",
+    "category": "Interface",
+    "repository": "https://github.com/hamzafer/claude-code-mods/tree/main/mods/md-preview",
+    "install": "claude plugin marketplace add hamzafer/claude-code-mods\nclaude plugin install md-preview@claude-code-mods",
+    "tags": [
+      "markdown",
+      "preview",
+      "diff"
+    ],
+    "illustration": "/art/md-preview.webp",
+    "createdAt": "2026-10-12T14:13:33.808Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/hamzafer/claude-code-mods/blob/11abba8c305b0d7563e1c89254c6d5e708746b47/mods/md-preview/hooks/register.tsx"
+  },
+  {
+    "id": "now-playing",
+    "name": "now-playing",
+    "description": "Keep Spotify playback and lyrics beside your session.",
+    "author": "hamzafer",
+    "category": "While you wait",
+    "repository": "https://github.com/hamzafer/claude-code-mods/tree/main/mods/now-playing",
+    "install": "claude plugin marketplace add hamzafer/claude-code-mods\nclaude plugin install now-playing@claude-code-mods",
+    "tags": [
+      "spotify",
+      "music",
+      "macos"
+    ],
+    "illustration": "/art/now-playing.webp",
+    "createdAt": "2026-10-12T14:13:35.489Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/hamzafer/claude-code-mods/blob/11abba8c305b0d7563e1c89254c6d5e708746b47/mods/now-playing/hooks/register.tsx"
+  },
+  {
+    "id": "terminal-browser",
+    "name": "terminal-browser",
+    "description": "Browse the web beside your Claude Code conversation.",
+    "author": "zenbu-labs",
+    "category": "Interface",
+    "repository": "https://github.com/zenbu-labs/terminal-browser/tree/main/claude-code-plugin",
+    "install": "brew install terminal-browser\nclaude plugin marketplace add zenbu-labs/terminal-browser\nclaude plugin install terminal-browser@terminal-browser",
+    "tags": [
+      "browser",
+      "terminal",
+      "web"
+    ],
+    "illustration": "/art/terminal-browser.webp",
+    "createdAt": "2026-10-12T14:13:35.656Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/zenbu-labs/terminal-browser/blob/2165ae76c9639e3996829ab0e6d54ddbd4f06ad8/claude-code-plugin/hooks/register.tsx"
+  },
+  {
+    "id": "image-view",
+    "name": "image-view",
+    "description": "Preview pasted images before you send your prompt.",
+    "author": "jarrodwatts",
+    "category": "Interface",
+    "repository": "https://github.com/jarrodwatts/claude-image-view",
+    "install": "claude plugin marketplace add jarrodwatts/claude-image-view\nclaude plugin install image-view@claude-image-view",
+    "tags": [
+      "images",
+      "preview",
+      "prompt"
+    ],
+    "illustration": "/art/image-view.webp",
+    "createdAt": "2026-10-12T14:13:35.579Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/jarrodwatts/claude-image-view/blob/370b8e7bc0708bebe9762e63534f7ca18bc3e802/hooks/register.tsx"
+  },
+  {
+    "id": "prismantis",
+    "name": "prismantis",
+    "description": "Give tables, code, and diagrams a clearer place in the chat.",
+    "author": "NahumLitvin",
+    "category": "Interface",
+    "repository": "https://github.com/NahumLitvin/prismantis",
+    "install": "/plugin marketplace add NahumLitvin/prismantis\n/plugin install prismantis@prismantis",
+    "tags": [
+      "tables",
+      "diagrams",
+      "formatting"
+    ],
+    "illustration": "/art/prismantis.webp",
+    "createdAt": "2026-10-12T14:13:36.083Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/NahumLitvin/prismantis/blob/03375f7e5245b41babfe31299f99924177b10a94/hooks/register.tsx"
+  },
+  {
+    "id": "flightdeck",
+    "name": "flightdeck",
+    "description": "Keep context, costs, and subagents in a live dashboard.",
+    "author": "scasella",
+    "category": "Dashboards",
+    "repository": "https://github.com/scasella/claude-flightdeck",
+    "install": "claude plugin marketplace add scasella/claude-flightdeck\nclaude plugin install flightdeck@claude-flightdeck",
+    "tags": [
+      "context",
+      "cost",
+      "agents"
+    ],
+    "illustration": "/art/flightdeck.webp",
+    "createdAt": "2026-10-12T14:13:37.782Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/scasella/claude-flightdeck/blob/830c4de3692a9c9d7f2d226b6d9988e6333cff94/hooks/register.tsx"
+  },
+  {
+    "id": "filetree",
+    "name": "filetree",
+    "description": "Follow files and Git status as Claude reads and edits.",
+    "author": "data-goblin",
+    "category": "Interface",
+    "repository": "https://github.com/data-goblin/claude-code-filetree",
+    "install": "claude plugin marketplace add data-goblin/claude-code-filetree\nclaude plugin install filetree@claude-code-filetree",
+    "tags": [
+      "files",
+      "git",
+      "sidebar"
+    ],
+    "illustration": "/art/filetree.webp",
+    "createdAt": "2026-10-12T14:13:38.092Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/data-goblin/claude-code-filetree/blob/b0e4098b66718c8aa99e4886b8f400d89c4cb2cc/hooks/register.tsx"
+  },
+  {
+    "id": "prompt-rail",
+    "name": "prompt-rail",
+    "description": "Revisit past prompts from a compact conversation rail.",
+    "author": "oikon48",
+    "category": "Workflow",
+    "repository": "https://github.com/oikon48/prompt-rail/tree/main/plugins/prompt-rail",
+    "install": "claude plugin marketplace add oikon48/prompt-rail\nclaude plugin install prompt-rail@oikon48",
+    "tags": [
+      "prompts",
+      "history",
+      "navigation"
+    ],
+    "illustration": "/art/prompt-rail.webp",
+    "createdAt": "2026-10-12T14:13:37.888Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/oikon48/prompt-rail/blob/2ac50fb87fc426fed89ba0f09f1784ef6f289ae8/plugins/prompt-rail/hooks/index.tsx"
+  },
+  {
+    "id": "pull-request-pane",
+    "name": "pull-request-pane",
+    "description": "Read pull requests, checks, and review status beside the chat.",
+    "author": "meganemura",
+    "category": "Workflow",
+    "repository": "https://github.com/meganemura/pull-request-pane/tree/main/plugin",
+    "install": "claude plugin marketplace add meganemura/pull-request-pane\nclaude plugin install pull-request-pane@pull-request-pane",
+    "tags": [
+      "github",
+      "pull-requests",
+      "reviews"
+    ],
+    "illustration": "/art/pull-request-pane.webp",
+    "createdAt": "2026-10-12T14:13:38.514Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/meganemura/pull-request-pane/blob/2b072514053814083609a3e6b45ca4d602448f9f/plugin/hooks/mod.ts"
+  },
+  {
+    "id": "taskline",
+    "name": "taskline",
+    "description": "Follow long-running jobs with progress and time estimates.",
+    "author": "pepperonas",
+    "category": "Workflow",
+    "repository": "https://github.com/pepperonas/taskline",
+    "install": "/plugin marketplace add pepperonas/taskline\n/plugin install taskline@pepperonas-taskline",
+    "tags": [
+      "jobs",
+      "progress",
+      "eta"
+    ],
+    "illustration": "/art/taskline.webp",
+    "createdAt": "2026-10-12T14:13:40.141Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/pepperonas/taskline/blob/1b69e4216559f916c4cb31c5140c19f9c3c70410/hooks/register.tsx"
+  },
+  {
+    "id": "clawd-buddy",
+    "name": "clawd-buddy",
+    "description": "A little animated companion that reacts as Claude works.",
+    "author": "FynnXland",
+    "category": "While you wait",
+    "repository": "https://github.com/FynnXland/fynn-mods/tree/main/mods/clawd-buddy",
+    "install": "claude plugin marketplace add FynnXland/fynn-mods\nclaude plugin install clawd-buddy@fynn-mods",
+    "tags": [
+      "mascot",
+      "companion",
+      "waiting"
+    ],
+    "illustration": "/art/clawd-buddy.webp",
+    "createdAt": "2026-10-12T14:13:40.999Z",
+    "featured": false,
+    "license": "MIT",
+    "modType": "claude-code-mod",
+    "functionHookEvidence": "https://github.com/FynnXland/fynn-mods/blob/4498aa6ce4b10006e6daf4f02bd6c3412afb308c/mods/clawd-buddy/hooks/register.ts"
   }
 ]

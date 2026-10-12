@@ -1,0 +1,11 @@
+{
+  "prompt": "A standalone illustration for Modshelf, a community shelf of Claude Code mods. Match the supplied reference illustrations: hand-drawn charcoal ink, slightly irregular pen lines, delicate cross-hatching, generous empty space, muted dusty sage, terracotta, and cornflower accents, occasional warm cream paper notes. One coherent little desk-object vignette, friendly and thoughtfully composed, visible at small card sizes. A few legible handwritten words may show the exact mod name. Keep every object inside the frame with a 3 percent margin. Transparent background. Landscape 1536 by 1024 pixels. No website interface, card border, screenshot, glossy 3D, gradients, company logo, fake metrics, or unsupported claims. Do not copy another mod's illustrated objects. Mod: prompt-rail. Purpose: Revisit past prompts from a compact conversation rail.. Object metaphor: a brass desk rail holding a sequence of handwritten cream prompt cards. Use the provided images only to match pen technique, texture, palette and small desk-vignette composition. Make the exact mod name the single handwritten label, with no other text. Use one principal object cluster and ample transparent space around all sides; everything must be fully visible, never clipped.",
+  "createdAt": "2026-10-12T14:27:42.772Z",
+  "tool": "Built-in image_gen",
+  "references": [
+    "/art/arcade-art.webp",
+    "/art/dashboard-art.webp",
+    "/art/workflow-art.webp"
+  ],
+  "sourceEvidence": "https://github.com/oikon48/prompt-rail/blob/2ac50fb87fc426fed89ba0f09f1784ef6f289ae8/plugins/prompt-rail/hooks/index.tsx"
+}

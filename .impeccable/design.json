@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T13:01:05.280309Z",
+  "generatedAt": "2026-10-12T14:44:34.291382Z",
   "title": "Design System: Modshelf",
   "extensions": {
     "colorMeta": {
@@ -339,7 +339,7 @@
       "kind": "custom",
       "refersTo": "code-block",
       "description": "Wrapped real commands on the quiet code surface with a compact copy control.",
-      "html": "<section class=\"ds-install\"><div><h3>Installation</h3><button class=\"ds-copy\" type=\"button\">Copy</button></div><pre><code>export CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1\nclaude</code></pre></section>",
+      "html": "<section class=\"ds-install\"><div><h3>Make it yours</h3><button class=\"ds-copy\" type=\"button\">Copy</button></div><pre><code>claude plugin marketplace add sezaakgun/cc-arcade\nclaude plugin install cc-arcade@cc-arcade</code></pre></section>",
       "css": ".ds-install{border-top:1px solid var(--line,#deddd7);padding-top:22px;margin-top:25px;color:var(--ink,#24241f)}.ds-install>div{display:flex;align-items:center;justify-content:space-between}.ds-install h3{margin:0;font:500 27px Newsreader,serif}.ds-copy{display:inline-flex;align-items:center;gap:7px;padding:8px 10px;border:1px solid #c4c8b9;border-radius:4px;background:none;color:inherit;font:11px Inter,sans-serif;cursor:pointer}.ds-copy:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-install pre{font-size:12px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;background:#eeeee6;border:1px solid #dcded1;padding:17px 19px;border-radius:5px;margin:15px 0}"
     },
     {

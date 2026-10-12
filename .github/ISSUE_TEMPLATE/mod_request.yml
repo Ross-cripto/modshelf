@@ -1,0 +1,29 @@
+name: Suggest a mod
+description: Propose a Claude Code function-hook mod for the catalog.
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub repository or plugin URL
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Function-hook source or documentation
+      description: Link to the README or source file demonstrating that this is a Claude Code mod.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License and source link
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What does the mod do?
+  - type: markdown
+    attributes:
+      value: To add the listing yourself, use the repository's add-mod skill and open a pull request. See CONTRIBUTING.md.

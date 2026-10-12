@@ -1,0 +1,11 @@
+{
+  "prompt": "A standalone illustration for Modshelf, a community shelf of Claude Code mods. Match the supplied reference illustrations: hand-drawn charcoal ink, slightly irregular pen lines, delicate cross-hatching, generous empty space, muted dusty sage, terracotta, and cornflower accents, occasional warm cream paper notes. One coherent little desk-object vignette, friendly and thoughtfully composed, visible at small card sizes. A few legible handwritten words may show the exact mod name. Keep every object inside the frame with a 3 percent margin. Transparent background. Landscape 1536 by 1024 pixels. No website interface, card border, screenshot, glossy 3D, gradients, company logo, fake metrics, or unsupported claims. Do not copy another mod's illustrated objects. Mod: now-playing. Purpose: Keep Spotify playback and lyrics beside your session.. Object metaphor: a muted sage record player, small terracotta vinyl sleeve and a handwritten lyric card. Use the provided images only to match pen technique, texture, palette and small desk-vignette composition. Make the exact mod name the single handwritten label, with no other text. Use one principal object cluster and ample transparent space around all sides; everything must be fully visible, never clipped.",
+  "createdAt": "2026-10-12T14:27:40.213Z",
+  "tool": "Built-in image_gen",
+  "references": [
+    "/art/arcade-art.webp",
+    "/art/dashboard-art.webp",
+    "/art/workflow-art.webp"
+  ],
+  "sourceEvidence": "https://github.com/hamzafer/claude-code-mods/blob/11abba8c305b0d7563e1c89254c6d5e708746b47/mods/now-playing/hooks/register.tsx"
+}

@@ -1,0 +1,1317 @@
+[
+  {
+    "description": "Claude Code mods: live plan progress bars above the prompt",
+    "fullName": "zycck/claude-mods",
+    "url": "https://github.com/zycck/claude-mods"
+  },
+  {
+    "description": "Expert skills, agents, commands, rules, hooks & output styles for Claude Code \u2014 session continuity + modern CLI tooling for real-world dev workflows",
+    "fullName": "0xDarkMatter/claude-mods",
+    "url": "https://github.com/0xDarkMatter/claude-mods"
+  },
+  {
+    "description": "A collection of claude code mods",
+    "fullName": "Tickloop/claude-mods",
+    "url": "https://github.com/Tickloop/claude-mods"
+  },
+  {
+    "description": "Awesome Claude Mods \u2014 evidence-graded index of Claude Code mods, plugins and hooks. 20 languages, rebuilt every 2 hours.",
+    "fullName": "wh000wh000/awesome-claude-mods",
+    "url": "https://github.com/wh000wh000/awesome-claude-mods"
+  },
+  {
+    "description": "Ten Claude Code mods, beginner guides, creation prompts, safe demos, and a build-your-own template.",
+    "fullName": "promptadvisers/claude-mods-starter-kit",
+    "url": "https://github.com/promptadvisers/claude-mods-starter-kit"
+  },
+  {
+    "description": "Two Claude Code mods: Codex computer-use bridge and coordinated Claude sessions. Source, build prompts, setup and tests.",
+    "fullName": "promptadvisers/claude-mods-computer-use-threads",
+    "url": "https://github.com/promptadvisers/claude-mods-computer-use-threads"
+  },
+  {
+    "description": "Source-cited Obsidian knowledge base about Claude Code mods: how they work, how to build them, and how to check one before you install it.",
+    "fullName": "AgriciDaniel/claude-mods-brain",
+    "url": "https://github.com/AgriciDaniel/claude-mods-brain"
+  },
+  {
+    "description": "Claude Code mod: mermaid diagrams drawn inline in the transcript",
+    "fullName": "galElmalah/claude-mods",
+    "url": "https://github.com/galElmalah/claude-mods"
+  },
+  {
+    "description": "Claude Code mod: context in tokens, 5-hour and weekly limits vs. the clock, prompt cache countdown, session cost and running agents, in one band above the prompt.",
+    "fullName": "augiefra/claude-mods",
+    "url": "https://github.com/augiefra/claude-mods"
+  },
+  {
+    "description": "Claude Mods and the tools to build them: a builder skill, then mods",
+    "fullName": "karanb192/claude-code-mods",
+    "url": "https://github.com/karanb192/claude-code-mods"
+  },
+  {
+    "description": "KOZMOS \u2014 live, visual mods for Claude Code (CLI + desktop): bands above the prompt, sidebars, status ticker, companions, guards and sound.",
+    "fullName": "ersinkoc/claude-mods",
+    "url": "https://github.com/ersinkoc/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "HolyGrail/claude-mods",
+    "url": "https://github.com/HolyGrail/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: Claude Tools menu, Zen mode, terminal themes, effort and mode controls",
+    "fullName": "Jhonatan-de-Souza/ClaudeMods",
+    "url": "https://github.com/Jhonatan-de-Souza/ClaudeMods"
+  },
+  {
+    "description": "Session trackers for Claude Code built as mods: context window, plan quota burn rate, per-turn cost",
+    "fullName": "Arunjay4213/claude-mods",
+    "url": "https://github.com/Arunjay4213/claude-mods"
+  },
+  {
+    "description": "Skill that teaches Claude Code agents to build Claude Mods (function-hook plugins), with a starter example",
+    "fullName": "BeLazy167/claude-mods-skill",
+    "url": "https://github.com/BeLazy167/claude-mods-skill"
+  },
+  {
+    "description": "Claude Code mods: a pixel cat with a Terraria-style Adventurer pack, the Token Tycoon idle game, and a purple theme",
+    "fullName": "matthlh/claude-mods",
+    "url": "https://github.com/matthlh/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: screen-guard masks names and secrets while you screen-share; cache-panel reminds you before the prompt cache goes cold. Install via one plugin marketplace.",
+    "fullName": "danyuchn/claude-mods",
+    "url": "https://github.com/danyuchn/claude-mods"
+  },
+  {
+    "description": "Panels, guardrails and quality-of-life mods for Claude Code: context, usage, live activity, notifications, safety rules, prompt coach, command hub.",
+    "fullName": "mishgoldenberg/claude-mods",
+    "url": "https://github.com/mishgoldenberg/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code: panes, commands and hooks built with the plugin function-hooks API",
+    "fullName": "dougcunha/claude-mods",
+    "url": "https://github.com/dougcunha/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: typing-speed, a live typing speedometer with per-prompt stats",
+    "fullName": "borabiricik/claude-mods",
+    "url": "https://github.com/borabiricik/claude-mods"
+  },
+  {
+    "description": "Claude Code mod: pasted image thumbnails above the prompt, in any terminal",
+    "fullName": "hahmjuntae/claude-mods-image-preview",
+    "url": "https://github.com/hahmjuntae/claude-mods-image-preview"
+  },
+  {
+    "description": "Claude Mods (function-hooks plugins) for Claude Code.",
+    "fullName": "KilimcininKorOglu/claude-code-mods",
+    "url": "https://github.com/KilimcininKorOglu/claude-code-mods"
+  },
+  {
+    "description": "Saj\u00e1t Claude Code mod-ok pluginpiaca",
+    "fullName": "Szotasz/claude-mods",
+    "url": "https://github.com/Szotasz/claude-mods"
+  },
+  {
+    "description": "Claude Code mods that keep an agent honest \u2014 function hooks that guard scope, verify deploys, and draw the session above the prompt.",
+    "fullName": "yash-gadodia/claude-mods",
+    "url": "https://github.com/yash-gadodia/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code: Clawd, a tiny pixel mascot who acts out what Claude is doing",
+    "fullName": "raresmun/claude-mods",
+    "url": "https://github.com/raresmun/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code. First one: CodeCraft, a Minecraft-inspired HUD.",
+    "fullName": "mkpvishnu/claude-mods",
+    "url": "https://github.com/mkpvishnu/claude-mods"
+  },
+  {
+    "description": "Open-source mods for Claude Code: panes, status lines, toasts, tool guards and slash commands.",
+    "fullName": "ibrahimkobeissy/claude-mods",
+    "url": "https://github.com/ibrahimkobeissy/claude-mods"
+  },
+  {
+    "description": "Community Claude mods, plugins & skills, installable from one marketplace",
+    "fullName": "omarcevi/claudemods",
+    "url": "https://github.com/omarcevi/claudemods"
+  },
+  {
+    "description": "Claude Code plugins (mods): switch between several Claude accounts, watch usage limits in a status band, and manage agents, worktrees, checkpoints and diffs in a terminal pane",
+    "fullName": "simplecore-inc/claude-mods",
+    "url": "https://github.com/simplecore-inc/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: always-visible 5-hour & weekly usage limits with reset countdown, one-click next-step suggestions, and new chat / push buttons. Works in Claude Desktop and the terminal.",
+    "fullName": "pawandeepdhall/claude-mods",
+    "url": "https://github.com/pawandeepdhall/claude-mods"
+  },
+  {
+    "description": "Mods I made and personally use in my Claude Code setup",
+    "fullName": "MichaelP17/claude-mods",
+    "url": "https://github.com/MichaelP17/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code: plugins built on function hooks",
+    "fullName": "Sma1lboy/claude-mods",
+    "url": "https://github.com/Sma1lboy/claude-mods"
+  },
+  {
+    "description": "My collection of Claude Code mods, one mod per directory",
+    "fullName": "alexcz-a11y/claude-mods",
+    "url": "https://github.com/alexcz-a11y/claude-mods"
+  },
+  {
+    "description": "My personal Claude mods",
+    "fullName": "tiger42/claude-mods",
+    "url": "https://github.com/tiger42/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: agent-fleet dashboard and autopilot (local-mods marketplace)",
+    "fullName": "VladLeus/claude-mods",
+    "url": "https://github.com/VladLeus/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "DarkSawOktay/claude-mods",
+    "url": "https://github.com/DarkSawOktay/claude-mods"
+  },
+  {
+    "description": "The Claude Code mods I use.",
+    "fullName": "bostonaholic/claude-mods",
+    "url": "https://github.com/bostonaholic/claude-mods"
+  },
+  {
+    "description": "Five free Claude Code mods: Simple Mode, Usage Tally, Context Handoff, Inbox Alerts and Codex Computer Use. Install with /plugin marketplace add Ankitrai97/rai-claude-mods",
+    "fullName": "Ankitrai97/rai-claude-mods",
+    "url": "https://github.com/Ankitrai97/rai-claude-mods"
+  },
+  {
+    "description": "\ud83e\udde9 Tested, one-command-install Claude Code mods: guardrails for YOLO mode, live cost & context, panes, pets and more. Plus a curated list of the best community mods.",
+    "fullName": "Singh-AP/awesome-claude-mods",
+    "url": "https://github.com/Singh-AP/awesome-claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "Bootverleiher/ClaudeMods",
+    "url": "https://github.com/Bootverleiher/ClaudeMods"
+  },
+  {
+    "description": "Claude Mods",
+    "fullName": "ChristianBuzzetti/ClaudeMods",
+    "url": "https://github.com/ChristianBuzzetti/ClaudeMods"
+  },
+  {
+    "description": "",
+    "fullName": "brianbrinley/ClaudeMods",
+    "url": "https://github.com/brianbrinley/ClaudeMods"
+  },
+  {
+    "description": "",
+    "fullName": "veryfansome/ClaudeMods",
+    "url": "https://github.com/veryfansome/ClaudeMods"
+  },
+  {
+    "description": "Personal Claude Code mods (function-hook plugins)",
+    "fullName": "bzatrok/ClaudeMods",
+    "url": "https://github.com/bzatrok/ClaudeMods"
+  },
+  {
+    "description": "Free mods for Claude Code. First one: dashless, removes em dashes from what Claude writes.",
+    "fullName": "0xGondarxyz/claudeMods",
+    "url": "https://github.com/0xGondarxyz/claudeMods"
+  },
+  {
+    "description": "My mods for Claude",
+    "fullName": "Gooner44/ClaudeMods",
+    "url": "https://github.com/Gooner44/ClaudeMods"
+  },
+  {
+    "description": "",
+    "fullName": "merlin2105/ClaudeMods",
+    "url": "https://github.com/merlin2105/ClaudeMods"
+  },
+  {
+    "description": "Claude Code mods (function-hook plugins), categorized. First up: shell-guard \u2014 Windows Bash/PowerShell guard.",
+    "fullName": "youllook/ClaudeMods",
+    "url": "https://github.com/youllook/ClaudeMods"
+  },
+  {
+    "description": "claude-mods",
+    "fullName": "jpisgeek/claude-mods",
+    "url": "https://github.com/jpisgeek/claude-mods"
+  },
+  {
+    "description": "claude mods",
+    "fullName": "kkatsuyoshi/claude-mods",
+    "url": "https://github.com/kkatsuyoshi/claude-mods"
+  },
+  {
+    "description": "Claude Mods",
+    "fullName": "Fazzani/claude-mods",
+    "url": "https://github.com/Fazzani/claude-mods"
+  },
+  {
+    "description": "Claude Mods",
+    "fullName": "dalemorgan04/claude-mods",
+    "url": "https://github.com/dalemorgan04/claude-mods"
+  },
+  {
+    "description": "Personal Claude Code mods (usage-weather: context + rate-limit band)",
+    "fullName": "imsalik/claude-mods",
+    "url": "https://github.com/imsalik/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: token-weather, a live context-window and quota forecast above the prompt",
+    "fullName": "travisoa/claude-mods",
+    "url": "https://github.com/travisoa/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code, distributed as a plugin marketplace",
+    "fullName": "marco-quicula/claude-mods",
+    "url": "https://github.com/marco-quicula/claude-mods"
+  },
+  {
+    "description": "Claude Code mods \u2014 starting with cache-expiry-notifier: alerts you before your prompt cache expires",
+    "fullName": "amrut-deshpande-maersk/claude-mods",
+    "url": "https://github.com/amrut-deshpande-maersk/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code: plugins that change its own interface",
+    "fullName": "gsfitis/claude-mods",
+    "url": "https://github.com/gsfitis/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "chamonkey-crypto/claude-mods",
+    "url": "https://github.com/chamonkey-crypto/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: live panels and hooks for daily work",
+    "fullName": "Spardutti/claude-mods",
+    "url": "https://github.com/Spardutti/claude-mods"
+  },
+  {
+    "description": "Claude Code mods (plugin marketplace): live sidebar with context, cost and usage gauges",
+    "fullName": "erte-del/claude-mods",
+    "url": "https://github.com/erte-del/claude-mods"
+  },
+  {
+    "description": "Niceties/quality of life improvement Claude mods",
+    "fullName": "KingP1197/claude-mods",
+    "url": "https://github.com/KingP1197/claude-mods"
+  },
+  {
+    "description": "Claude Code mods, published as a marketplace",
+    "fullName": "krichardson/claude-mods",
+    "url": "https://github.com/krichardson/claude-mods"
+  },
+  {
+    "description": "Sanmu's Claude Code mods \u2014 a plugin marketplace (to-do side pane)",
+    "fullName": "linsanmufilm-svg/claude-mods",
+    "url": "https://github.com/linsanmufilm-svg/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "lua-erissatallan/claude-mods",
+    "url": "https://github.com/lua-erissatallan/claude-mods"
+  },
+  {
+    "description": "A collection of Claude Code mods: TypeScript function hooks, shipped as a plugin marketplace",
+    "fullName": "StanislavKozachenko/claude-mods",
+    "url": "https://github.com/StanislavKozachenko/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: panes and commands inside a session (lava-lamp)",
+    "fullName": "CtrlAltFocus/claude-mods",
+    "url": "https://github.com/CtrlAltFocus/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code in one marketplace: ambient scenes, a T-Rex runner, a pomodoro timer and an idle game",
+    "fullName": "barisdemirhan/claude-mods",
+    "url": "https://github.com/barisdemirhan/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "howehoe/claude-mods",
+    "url": "https://github.com/howehoe/claude-mods"
+  },
+  {
+    "description": "",
+    "fullName": "IT-Shelter-Labs/Claude-Mods",
+    "url": "https://github.com/IT-Shelter-Labs/Claude-Mods"
+  },
+  {
+    "description": "Claude Code mods from SpeakingInBits (plugin marketplace)",
+    "fullName": "SpeakingInBits/claude-mods",
+    "url": "https://github.com/SpeakingInBits/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: a memory bar and a live task checklist above the prompt.",
+    "fullName": "moonteek/claude-mods",
+    "url": "https://github.com/moonteek/claude-mods"
+  },
+  {
+    "description": "My personal collection of claude mod plugins",
+    "fullName": "MahadSalim/claude-mods",
+    "url": "https://github.com/MahadSalim/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: session-receipt and more",
+    "fullName": "sreshtalluri/claude-mods",
+    "url": "https://github.com/sreshtalluri/claude-mods"
+  },
+  {
+    "description": "Claude Code mods by Alexander Hobreich",
+    "fullName": "aholbreich/claude-mods",
+    "url": "https://github.com/aholbreich/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: inline-next-steps shows next-step suggestions as checkboxes above the prompt",
+    "fullName": "shijieli708-ship-it/claude-mods",
+    "url": "https://github.com/shijieli708-ship-it/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: stack, a stacked progress band above the prompt",
+    "fullName": "ShahriarBijoy/claude-mods",
+    "url": "https://github.com/ShahriarBijoy/claude-mods"
+  },
+  {
+    "description": "Mods de Claude Code: limites, la barra de uso de 5 h y semanal encima del prompt",
+    "fullName": "jpoucabanillas-lang/claude-mods",
+    "url": "https://github.com/jpoucabanillas-lang/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: dialup plays a dial-up modem handshake while Claude works",
+    "fullName": "Kvadratni/claude-mods",
+    "url": "https://github.com/Kvadratni/claude-mods"
+  },
+  {
+    "description": "Claude Code mods (a plugin marketplace)",
+    "fullName": "kguidonimartins/claude-mods",
+    "url": "https://github.com/kguidonimartins/claude-mods"
+  },
+  {
+    "description": "Claude Code mods, published as a plugin marketplace",
+    "fullName": "seiya8bit/claude-mods",
+    "url": "https://github.com/seiya8bit/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: prompt-polaroid makes CodeSnap-style Polaroids of your prompts",
+    "fullName": "Roberdinho/claude-mods",
+    "url": "https://github.com/Roberdinho/claude-mods"
+  },
+  {
+    "description": "Eigene Claude-Code-Mods \u2013 token-weather: Wetterbericht f\u00fcr das Kontextfenster \u00fcber dem Prompt",
+    "fullName": "reifen01/claude-mods",
+    "url": "https://github.com/reifen01/claude-mods"
+  },
+  {
+    "description": "Eigene Mods f\u00fcr Claude Code: Ziel-Graph und Pfad-Board",
+    "fullName": "Tzy197/claude-mods",
+    "url": "https://github.com/Tzy197/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: live usage bars and copy-as-markdown",
+    "fullName": "a-bine/claude-mods",
+    "url": "https://github.com/a-bine/claude-mods"
+  },
+  {
+    "description": "Claude Code mods",
+    "fullName": "AydinHassan/claude-mods",
+    "url": "https://github.com/AydinHassan/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code: bands, panes and guards for the terminal and the desktop app",
+    "fullName": "jpzrdev/claude-mods",
+    "url": "https://github.com/jpzrdev/claude-mods"
+  },
+  {
+    "description": "Claude Code mods",
+    "fullName": "navin0812/claude-mods",
+    "url": "https://github.com/navin0812/claude-mods"
+  },
+  {
+    "description": "Ten Claude Code mods: phone approvals, secret guard, rubber duck, chai meter and more",
+    "fullName": "ShriD5/claude-mods",
+    "url": "https://github.com/ShriD5/claude-mods"
+  },
+  {
+    "description": "200+ open-source mods for Claude Code: guardrails, status lines, panes and slash commands, plus an in-terminal mod store",
+    "fullName": "Plagemes/claude-mods",
+    "url": "https://github.com/Plagemes/claude-mods"
+  },
+  {
+    "description": "Tuncer's Claude Code mods, synced to his machines through a private plugin marketplace",
+    "fullName": "Shifty-Eye-Games/claude-mods",
+    "url": "https://github.com/Shifty-Eye-Games/claude-mods"
+  },
+  {
+    "description": "Claude Code plugin marketplace for 0xnicholasy's mods (agents-office, todo-list, collapse-tools).",
+    "fullName": "0xnicholasy/claude-mods",
+    "url": "https://github.com/0xnicholasy/claude-mods"
+  },
+  {
+    "description": "Claude Code mods by TomorrowOcean: next-steps suggests your next prompts in a question card",
+    "fullName": "TomorrowOcean/claude-mods",
+    "url": "https://github.com/TomorrowOcean/claude-mods"
+  },
+  {
+    "description": "Mods do Claude Code (function hooks): Sonnet por padr\u00e3o para subagentes, revis\u00e3o com prova, pr\u00f3ximos passos, painel ao vivo, lixeira e varredura de segredos antes do push. README PT/EN.",
+    "fullName": "diegocamara89/claude-mods",
+    "url": "https://github.com/diegocamara89/claude-mods"
+  },
+  {
+    "description": "Personal Claude Code mods, published as a plugin marketplace",
+    "fullName": "shichang4fun/claude-mods",
+    "url": "https://github.com/shichang4fun/claude-mods"
+  },
+  {
+    "description": "Claude Code mods (function-hook plugins)",
+    "fullName": "thieung/claude-mods",
+    "url": "https://github.com/thieung/claude-mods"
+  },
+  {
+    "description": "Claude Code mods",
+    "fullName": "xingkaixin/claude-mods",
+    "url": "https://github.com/xingkaixin/claude-mods"
+  },
+  {
+    "description": "Personal Claude Code function-hook mods (plugin marketplace), starting with a plan-usage meter",
+    "fullName": "g-campillo/claude-mods",
+    "url": "https://github.com/g-campillo/claude-mods"
+  },
+  {
+    "description": "Claude Code mods by redyf",
+    "fullName": "redyf/claude-mods",
+    "url": "https://github.com/redyf/claude-mods"
+  },
+  {
+    "description": "Pixel mods for Claude Code: bubble replies on a meadow and a bunny loading line",
+    "fullName": "DenisGuiraudet/claude-mods",
+    "url": "https://github.com/DenisGuiraudet/claude-mods"
+  },
+  {
+    "description": "Claude Code mods: subagent-models shows each subagent's model and effort",
+    "fullName": "ahbanavi/claude-mods",
+    "url": "https://github.com/ahbanavi/claude-mods"
+  },
+  {
+    "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
+    "fullName": "alexgreensh/token-optimizer",
+    "url": "https://github.com/alexgreensh/token-optimizer"
+  },
+  {
+    "description": "Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes and games. Context bar, usage meter, Codex review watch, Markdown preview, Spotify now playing and more.",
+    "fullName": "hamzafer/claude-code-mods",
+    "url": "https://github.com/hamzafer/claude-code-mods"
+  },
+  {
+    "description": "Claude Code shows images and plays videos right in your terminal: screenshots, Playwright recordings, and synced before/after QA. Ghostty & kitty.",
+    "fullName": "iamumeransari/claude-show-your-work",
+    "url": "https://github.com/iamumeransari/claude-show-your-work"
+  },
+  {
+    "description": "Skins for Claude Code: tool rows with icons, diff, table and Mermaid chart cards, a usage band and fifteen themes. /skin swaps them live.",
+    "fullName": "hellosverre/claude-skins",
+    "url": "https://github.com/hellosverre/claude-skins"
+  },
+  {
+    "description": "An agent-native QA CLI for web pages. Deterministic, no tests to write, no LLM.",
+    "fullName": "awss1i/assay",
+    "url": "https://github.com/awss1i/assay"
+  },
+  {
+    "description": "Colorful, themeable Claude Code replies: tables, code, diagrams, charts and tool rows in 15 themes, with copy buttons. A Claude Code mod.",
+    "fullName": "NahumLitvin/prismantis",
+    "url": "https://github.com/NahumLitvin/prismantis"
+  },
+  {
+    "description": "Claude Code mod: hands off to a fresh conversation when context fills up, keeps the cache warm while you're away, and turns what you teach Claude into project notes",
+    "fullName": "cablate/ctx-handoff-mod",
+    "url": "https://github.com/cablate/ctx-handoff-mod"
+  },
+  {
+    "description": "A Claude Code mod that puts a live agent dashboard in your terminal: context and cost, advisor timeline, every permission check, subagent cards and swimlanes.",
+    "fullName": "scasella/claude-flightdeck",
+    "url": "https://github.com/scasella/claude-flightdeck"
+  },
+  {
+    "description": "Collection of 100+ mods you can use with Claude Code.",
+    "fullName": "whyashthakker/awesome-claude-code-mods",
+    "url": "https://github.com/whyashthakker/awesome-claude-code-mods"
+  },
+  {
+    "description": "Mission control for long Claude Code runs: context and run progress at a glance, Autopilot handoffs, guardrails and a calm activity view, in the terminal and Claude Desktop.",
+    "fullName": "Arjun0014/project-sentinel",
+    "url": "https://github.com/Arjun0014/project-sentinel"
+  },
+  {
+    "description": "A pixel Pok\u00e9mon that lives above the prompt in Claude Code",
+    "fullName": "dgokcin/claude-pokemon-mod",
+    "url": "https://github.com/dgokcin/claude-pokemon-mod"
+  },
+  {
+    "description": "A glow-up for Claude Code: a live cockpit pane, shareable themes, and a pixel pet that acts out what Claude is doing",
+    "fullName": "NovusEdge/glowup",
+    "url": "https://github.com/NovusEdge/glowup"
+  },
+  {
+    "description": "A Claude Code mod: Claude assigns you the tasks only you can do. They wait in a pane until you answer, and your answer goes back to Claude.",
+    "fullName": "tzafrir/human-in-the-loop",
+    "url": "https://github.com/tzafrir/human-in-the-loop"
+  },
+  {
+    "description": "Claude Code mod: preview pasted images and long pasted text above the prompt",
+    "fullName": "Amorfx/claude-paste-view",
+    "url": "https://github.com/Amorfx/claude-paste-view"
+  },
+  {
+    "description": "Personal Claude Code plugin marketplace \u2014 session-metrics, more to come.",
+    "fullName": "centminmod/claude-plugins",
+    "url": "https://github.com/centminmod/claude-plugins"
+  },
+  {
+    "description": "Claude Code mod: Clawd acts out what Claude is doing, above the prompt",
+    "fullName": "BrianHuang813/clawd-actor",
+    "url": "https://github.com/BrianHuang813/clawd-actor"
+  },
+  {
+    "description": "A cockpit for Claude Code: live plan bars, subagent strips, usage limits with reset countdowns, model routing and a tiny pet, right above your prompt. CLI and Desktop.",
+    "fullName": "nvr0x5/claude-deck",
+    "url": "https://github.com/nvr0x5/claude-deck"
+  },
+  {
+    "description": "A side pane for Claude Code: the subagents a session runs, what each is doing, its tokens, and its conversation a click away.",
+    "fullName": "xuanji86/claude-agentpane",
+    "url": "https://github.com/xuanji86/claude-agentpane"
+  },
+  {
+    "description": "A desktop-app look for Claude Code's terminal transcript, as a mod",
+    "fullName": "rashedInt32/glass",
+    "url": "https://github.com/rashedInt32/glass"
+  },
+  {
+    "description": "Claude Code mod: keeps open decisions, todos and links in a sidebar pane",
+    "fullName": "sirkitree/pinboard",
+    "url": "https://github.com/sirkitree/pinboard"
+  },
+  {
+    "description": "Your plan, watching itself. Local desktop roadmap tree that Claude Code and any MCP host keep up to date live. Plain JSON, no cloud.",
+    "fullName": "Shuffzord/RoadRaven",
+    "url": "https://github.com/Shuffzord/RoadRaven"
+  },
+  {
+    "description": "What's Agent Doing: a Claude Code plugin with a little box above the prompt that always says what Claude is doing right now",
+    "fullName": "tzafrir/whats-agent-doing",
+    "url": "https://github.com/tzafrir/whats-agent-doing"
+  },
+  {
+    "description": "A floating status card for Claude Code \u2014 model, context, rate limits, cost, branch \u2014 plus a progress API any script or mod can feed.",
+    "fullName": "xuanji86/claude-statuspane",
+    "url": "https://github.com/xuanji86/claude-statuspane"
+  },
+  {
+    "description": "A decision queue CLI/TUI for humans working with conversational agents. Agents post questions, humans answer from one inbox.",
+    "fullName": "eighteyes/cactus",
+    "url": "https://github.com/eighteyes/cactus"
+  },
+  {
+    "description": "Claude Code IDE pane mod: agent board, file tree and HWP/PDF viewer, system status, Claude/Codex/Antigravity usage band, session handoff",
+    "fullName": "jkf87/ide-mod",
+    "url": "https://github.com/jkf87/ide-mod"
+  },
+  {
+    "description": "Draw diagrams, LaTeX math, and tool-result images inline in kitty-graphics terminals \u2014 a Claude Code plugin",
+    "fullName": "natsukium/claude-code-figures-plugin",
+    "url": "https://github.com/natsukium/claude-code-figures-plugin"
+  },
+  {
+    "description": "Claude Code Mod: context, 5-hour and 7-day usage as gradient progress bars above the prompt. 12 languages.",
+    "fullName": "jack21/claude-mod-usage",
+    "url": "https://github.com/jack21/claude-mod-usage"
+  },
+  {
+    "description": "Live GSD dashboard for Claude Code: roadmap, agent tree with forks, context and cost, work streams, and a markdown reader for .planning. Read-only.",
+    "fullName": "helenkwok/gsd-status-mod",
+    "url": "https://github.com/helenkwok/gsd-status-mod"
+  },
+  {
+    "description": "Read the markdown files Claude Code names, rendered beside the session, and point at any block to have Claude edit it. A Claude Code mod.",
+    "fullName": "xuanji86/claude-mdview",
+    "url": "https://github.com/xuanji86/claude-mdview"
+  },
+  {
+    "description": "Claude Code mod (plugin) that adds a side pane with Activity, Files, Agents, Context and MCP tabs, a status line above the prompt, a restyled chat, Mermaid diagrams in the terminal, tables, and code and diff panels. Colours follow both /color and the /theme (dark, light and others).",
+    "fullName": "markneonin/paneline",
+    "url": "https://github.com/markneonin/paneline"
+  },
+  {
+    "description": "ASD-STE100 (Simplified Technical English, Issue 9) for Claude Code: /asd mod with an STE pane, agent skill, and linter. Inspired by Karpathy's \"80% ASD-STE100\" tip.",
+    "fullName": "JAICHANGPARK/ASD-STE100",
+    "url": "https://github.com/JAICHANGPARK/ASD-STE100"
+  },
+  {
+    "description": "A pixel-art Tamagotchi for your Claude Code context window: a mod that eats tokens and shows context, limits and activity at a glance",
+    "fullName": "ugglr/claude-token-monster",
+    "url": "https://github.com/ugglr/claude-token-monster"
+  },
+  {
+    "description": "Garbage collection for Claude Code's memory. A mod that rereads your sessions every day, keeps what you decided, and questions the notes that have gone stale.",
+    "fullName": "lianmatsuo/remcycle",
+    "url": "https://github.com/lianmatsuo/remcycle"
+  },
+  {
+    "description": "A typing test for the time while Claude works. A Claude Code mod.",
+    "fullName": "Danovich/turntype",
+    "url": "https://github.com/Danovich/turntype"
+  },
+  {
+    "description": "Claude Code mod: control autocompaction content from the TUI natively.",
+    "fullName": "scodge-24/workface",
+    "url": "https://github.com/scodge-24/workface"
+  },
+  {
+    "description": "A pixel Clawd that acts out what Claude Code is doing, in the terminal. No model calls.",
+    "fullName": "plaxagoras/clawd-tales",
+    "url": "https://github.com/plaxagoras/clawd-tales"
+  },
+  {
+    "description": "Learn a language in the dead time while Claude is working \u2014 a vocabulary quiz in the band above your Claude Code prompt. One-command install.",
+    "fullName": "AI-Experts-LLC/claudelingo",
+    "url": "https://github.com/AI-Experts-LLC/claudelingo"
+  },
+  {
+    "description": "Synced lyrics in Claude Code, word by word, with Adlib's dancing mascot. A Claude Code mod for macOS.",
+    "fullName": "bixxter/adlib-lyrics",
+    "url": "https://github.com/bixxter/adlib-lyrics"
+  },
+  {
+    "description": "Liquid-filled usage rings above the Claude Code prompt: 5h/7d limits, context, cache TTL, a fighter jet at high effort, and a pane of recent turns and costs.",
+    "fullName": "BatuhanCakmakk/wavy-usage",
+    "url": "https://github.com/BatuhanCakmakk/wavy-usage"
+  },
+  {
+    "description": "Clawd lives above your prompt in Claude Code. A pet mod that reacts to what Claude is doing \ud83e\udde1",
+    "fullName": "Revono/clawd-pet",
+    "url": "https://github.com/Revono/clawd-pet"
+  },
+  {
+    "description": "Fireworks for Claude Code: every keystroke, tool call, commit and green test goes up in braille fireworks above the prompt. A Claude Code mod.",
+    "fullName": "charimsma/dopa-mode",
+    "url": "https://github.com/charimsma/dopa-mode"
+  },
+  {
+    "description": "ConversationAtlas (Atlas): a live side pane for Claude Code that maps a long session \u2014 goal, path, detours, decisions, open questions, checkpoints and files. Observes on its own; asks before changing your intent.",
+    "fullName": "NeelAPatel/Claude-Mod-ConversationAtlas",
+    "url": "https://github.com/NeelAPatel/Claude-Mod-ConversationAtlas"
+  },
+  {
+    "description": "Your Claude Code status line, in the desktop app too.",
+    "fullName": "NathanAB/statusline-anywhere",
+    "url": "https://github.com/NathanAB/statusline-anywhere"
+  },
+  {
+    "description": "Best Claude Code Mods: hand-picked, validated, pinned. One /plugin marketplace add, 43 mods.",
+    "fullName": "claude-code-mods/best-claude-code-mods",
+    "url": "https://github.com/claude-code-mods/best-claude-code-mods"
+  },
+  {
+    "description": "Claude's cooking. Chat with your squad. Friends online, right beside your Claude Code session. Zero tokens, zero leaks to Claude.",
+    "fullName": "chrisluo5311/squad-chat",
+    "url": "https://github.com/chrisluo5311/squad-chat"
+  },
+  {
+    "description": "Generative music for Claude Code. Every task gets its own tune, and the mood follows what the agent is doing and how fast it spends tokens.",
+    "fullName": "delexw/miod",
+    "url": "https://github.com/delexw/miod"
+  },
+  {
+    "description": "Give Claude Code a face: a mod that shows a character portrait in the terminal, plus a desktop switchboard pet for all your sessions. / \u8b93 Claude Code \u9577\u51fa\u81c9\uff1a\u7d42\u7aef\u6a5f\u7acb\u7e6a mod \u8207\u684c\u9762\u7e3d\u6a5f\u5c0f\u963f\u5b87",
+    "fullName": "Tsun-u/tsunu-pet",
+    "url": "https://github.com/Tsun-u/tsunu-pet"
+  },
+  {
+    "description": "Session dashboard for Claude Code with usage limits, context, cost, and an animated pixel Clawd.",
+    "fullName": "pinkpixel-dev/clawd-dash",
+    "url": "https://github.com/pinkpixel-dev/clawd-dash"
+  },
+  {
+    "description": "A Claude Code mod that shows xcodebuild errors in a live pane and gives Claude the diagnostics instead of the raw build log",
+    "fullName": "griches/xcpane",
+    "url": "https://github.com/griches/xcpane"
+  },
+  {
+    "description": "Source Control for Claude Code: see at a glance whether to pull or push, and commit, sync and browse a VS Code-style history graph without leaving the chat. Desktop app and terminal, English and German.",
+    "fullName": "manuel-will/cc-source-control",
+    "url": "https://github.com/manuel-will/cc-source-control"
+  },
+  {
+    "description": "Claude Code mod: a live pane of the GitHub PRs a session opens or pushes to \u2014 CI, review, conflicts, merge \u2014 with one poller shared by every session.",
+    "fullName": "ElirazKed/claude-code-pr-watch",
+    "url": "https://github.com/ElirazKed/claude-code-pr-watch"
+  },
+  {
+    "description": "Claude Code plugin: a live architecture diagram in a side pane that Claude draws and updates while you talk",
+    "fullName": "facumarcet/archpane",
+    "url": "https://github.com/facumarcet/archpane"
+  },
+  {
+    "description": "Live instrument panel for Claude Code: context, rate limits, cost, subagents, tools, diffs and tests, plus a guard for risky commands.",
+    "fullName": "drkokorev/cockpit-for-claude",
+    "url": "https://github.com/drkokorev/cockpit-for-claude"
+  },
+  {
+    "description": "Claude Code mod: every agent gets a Fate/stay night Heaven's Feel character \u2014 Sakura's room, Servants for subagents, a Master's face on every message",
+    "fullName": "yedidyakfir/heavens-feel",
+    "url": "https://github.com/yedidyakfir/heavens-feel"
+  },
+  {
+    "description": "GlanceFlow for Claude Code: a calm checklist above the prompt showing the plan, progress and when Claude needs you. Simple view for everyone, Details for engineers.",
+    "fullName": "Antreas-Strb/glanceflow",
+    "url": "https://github.com/Antreas-Strb/glanceflow"
+  },
+  {
+    "description": "Source-backed engineering practices and a reviewed shelf of skill repos, as a Claude Code mod and a CLI.",
+    "fullName": "madjagstudios/grounded-engineering",
+    "url": "https://github.com/madjagstudios/grounded-engineering"
+  },
+  {
+    "description": "Live Taiwan and US stock ticker above the Claude Code prompt - watch quotes while Claude works",
+    "fullName": "twjackysu/claude-code-stock-ticker",
+    "url": "https://github.com/twjackysu/claude-code-stock-ticker"
+  },
+  {
+    "description": "RESCENE (\ub9ac\uc13c\ub290) fan mod for Claude Code: WONI conducts, the members take the tasks and report back. Korean and English. Unofficial fan mod.",
+    "fullName": "techkwon/rescene",
+    "url": "https://github.com/techkwon/rescene"
+  },
+  {
+    "description": "Tiny pixel creatures that battle above your prompt while Claude works. A creature card game mod for Claude Code.",
+    "fullName": "416rehman/spinlings",
+    "url": "https://github.com/416rehman/spinlings"
+  },
+  {
+    "description": "A curated list of Claude Code mods, installable as a plugin marketplace: themes, panes, status lines, portraits.",
+    "fullName": "testy-cool/awesome-claude-code-mods",
+    "url": "https://github.com/testy-cool/awesome-claude-code-mods"
+  },
+  {
+    "description": "Claude Code plugin: automatic Claude model routing. Picks Haiku, Sonnet or Opus and the reasoning effort per prompt, step and subagent; effort cap, prompt-cache guard, status band, benchmarks.",
+    "fullName": "dominicrico/jev-router",
+    "url": "https://github.com/dominicrico/jev-router"
+  },
+  {
+    "description": "Classic desktop games as Claude Code mods, played in a pane while Claude works. Made by Reporails.",
+    "fullName": "reporails/arcade",
+    "url": "https://github.com/reporails/arcade"
+  },
+  {
+    "description": "Drive your local Claude Code and Codex sessions from your phone, as chat rooms. Self-hosted, safe by default.",
+    "fullName": "Coolkidlab-Yin/agent-mobile-control",
+    "url": "https://github.com/Coolkidlab-Yin/agent-mobile-control"
+  },
+  {
+    "description": "Trims huge tool outputs before they fill Claude Code's context. Errors and summaries kept, the full text one Read away.",
+    "fullName": "drkokorev/context-diet",
+    "url": "https://github.com/drkokorev/context-diet"
+  },
+  {
+    "description": "A very opinionated Claude Code plugin designed by a Rustacean obsessed with harness engineering",
+    "fullName": "xsyetopz/dotclaude",
+    "url": "https://github.com/xsyetopz/dotclaude"
+  },
+  {
+    "description": "Ricky, a pixel-art cat companion for Claude Code (mod): night-sky pane, task/subagent/activity board, purple-gold theme",
+    "fullName": "muxia23/ricky-pixel-mod",
+    "url": "https://github.com/muxia23/ricky-pixel-mod"
+  },
+  {
+    "description": "A Claude Code mod that shows your session (5-hour) and week (7-day) rate-limit usage as progress bars in the prompt footer",
+    "fullName": "Abdallah-Abdelazim/usage-limits-cc-mod",
+    "url": "https://github.com/Abdallah-Abdelazim/usage-limits-cc-mod"
+  },
+  {
+    "description": "Right-to-left Hebrew, Arabic and Persian for the Claude Code terminal (a Claude Code mod)",
+    "fullName": "ofekbetzalel/claude-code-cli-rtl",
+    "url": "https://github.com/ofekbetzalel/claude-code-cli-rtl"
+  },
+  {
+    "description": "Cost, tokens and plan limits of your coding agents (Claude Code, Codex, OpenCode, Antigravity) in one Claude Code pane",
+    "fullName": "Elesiann/usagemeter",
+    "url": "https://github.com/Elesiann/usagemeter"
+  },
+  {
+    "description": "Claude Code plugin that fixes typos in your prompt before the model reads it",
+    "fullName": "ljmerza/prompt-spellcheck",
+    "url": "https://github.com/ljmerza/prompt-spellcheck"
+  },
+  {
+    "description": "macOS notch dashboard for Claude Code: usage limits, open sessions, task progress, prompt-cache countdown and to-dos \u2014 fed by five Claude Code mods (included).",
+    "fullName": "chenyuxiaojin/cyxj-notch",
+    "url": "https://github.com/chenyuxiaojin/cyxj-notch"
+  },
+  {
+    "description": "Claude Code mod: shows token use, plan limits and cache temperature of the sessions on this Mac",
+    "fullName": "arviaja/token-watch",
+    "url": "https://github.com/arviaja/token-watch"
+  },
+  {
+    "description": "Wirepane: an HTTPS debugging proxy inside Claude Code (Proxyman/Charles alternative). Intercepts and decrypts traffic from your browser, iOS Simulator, iPhone and Android, lists and filters every request, and lets Claude read them.",
+    "fullName": "legostin/wirepane",
+    "url": "https://github.com/legostin/wirepane"
+  },
+  {
+    "description": "Claude Code mod: looks up every new package before Claude installs it, and holds made-up names, typosquats and days-old releases for your answer",
+    "fullName": "griches/installguard",
+    "url": "https://github.com/griches/installguard"
+  },
+  {
+    "description": "\ud83d\udfe6 A pixel pet + RPG-style usage HUD for Claude Code: context window, 5h/weekly rate limits, prompt cache timer. Hardened, audited fork of pixel-pet.",
+    "fullName": "thanhnhoncntt/oxen-pet",
+    "url": "https://github.com/thanhnhoncntt/oxen-pet"
+  },
+  {
+    "description": "Claude Code mods. touch-map: see which files Claude listed, read, edited or created, as a tree and an activity map. copy-blocks: copy buttons for the quotes and code blocks in Claude's answers.",
+    "fullName": "y-hirakaw/claude-code-mods",
+    "url": "https://github.com/y-hirakaw/claude-code-mods"
+  },
+  {
+    "description": "A Claude Code mod that holds subagent fan-out, heavy-context prompts and retry loops before they spend your usage window. It reads your plan's usage, counts agents across every session, and asks in Claude Code's own dialog.",
+    "fullName": "rbartoli/agent-usage-guard",
+    "url": "https://github.com/rbartoli/agent-usage-guard"
+  },
+  {
+    "description": "Claude Code mod: resumes your session automatically once the usage limit resets",
+    "fullName": "longmaba/no-limit",
+    "url": "https://github.com/longmaba/no-limit"
+  },
+  {
+    "description": "Claude Code mods by vynnlee. One folder per mod, installable from one marketplace.",
+    "fullName": "vynnlee/mods",
+    "url": "https://github.com/vynnlee/mods"
+  },
+  {
+    "description": "An idle clicker game mod for Claude Code. Claude works, you click.",
+    "fullName": "tozmoz/sparkmine",
+    "url": "https://github.com/tozmoz/sparkmine"
+  },
+  {
+    "description": "Day-one field notes on Claude Code mods on Windows: a context/quota fuel bar, a Thai UI mod, a Matrix boot intro and a safe updater, plus what failed and why (panes, bands above the prompt, Thai in Windows Terminal).",
+    "fullName": "MankhongGarden/claude-code-mods-field-notes",
+    "url": "https://github.com/MankhongGarden/claude-code-mods-field-notes"
+  },
+  {
+    "description": "A Claude Code mod: a band above the prompt and a /monitor pane tracking inbox, running tools, dispatches and custom cards.",
+    "fullName": "NeriakTo/claude-code-agent-monitor",
+    "url": "https://github.com/NeriakTo/claude-code-agent-monitor"
+  },
+  {
+    "description": "A pixel-art Naruto companion for Claude Code: 20 ninja, 60 jutsu, performed while Claude works",
+    "fullName": "i-harsha-reddy/naruto-mod",
+    "url": "https://github.com/i-harsha-reddy/naruto-mod"
+  },
+  {
+    "description": "Live session dashboard mod for Claude Code: context, cache, permissions, tool latency, and a chart band for up to a hundred agents.",
+    "fullName": "NetipunJi/sessiondeck",
+    "url": "https://github.com/NetipunJi/sessiondeck"
+  },
+  {
+    "description": "An app store for Claude Code mods, inside Claude Code: /mods to browse, search and install 2,700 mods, or ask Claude to find one",
+    "fullName": "hellosverre/mod-store",
+    "url": "https://github.com/hellosverre/mod-store"
+  },
+  {
+    "description": "Claude Code mod that reports which files Claude changed and why, live subagent status, and remaining plan limits",
+    "fullName": "yuntaengtaeng/snitch",
+    "url": "https://github.com/yuntaengtaeng/snitch"
+  },
+  {
+    "description": "Fresh from the factory. A Claude Code mod: ask for a meme, keep working. Drafts cook in a side panel; pick, remix, approve and post to Slack.",
+    "fullName": "CodyAMaughan/meme-factory",
+    "url": "https://github.com/CodyAMaughan/meme-factory"
+  },
+  {
+    "description": "\u5beb code \u6642\u990a\u4e00\u9846\u6162\u6162\u5165\u5473\u7684\u8336\u8449\u86cb \u00b7 Raise a tea egg that slowly marinates while you code",
+    "fullName": "helenlin0621/tea-egg",
+    "url": "https://github.com/helenlin0621/tea-egg"
+  },
+  {
+    "description": "A Claude Mod that adds micro-compaction as `/compact micro` stripping file reads and thinking content",
+    "fullName": "ruihe774/cc-micro-compaction",
+    "url": "https://github.com/ruihe774/cc-micro-compaction"
+  },
+  {
+    "description": "A Claude Code mod that turns your global skills, agents, rules and tools on or off per repo with named profiles. In my writing repo, it hid 94 of the 101 skills with one line.",
+    "fullName": "shimo4228/harness-scope",
+    "url": "https://github.com/shimo4228/harness-scope"
+  },
+  {
+    "description": "The skill-router mod: Jev picks and loads the skills each prompt needs.",
+    "fullName": "gecm0/skill-router-mod",
+    "url": "https://github.com/gecm0/skill-router-mod"
+  },
+  {
+    "description": "A space battle above Claude Code's prompt while it works.",
+    "fullName": "DarkVelours/claude-code-galactic-battle",
+    "url": "https://github.com/DarkVelours/claude-code-galactic-battle"
+  },
+  {
+    "description": "\ud83d\ude08 We are making some TECHNO babyyyy \ud83d\ude08",
+    "fullName": "ruslanshchuchkin/claude-techno-mod",
+    "url": "https://github.com/ruslanshchuchkin/claude-techno-mod"
+  },
+  {
+    "description": "Claude Code plugin: change the reasoning effort per agent with Ctrl+\u2191 and Ctrl+\u2193, shown as a colored meter in the footer and the tasks list",
+    "fullName": "Anerco/claude-code-effort-cycle",
+    "url": "https://github.com/Anerco/claude-code-effort-cycle"
+  },
+  {
+    "description": "Prompt cache, context and plan limits at a glance for Claude Code, in the prompt footer and above the prompt",
+    "fullName": "EgonLeitner/dashband",
+    "url": "https://github.com/EgonLeitner/dashband"
+  },
+  {
+    "description": "Claude DevTools: a debugger for Claude Code tool calls. Breakpoints, pause/step/reject, timeline, inspector and Error Lens failure diagnosis, as a Claude Code mod.",
+    "fullName": "NMenzel/claude-devtools-mod",
+    "url": "https://github.com/NMenzel/claude-devtools-mod"
+  },
+  {
+    "description": "Live meters for your Claude limits and context, right above the prompt in Claude Code. Plus three small mods for your Mac, your commits and your tokens.",
+    "fullName": "Heuwzen/claude-runway",
+    "url": "https://github.com/Heuwzen/claude-runway"
+  },
+  {
+    "description": "Claude Code mod: live GitHub pull request status (checks, reviews, threads, merge queue) in a band and pane, with confirmed merge actions.",
+    "fullName": "oborchers/claude-gh-status",
+    "url": "https://github.com/oborchers/claude-gh-status"
+  },
+  {
+    "description": "Community catalogue of public Claude Code mods (function hooks), scanned from GitHub with what each mod can read, write, run or send over the network. Browse https://mods.aidojo.si/",
+    "fullName": "karanb192/awesome-claude-code-mods",
+    "url": "https://github.com/karanb192/awesome-claude-code-mods"
+  },
+  {
+    "description": "Xcode's build, tests, console and SwiftUI previews inside Claude Code",
+    "fullName": "artemnovichkov/xcode-mods",
+    "url": "https://github.com/artemnovichkov/xcode-mods"
+  },
+  {
+    "description": "Claude Code mods: 21 styles and a full set of features you turn on when you need them, for the terminal and the desktop app. \u00b7 \u4e00\u952e\u4e3a Claude \u6362\u4e0a\u65b0\u98ce\u683c\uff0c\u5e76\u63d0\u4f9b\u4e00\u6574\u5957\u6309\u9700\u5f00\u542f\u7684\u529f\u80fd\u3002",
+    "fullName": "lemomo-ai/lemo-mod",
+    "url": "https://github.com/lemomo-ai/lemo-mod"
+  },
+  {
+    "description": "Use Codex, GLM, and other coding agents as Claude Code subagents.",
+    "fullName": "SavaSoftworks/BitFrost",
+    "url": "https://github.com/SavaSoftworks/BitFrost"
+  },
+  {
+    "description": "Ten open-source mods for Claude Code: live panes, bands, status lines and tool-call guards. Burn meter, launch codes, session wrapped, boss fight, code pet and more.",
+    "fullName": "OneWave-AI/claude-code-mods",
+    "url": "https://github.com/OneWave-AI/claude-code-mods"
+  },
+  {
+    "description": "Make the Claude Pro plan last longer: Claude Code mods for an exact usage HUD, shorter shell output and no repeat file reads. The mods spend zero tokens.",
+    "fullName": "VedantAndhale/claude-pro-kit",
+    "url": "https://github.com/VedantAndhale/claude-pro-kit"
+  },
+  {
+    "description": "Claude Code mod that draws Edit and Write diffs in two side-by-side columns",
+    "fullName": "neteye-platform/cc-split-diff-view",
+    "url": "https://github.com/neteye-platform/cc-split-diff-view"
+  },
+  {
+    "description": "Mods for Claude Code: function-hook plugins that add live panes and behaviour to the terminal UI",
+    "fullName": "arasovic/claude-code-mods",
+    "url": "https://github.com/arasovic/claude-code-mods"
+  },
+  {
+    "description": "Voice coworker for Claude Code. Talk things through with a 3D wolf powered by ElevenLabs conversational AI; when you agree, it sends the prompt to Claude and speaks up when Claude is done.",
+    "fullName": "leopiney/wolfbud-claude-mod",
+    "url": "https://github.com/leopiney/wolfbud-claude-mod"
+  },
+  {
+    "description": "Discover Claude Code mods, plugins and extensions with animated demos, category lists and direct source links. Powered by FindMods.dev.",
+    "fullName": "DrishtantKaushal/AwesomeClaudeCodeMods",
+    "url": "https://github.com/DrishtantKaushal/AwesomeClaudeCodeMods"
+  },
+  {
+    "description": "Claude Code mods on demand \u2014 a skill that reads your conversation and builds the mod that fits: plan progress bar, files pane, context gauge, risky-command guard, test watcher. 11 tested templates, 29 building blocks, a map of 3,057 public mods. Terminal and desktop.",
+    "fullName": "timoncool/givememod",
+    "url": "https://github.com/timoncool/givememod"
+  },
+  {
+    "description": "A casino inside Claude Code. Slots, roulette and blackjack \u2014 you bet the tokens Claude Code burned today.",
+    "fullName": "szarkans/gamble-with-claude-code",
+    "url": "https://github.com/szarkans/gamble-with-claude-code"
+  },
+  {
+    "description": "Six Claude Code mods: plan limits and context above the prompt, an allowlist coach for permission prompts, subagent tokens, tests in the status line, one-click actions and a quiet transcript",
+    "fullName": "ice-lfernandes/claude-code-mods",
+    "url": "https://github.com/ice-lfernandes/claude-code-mods"
+  },
+  {
+    "description": "Mods and skins for Claude Code: a live progress bar for Claude's tasks, a readable dark theme with a matching Windows Terminal look, and more to come.",
+    "fullName": "GarvitNangru/claude-code-mods",
+    "url": "https://github.com/GarvitNangru/claude-code-mods"
+  },
+  {
+    "description": "Six mods for Claude Code: animated Clawd mascot, usage-limit and prompt-cache bars, a pre-send message checker, quick replies, a to-do queue and a cost ledger. Terminal and desktop app, English/German.",
+    "fullName": "FynnXland/fynn-mods",
+    "url": "https://github.com/FynnXland/fynn-mods"
+  },
+  {
+    "description": "Naren's Claude toolkit: skills, mods and MCP servers for Claude Code. One-command install via plugin marketplace.",
+    "fullName": "NarenDawar/narens-claude-toolkit",
+    "url": "https://github.com/NarenDawar/narens-claude-toolkit"
+  },
+  {
+    "description": "The best all-in-one mod pack for Claude Code: usage limits and context HUD, a guard with undo for rm -rf and git reset --hard, .env and secret protection, and a receipt for every turn. Ten mods, one install.",
+    "fullName": "mertkayacs/ultramod",
+    "url": "https://github.com/mertkayacs/ultramod"
+  },
+  {
+    "description": "A marketplace of mods for Claude Code: a step debugger for the agent loop, git account hints, a worktree status line, and more.",
+    "fullName": "Hula-Hoop-AI/supermods",
+    "url": "https://github.com/Hula-Hoop-AI/supermods"
+  },
+  {
+    "description": "Claude Code mods by AGI Hunt. Hop: a hop game to play while Claude works, with an AI coding tip on every block. Also runs in DeepSeek Harness.",
+    "fullName": "AGIHunt/cc-mods",
+    "url": "https://github.com/AGIHunt/cc-mods"
+  },
+  {
+    "description": "Counter-Strike 1.6 radio calls for Claude Code - \"Fire in the hole\" on deploys, \"Bomb has been defused\" when a long turn finishes.",
+    "fullName": "ben-rogerson/claude-counter-strike",
+    "url": "https://github.com/ben-rogerson/claude-counter-strike"
+  },
+  {
+    "description": "Claude Code mods: small plugins for live panes, cost-aware model routing, and safety guards. Install from the marketplace in one command.",
+    "fullName": "TroyJLorents-GH/mod-squad",
+    "url": "https://github.com/TroyJLorents-GH/mod-squad"
+  },
+  {
+    "description": "Claude Code mods: curated, tested, and every mod ships with the prompt that built it.",
+    "fullName": "modmyclaude/claude-code-mods",
+    "url": "https://github.com/modmyclaude/claude-code-mods"
+  },
+  {
+    "description": "Which Claude Code mods to try first, how to check any mod in 60 seconds before you load it, and how to turn mods off. Plain English, tested on Claude Code 2.1.288.",
+    "fullName": "LuSSSaN/claude-code-mods-plain-english",
+    "url": "https://github.com/LuSSSaN/claude-code-mods-plain-english"
+  },
+  {
+    "description": "A Claude Code mod: show your Command Code plan quota above the prompt. Three windows (5h / weekly / monthly), each with a landing bar that tells you whether you'll run out before the period ends.",
+    "fullName": "Jovan1666/claude-code-runway",
+    "url": "https://github.com/Jovan1666/claude-code-runway"
+  },
+  {
+    "description": "Compact usage meter mod for claude code. ",
+    "fullName": "dkoh0207/compact-usage-meter",
+    "url": "https://github.com/dkoh0207/compact-usage-meter"
+  },
+  {
+    "description": "Plugins and mods for Claude Code",
+    "fullName": "buildwithpulkit/plug-into-claude",
+    "url": "https://github.com/buildwithpulkit/plug-into-claude"
+  },
+  {
+    "description": "Claude Code plugin for per-agent tool visibility \u2014 hide and refuse subagents, skills, MCP and built-in tools per loop",
+    "fullName": "rezzminator/tool-visibility-controller",
+    "url": "https://github.com/rezzminator/tool-visibility-controller"
+  },
+  {
+    "description": "Curated Claude Code mods, original creator demos, public repositories, and installation resources.",
+    "fullName": "magiccreator-ai/awesome-claude-code-mods",
+    "url": "https://github.com/magiccreator-ai/awesome-claude-code-mods"
+  },
+  {
+    "description": "Claude Code mod: compacts an idle session shortly before its prompt cache expires",
+    "fullName": "davidar/claude-idle-compact",
+    "url": "https://github.com/davidar/claude-idle-compact"
+  },
+  {
+    "description": "An idle pixel-art city for Claude Code. It lives in a side pane and grows while you work: every prompt brings new citizens, every edit earns bricks, every command powers a factory, and the tokens you use buy landmarks, from a bed of flowers all the way up to a Dyson swarm.",
+    "fullName": "verdantran/code-city",
+    "url": "https://github.com/verdantran/code-city"
+  },
+  {
+    "description": "Claude Code plugin (mod) that makes the Claude Code terminal UI look like the Claude desktop app: prompt bubbles, markdown tables, mermaid diagrams, folded tool calls, subagent cards, diff pane and context meter.",
+    "fullName": "KyongSik-Yoon/cc-desktop-mod",
+    "url": "https://github.com/KyongSik-Yoon/cc-desktop-mod"
+  },
+  {
+    "description": "Live quota and prompt-cache monitor for Claude Code: how fast your plan windows are filling and when they run out, plus your prompt-cache misses and an estimate of the tokens each one rewrote.",
+    "fullName": "nemke82/claude-code-burnrate",
+    "url": "https://github.com/nemke82/claude-code-burnrate"
+  },
+  {
+    "description": "Make Claude Code talk back \ud83d\udd0a Local text-to-speech for Claude Code replies, built on Claude Code mods. Kokoro voices: no API key, no tokens, offline. 54 voices, 9 languages. macOS + Windows.",
+    "fullName": "restante/claudio-tts",
+    "url": "https://github.com/restante/claudio-tts"
+  },
+  {
+    "description": "Claude Code mod: a haughty persona for trivially easy questions, with 5 levels of disdain (and a secret 6th). Answers stay correct, only the tone changes.",
+    "fullName": "AkdM/claude-snob-mod",
+    "url": "https://github.com/AkdM/claude-snob-mod"
+  },
+  {
+    "description": "The context window as one row above the prompt, drawn the way Claude Code draws its own meters.",
+    "fullName": "kongyo2/context-view",
+    "url": "https://github.com/kongyo2/context-view"
+  },
+  {
+    "description": "Fighting-game combo meter for Claude Code: every clean tool call is a hit, every error breaks the chain. D to SSS ranks, special moves, pixel-art counter, status line mod.",
+    "fullName": "SARTHAK2511/claude-combo",
+    "url": "https://github.com/SARTHAK2511/claude-combo"
+  },
+  {
+    "description": "Awesome Claude Code mods collection | \ud074\ub85c\ub4dc \ucf54\ub4dc \ubaa8\ub4dc \ubaa8\uc74c\uc9d1. Customize Claude Code with status lines, themes, alerts and more \u00b7 \uc0c1\ud0dc\uc904\u00b7\ud14c\ub9c8\u00b7\uc54c\ub9bc\uc73c\ub85c \ud074\ub85c\ub4dc \ucf54\ub4dc\ub97c \uc6d0\ud558\ub294 \ub300\ub85c \ubc14\uafd4\uc694",
+    "fullName": "SeongGwangJu/k-mods",
+    "url": "https://github.com/SeongGwangJu/k-mods"
+  },
+  {
+    "description": "Claude Code modlar\u0131: otomatik devir ve ilerleme \u00e7ubu\u011fu. T\u00fcrk\u00e7e, birka\u00e7 komutla kurulur.",
+    "fullName": "muctebadikmen/claude-code-araclari",
+    "url": "https://github.com/muctebadikmen/claude-code-araclari"
+  },
+  {
+    "description": "Claude Code mod: compacts at the right moment (after a commit, green tests, before the prompt cache expires) or when Claude asks",
+    "fullName": "hellosverre/smart-compact",
+    "url": "https://github.com/hellosverre/smart-compact"
+  },
+  {
+    "description": "Chiikawa (\u3061\u3044\u304b\u308f) fan mod for Claude Code: Hachiware conducts, and the friends take on tasks and talk them over. English, \ud55c\uad6d\uc5b4, \u65e5\u672c\u8a9e (unofficial fan mod)",
+    "fullName": "techkwon/chiikawa",
+    "url": "https://github.com/techkwon/chiikawa"
+  },
+  {
+    "description": "Claude Code mod that redacts secrets and PII before the model reads them, stores placeholders in the conversation rows, and restores real values only inside file edits. No network, no model call.",
+    "fullName": "karanb192/claude-code-redact",
+    "url": "https://github.com/karanb192/claude-code-redact"
+  },
+  {
+    "description": "Proven-freshness context store for coding agents - mtime-verified reuse, TF-IDF recall, faithful compression. 100% local, 0 dependencies.",
+    "fullName": "Azertyuiop442/deepshrink",
+    "url": "https://github.com/Azertyuiop442/deepshrink"
+  },
+  {
+    "description": "Mods for Claude Code: panes, bands and hooks for the terminal and the desktop app",
+    "fullName": "MarcoCarnevali/claude-code-mods",
+    "url": "https://github.com/MarcoCarnevali/claude-code-mods"
+  },
+  {
+    "description": "Claude Code mods for running many sessions across many repos from one control tower",
+    "fullName": "alaturqua/tower-mods",
+    "url": "https://github.com/alaturqua/tower-mods"
+  },
+  {
+    "description": "A Claude mod: your Claude Code usage as a Minecraft-style HUD in the desktop app (5-hour and 7-day limits, context window), with Clawd walking beside it",
+    "fullName": "amsultan2010/clawd-minecraft",
+    "url": "https://github.com/amsultan2010/clawd-minecraft"
+  },
+  {
+    "description": "Claude Code mod for the GTM operator suite: scores every go-to-market draft with its own skill pack's scorer, flags drafts that drift apart across packs, runs a guided sprint, and guards your brand config.",
+    "fullName": "cmj-hub/gtm-operator-claude-mod",
+    "url": "https://github.com/cmj-hub/gtm-operator-claude-mod"
+  },
+  {
+    "description": "",
+    "fullName": "ezequielcutin/claude-hud-plugin",
+    "url": "https://github.com/ezequielcutin/claude-hud-plugin"
+  },
+  {
+    "description": "Claude Foundry \u2014 11 mods for a better Claude Code experience: richer replies, living insights, code review and progress tools.",
+    "fullName": "sruthik27/claude-foundry",
+    "url": "https://github.com/sruthik27/claude-foundry"
+  },
+  {
+    "description": "Claude Code plugins: an audit of how you use Claude Code, and early warnings before you hit usage limits",
+    "fullName": "AbhiramDwivedi/claude-ops",
+    "url": "https://github.com/AbhiramDwivedi/claude-ops"
+  },
+  {
+    "description": "225 Claude Code mods, with a picture where the author published one",
+    "fullName": "ugglr/crabby-claude-code-mods",
+    "url": "https://github.com/ugglr/crabby-claude-code-mods"
+  },
+  {
+    "description": "Claude Code mod: /relaunch reopens the current session in a new terminal tab so newly added MCP servers load",
+    "fullName": "lperezmo/session-relaunch",
+    "url": "https://github.com/lperezmo/session-relaunch"
+  },
+  {
+    "description": "",
+    "fullName": "alexjacobs08/guided-mr",
+    "url": "https://github.com/alexjacobs08/guided-mr"
+  },
+  {
+    "description": "General-purpose mods for Claude Code: bands, panes, toasts and hooks. Includes usage-bar: context, cost and plan limits above the prompt.",
+    "fullName": "andrej-kolic/claude-mods",
+    "url": "https://github.com/andrej-kolic/claude-mods"
+  },
+  {
+    "description": "Mods for Claude Code. agent-crew: watch your subagents work as a live pixel crew, with role, model, current tool, progress, tokens and time.",
+    "fullName": "xinhuagu/oh-my-claude-mods",
+    "url": "https://github.com/xinhuagu/oh-my-claude-mods"
+  },
+  {
+    "description": "\u5074\u908a\u6b04\u7684\u300c\u6211\u554f\u904e\u7684\u300d\uff1a\u4e3b\u4eba\u9019\u6b21\u5c0d\u8a71\u6253\u904e\u7684\u6bcf\u4e00\u53e5\u8a71\uff0c\u9ede\u4e00\u4e0b\u770b\u5168\u6587\u3001\u8907\u88fd\u3001\u653e\u56de\u8f38\u5165\u6846\u3002/prompts \u958b\u6216\u95dc\uff08a Claude Code mod\uff09",
+    "fullName": "jessetsai1024/claude-prompts",
+    "url": "https://github.com/jessetsai1024/claude-prompts"
+  },
+  {
+    "description": "\uc815\uc6b0\uc6a9\uc758 Claude Code mods: usage-band(\uc0ac\uc6a9\ub7c9 \ub760) \u00b7 pocket-pet(\ubc14\ud0d5\ud654\uba74 \ud3ab \ud074\ub85c)",
+    "fullName": "kgrvGRECO/woo-mods",
+    "url": "https://github.com/kgrvGRECO/woo-mods"
+  },
+  {
+    "description": "Big, colorful, configurable buttons above the Claude Code prompt. Buttons and nested selects from one JSON file write or send your prompts.",
+    "fullName": "hugoamadio/claude-quickbar",
+    "url": "https://github.com/hugoamadio/claude-quickbar"
+  },
+  {
+    "description": "\ud83d\udd0d See what a Claude Code plugin (mods, hooks, MCP) can do before you install or upgrade it: capability report, lockfile, upgrade diff",
+    "fullName": "thinx-pro/mod-audit",
+    "url": "https://github.com/thinx-pro/mod-audit"
+  },
+  {
+    "description": "Keep Claude Code on a plan: stages, approval gates and a file budget enforced by hooks, plus seven add-on mods (agents, tokens, handoffs, alerts, PRs, secrets).",
+    "fullName": "connectwithub/loopkeeper",
+    "url": "https://github.com/connectwithub/loopkeeper"
+  },
+  {
+    "description": "A community-curated Claude Code Mods guide: use cases, original demos, compatibility evidence and safety notes. English / \u4e2d\u6587. Unofficial.",
+    "fullName": "Lucas-CX/awesome-claude-mods",
+    "url": "https://github.com/Lucas-CX/awesome-claude-mods"
+  },
+  {
+    "description": "A Claude Code mod that picks the model for each subagent before it starts, and shows what each one cost.",
+    "fullName": "aott33/model-router",
+    "url": "https://github.com/aott33/model-router"
+  },
+  {
+    "description": "Claude Code mods: streamer-mode hides private panes, bands and the status line while you share your screen",
+    "fullName": "huynl-96/claude-mods",
+    "url": "https://github.com/huynl-96/claude-mods"
+  },
+  {
+    "description": "Ten Claude Code mods: an animated pixel pet, Code Wrapped, lo-fi beats, plus a safety net, changes pane, /standup journal and more.",
+    "fullName": "lakmadev/claude-mods",
+    "url": "https://github.com/lakmadev/claude-mods"
+  },
+  {
+    "description": "Say \"I'm lost\" and Claude explains its last reply again in everyday words. A Claude Code plugin.",
+    "fullName": "varunmoka7/layman",
+    "url": "https://github.com/varunmoka7/layman"
+  },
+  {
+    "description": "Claude Code mod: build, test and lint diagnostics in a live pane for every toolchain, with Claude reading the errors instead of the raw log",
+    "fullName": "griches/buildpane",
+    "url": "https://github.com/griches/buildpane"
+  }
+]
