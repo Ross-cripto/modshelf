@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T18:51:18.171Z",
+  "generatedAt": "2026-10-12T20:10:20.546Z",
   "title": "Design System: Modshelf",
   "extensions": {
     "colorMeta": {
@@ -185,6 +185,272 @@
           "oklch(83.57% 0.00790 106.54)",
           "oklch(95.00% 0.00790 106.54)"
         ]
+      },
+      "terminal-ground": {
+        "role": "neutral",
+        "displayName": "Terminal ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "terminal-text": {
+        "role": "neutral",
+        "displayName": "Terminal foreground",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "terminal-muted": {
+        "role": "neutral",
+        "displayName": "Terminal dim text",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "terminal-bright-text": {
+        "role": "neutral",
+        "displayName": "Terminal bright text",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "terminal-border": {
+        "role": "neutral",
+        "displayName": "Terminal perimeter",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "terminal-selection": {
+        "role": "neutral",
+        "displayName": "Terminal selection",
+        "tonalRamp": [
+          "oklch(15.00% 0.04347 89.97)",
+          "oklch(26.43% 0.04347 89.97)",
+          "oklch(37.86% 0.04347 89.97)",
+          "oklch(49.29% 0.04347 89.97)",
+          "oklch(60.71% 0.04347 89.97)",
+          "oklch(72.14% 0.04347 89.97)",
+          "oklch(83.57% 0.04347 89.97)",
+          "oklch(95.00% 0.04347 89.97)"
+        ]
+      },
+      "terminal-red": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI red",
+        "tonalRamp": [
+          "oklch(15.00% 0.14470 21.41)",
+          "oklch(26.43% 0.14470 21.41)",
+          "oklch(37.86% 0.14470 21.41)",
+          "oklch(49.29% 0.14470 21.41)",
+          "oklch(60.71% 0.14470 21.41)",
+          "oklch(72.14% 0.14470 21.41)",
+          "oklch(83.57% 0.14470 21.41)",
+          "oklch(95.00% 0.14470 21.41)"
+        ]
+      },
+      "terminal-bright-red": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright red",
+        "tonalRamp": [
+          "oklch(15.00% 0.12261 20.19)",
+          "oklch(26.43% 0.12261 20.19)",
+          "oklch(37.86% 0.12261 20.19)",
+          "oklch(49.29% 0.12261 20.19)",
+          "oklch(60.71% 0.12261 20.19)",
+          "oklch(72.14% 0.12261 20.19)",
+          "oklch(83.57% 0.12261 20.19)",
+          "oklch(95.00% 0.12261 20.19)"
+        ]
+      },
+      "terminal-green": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI green",
+        "tonalRamp": [
+          "oklch(15.00% 0.11658 139.32)",
+          "oklch(26.43% 0.11658 139.32)",
+          "oklch(37.86% 0.11658 139.32)",
+          "oklch(49.29% 0.11658 139.32)",
+          "oklch(60.71% 0.11658 139.32)",
+          "oklch(72.14% 0.11658 139.32)",
+          "oklch(83.57% 0.11658 139.32)",
+          "oklch(95.00% 0.11658 139.32)"
+        ]
+      },
+      "terminal-bright-green": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright green",
+        "tonalRamp": [
+          "oklch(15.00% 0.11508 137.95)",
+          "oklch(26.43% 0.11508 137.95)",
+          "oklch(37.86% 0.11508 137.95)",
+          "oklch(49.29% 0.11508 137.95)",
+          "oklch(60.71% 0.11508 137.95)",
+          "oklch(72.14% 0.11508 137.95)",
+          "oklch(83.57% 0.11508 137.95)",
+          "oklch(95.00% 0.11508 137.95)"
+        ]
+      },
+      "terminal-yellow": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI yellow",
+        "tonalRamp": [
+          "oklch(15.00% 0.11002 97.88)",
+          "oklch(26.43% 0.11002 97.88)",
+          "oklch(37.86% 0.11002 97.88)",
+          "oklch(49.29% 0.11002 97.88)",
+          "oklch(60.71% 0.11002 97.88)",
+          "oklch(72.14% 0.11002 97.88)",
+          "oklch(83.57% 0.11002 97.88)",
+          "oklch(95.00% 0.11002 97.88)"
+        ]
+      },
+      "terminal-bright-yellow": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright yellow",
+        "tonalRamp": [
+          "oklch(15.00% 0.12883 97.82)",
+          "oklch(26.43% 0.12883 97.82)",
+          "oklch(37.86% 0.12883 97.82)",
+          "oklch(49.29% 0.12883 97.82)",
+          "oklch(60.71% 0.12883 97.82)",
+          "oklch(72.14% 0.12883 97.82)",
+          "oklch(83.57% 0.12883 97.82)",
+          "oklch(95.00% 0.12883 97.82)"
+        ]
+      },
+      "terminal-blue": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.11837 265.43)",
+          "oklch(26.43% 0.11837 265.43)",
+          "oklch(37.86% 0.11837 265.43)",
+          "oklch(49.29% 0.11837 265.43)",
+          "oklch(60.71% 0.11837 265.43)",
+          "oklch(72.14% 0.11837 265.43)",
+          "oklch(83.57% 0.11837 265.43)",
+          "oklch(95.00% 0.11837 265.43)"
+        ]
+      },
+      "terminal-bright-blue": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.08651 266.42)",
+          "oklch(26.43% 0.08651 266.42)",
+          "oklch(37.86% 0.08651 266.42)",
+          "oklch(49.29% 0.08651 266.42)",
+          "oklch(60.71% 0.08651 266.42)",
+          "oklch(72.14% 0.08651 266.42)",
+          "oklch(83.57% 0.08651 266.42)",
+          "oklch(95.00% 0.08651 266.42)"
+        ]
+      },
+      "terminal-magenta": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI magenta",
+        "tonalRamp": [
+          "oklch(15.00% 0.10057 314.39)",
+          "oklch(26.43% 0.10057 314.39)",
+          "oklch(37.86% 0.10057 314.39)",
+          "oklch(49.29% 0.10057 314.39)",
+          "oklch(60.71% 0.10057 314.39)",
+          "oklch(72.14% 0.10057 314.39)",
+          "oklch(83.57% 0.10057 314.39)",
+          "oklch(95.00% 0.10057 314.39)"
+        ]
+      },
+      "terminal-bright-magenta": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright magenta",
+        "tonalRamp": [
+          "oklch(15.00% 0.10628 316.97)",
+          "oklch(26.43% 0.10628 316.97)",
+          "oklch(37.86% 0.10628 316.97)",
+          "oklch(49.29% 0.10628 316.97)",
+          "oklch(60.71% 0.10628 316.97)",
+          "oklch(72.14% 0.10628 316.97)",
+          "oklch(83.57% 0.10628 316.97)",
+          "oklch(95.00% 0.10628 316.97)"
+        ]
+      },
+      "terminal-cyan": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI cyan",
+        "tonalRamp": [
+          "oklch(15.00% 0.07430 207.85)",
+          "oklch(26.43% 0.07430 207.85)",
+          "oklch(37.86% 0.07430 207.85)",
+          "oklch(49.29% 0.07430 207.85)",
+          "oklch(60.71% 0.07430 207.85)",
+          "oklch(72.14% 0.07430 207.85)",
+          "oklch(83.57% 0.07430 207.85)",
+          "oklch(95.00% 0.07430 207.85)"
+        ]
+      },
+      "terminal-bright-cyan": {
+        "role": "secondary",
+        "displayName": "Terminal ANSI bright cyan",
+        "tonalRamp": [
+          "oklch(15.00% 0.06579 204.42)",
+          "oklch(26.43% 0.06579 204.42)",
+          "oklch(37.86% 0.06579 204.42)",
+          "oklch(49.29% 0.06579 204.42)",
+          "oklch(60.71% 0.06579 204.42)",
+          "oklch(72.14% 0.06579 204.42)",
+          "oklch(83.57% 0.06579 204.42)",
+          "oklch(95.00% 0.06579 204.42)"
+        ]
+      },
+      "terminal-orange": {
+        "role": "secondary",
+        "displayName": "Terminal true-color orange",
+        "tonalRamp": [
+          "oklch(15.00% 0.18117 56.46)",
+          "oklch(26.43% 0.18117 56.46)",
+          "oklch(37.86% 0.18117 56.46)",
+          "oklch(49.29% 0.18117 56.46)",
+          "oklch(60.71% 0.18117 56.46)",
+          "oklch(72.14% 0.18117 56.46)",
+          "oklch(83.57% 0.18117 56.46)",
+          "oklch(95.00% 0.18117 56.46)"
+        ]
       }
     },
     "typographyMeta": {
@@ -220,13 +486,13 @@
         "displayName": "Monospace command",
         "purpose": "Contribution commands; narrow screens reduce size to 12px."
       },
-      "game-tile": {
-        "displayName": "Newsreader game numeral",
-        "purpose": "Centered tile values with lining and tabular numerals; four-digit values and phones use the smaller treatments documented in Typography."
+      "terminal": {
+        "displayName": "Native terminal monospace",
+        "purpose": "Menlo, Monaco, Consolas, monospace is scoped to the xterm preview and terminal notices. Fixed 13px text with lineHeight 1.25; ANSI bold supplies emphasis without a separate game-size ramp."
       },
-      "game-score": {
-        "displayName": "Inter game score",
-        "purpose": "Score and best tile values above the board, using tabular numerals."
+      "game-control": {
+        "displayName": "Inter supplemental game control",
+        "purpose": "Play, Restart, and Undo labels outside the native terminal use the compact 12px Inter treatment."
       }
     },
     "shadows": [
@@ -265,7 +531,7 @@
       {
         "name": "game-control-hover",
         "value": "background-color 120ms",
-        "purpose": "Directional and undo hover fill; removed for reduced motion. Tile moves render immediately."
+        "purpose": "Supplemental direction, Play, Restart, and Undo hover fill; removed for reduced motion. Terminal moves update immediately and the cursor does not blink."
       }
     ],
     "breakpoints": [
@@ -288,10 +554,6 @@
       {
         "name": "wide",
         "value": "1500px"
-      },
-      {
-        "name": "arcade-intermediate",
-        "value": "1000px"
       },
       {
         "name": "arcade-short-desktop",
@@ -387,32 +649,44 @@
       "css": ".ds-demo-action{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin:4px 17px 14px;border:1px solid #cfb9ab;border-radius:5px;background:var(--soft,#f4e8de);color:var(--rust,#a94f34);font-family:Inter,sans-serif;font-size:12px;font-weight:500;text-decoration:none;}.ds-demo-action:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@media(hover:hover){.ds-demo-action:hover{background:#ecdbcb;}}"
     },
     {
-      "name": "Arcade Board and Controls",
+      "name": "Arcade Terminal and Controls",
       "kind": "custom",
-      "description": "The shipped opening board, score toolbar, directional controls, unavailable undo state, and keyboard/touch instruction line. Static specimen; game behavior remains in the application.",
-      "html": "<section class=\"ds-arcade\" aria-label=\"Play 2048\"><div class=\"ds-arcade-toolbar\"><dl class=\"ds-arcade-scores\"><div><dt>Score</dt><dd>0</dd></div><div><dt>Best tile</dt><dd>2</dd></div></dl><button class=\"ds-arcade-new-game\" type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>New game</button></div><div class=\"ds-arcade-board\" role=\"grid\" aria-label=\"2048 game board\" aria-rowcount=\"4\" aria-colcount=\"4\" aria-describedby=\"ds-arcade-instructions\" tabindex=\"0\"><div class=\"ds-arcade-row\" role=\"row\" aria-rowindex=\"1\"><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"1\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"2\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"3\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"4\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div></div><div class=\"ds-arcade-row\" role=\"row\" aria-rowindex=\"2\"><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"1\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"2\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"3\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"4\" aria-label=\"2\" data-value=\"2\" data-long=\"false\">2</div></div><div class=\"ds-arcade-row\" role=\"row\" aria-rowindex=\"3\"><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"1\" aria-label=\"2\" data-value=\"2\" data-long=\"false\">2</div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"2\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"3\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"4\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div></div><div class=\"ds-arcade-row\" role=\"row\" aria-rowindex=\"4\"><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"1\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"2\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"3\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div><div class=\"ds-arcade-tile\" role=\"gridcell\" aria-colindex=\"4\" aria-label=\"Empty\" data-value=\"0\" data-long=\"false\"></div></div></div><div class=\"ds-arcade-controls\"><div class=\"ds-arcade-directions\" aria-label=\"Move tiles\"><button type=\"button\" aria-label=\"Move left\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg></button><button type=\"button\" aria-label=\"Move up\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12 7-7 7 7\"></path><path d=\"M12 19V5\"></path></svg></button><button type=\"button\" aria-label=\"Move down\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14\"></path><path d=\"m19 12-7 7-7-7\"></path></svg></button><button type=\"button\" aria-label=\"Move right\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg></button></div><button class=\"ds-arcade-undo\" type=\"button\" disabled><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 14 4 9l5-5\"></path><path d=\"M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11\"></path></svg>Undo</button></div><p class=\"ds-arcade-instructions\" id=\"ds-arcade-instructions\">Arrow keys or WASD. On your phone, swipe the board.</p></section>",
-      "css": ".ds-arcade-new-game{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:0 21px;border:1px solid transparent;border-radius:5px;font-family:Inter,sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background-color 150ms,color 150ms,transform 150ms;background:transparent;color:var(--ink,#24241f);border-color:#bcbdb3;}.ds-arcade-new-game:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-arcade-new-game:active{transform:scale(.98)}.ds-arcade-new-game:disabled{opacity:.65;cursor:wait}@media(hover:hover) and (pointer:fine){.ds-arcade-new-game:hover{background:#eeeee6;}}@media(prefers-reduced-motion:reduce){.ds-arcade-new-game{transition-duration:0s}.ds-arcade-new-game:active{transform:none}}.ds-arcade{width:100%;max-width:440px;min-width:0;color:var(--ink,#24241f);font-family:Inter,sans-serif;font-size:14px;}.ds-arcade svg{flex-shrink:0;}.ds-arcade-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px;}.ds-arcade-scores{display:flex;gap:32px;margin:0;}.ds-arcade-scores dt{font-size:12px;color:var(--muted,#5e6067);margin-bottom:5px;}.ds-arcade-scores dd{font-size:25px;font-weight:600;font-variant-numeric:tabular-nums;margin:0;line-height:1;}.ds-arcade-new-game{min-height:44px;padding-inline:14px;gap:8px;}.ds-arcade-board{background:#d8d7ca;border:1px solid #cbcbbc;border-radius:7px;padding:12px;display:grid;gap:10px;touch-action:pinch-zoom;user-select:none;}.ds-arcade-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;}.ds-arcade-tile{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:4px;background:#444b32;color:#fff;font-family:Newsreader,serif;font-size:40px;font-weight:600;font-variant-numeric:lining-nums tabular-nums;line-height:1;}.ds-arcade-tile[data-value=\"0\"]{background:#e8e7df;}.ds-arcade-tile[data-value=\"2\"]{background:#f7f4eb;color:#383a30;}.ds-arcade-tile[data-value=\"4\"]{background:var(--sage,#dde4d5);color:#34442e;}.ds-arcade-tile[data-value=\"8\"]{background:#eacfb6;color:#62412d;}.ds-arcade-tile[data-value=\"16\"]{background:#dfb894;color:#563222;}.ds-arcade-tile[data-value=\"32\"]{background:#a95b42;}.ds-arcade-tile[data-value=\"64\"]{background:var(--rust,#a94f34);}.ds-arcade-tile[data-value=\"128\"],.ds-arcade-tile[data-value=\"256\"],.ds-arcade-tile[data-value=\"512\"]{background:#806c32;}.ds-arcade-tile[data-value=\"1024\"],.ds-arcade-tile[data-value=\"2048\"]{background:#5d653c;}.ds-arcade-tile[data-long=\"true\"]{font-size:31px;}.ds-arcade-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:16px;}.ds-arcade-directions{display:flex;gap:8px;}.ds-arcade-directions button,.ds-arcade-undo{display:inline-flex;align-items:center;justify-content:center;height:44px;border:1px solid #bcbdb3;border-radius:5px;background:transparent;color:var(--ink,#24241f);font-family:Inter,sans-serif;cursor:pointer;transition:background-color 120ms;}.ds-arcade-directions button{width:44px;}.ds-arcade-undo{padding-inline:12px;gap:7px;font-size:12px;}.ds-arcade button:disabled{cursor:default;opacity:.45;}.ds-arcade-board:focus-visible,.ds-arcade button:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}.ds-arcade-instructions{margin:14px 0 0;color:var(--muted,#5e6067);font-size:12px;line-height:1.7;}@media(hover:hover){.ds-arcade-directions button:hover:not(:disabled),.ds-arcade-undo:hover:not(:disabled){background:#eeeee6;}}@media(max-width:1000px){.ds-arcade{max-width:420px;}}@media(min-width:761px) and (max-height:800px){.ds-arcade{max-width:352px;}.ds-arcade-toolbar{margin-bottom:12px;}.ds-arcade-controls{margin-top:12px;}}@media(max-width:760px){.ds-arcade{max-width:440px;}.ds-arcade-board{padding:10px;gap:8px;}.ds-arcade-row{gap:8px;}.ds-arcade-tile{font-size:clamp(29px,8vw,40px);}.ds-arcade-tile[data-long=\"true\"]{font-size:clamp(22px,6vw,31px);}.ds-arcade-scores{gap:24px;}}@media(prefers-reduced-motion:reduce){.ds-arcade-directions button,.ds-arcade-undo{transition:none;}}"
+      "refersTo": "arcade-terminal",
+      "description": "Static specimen of the shipped xterm opening frame, native text board, prompt, inline score and session best, and supplemental controls. The specimen does not run a terminal or game; interaction remains in the application.",
+      "html": "<section class=\"ds-arcade\" aria-label=\"Static specimen of cc-arcade terminal preview\"><div class=\"ds-arcade-terminal\"><div class=\"ds-terminal-host\" tabindex=\"0\" role=\"img\" aria-label=\"Opening terminal board: four by four, two tiles showing 2, score 0 and session best 0\"><pre class=\"ds-terminal-trace\"><strong>Claude Code</strong>\n<span class=\"ds-terminal-dim\">cc-arcade · browser preview</span>\n\n<span class=\"ds-terminal-dim\">❯ /arcade 2048\ncc-arcade: 2048 · click the board to play · Esc returns to the prompt</span></pre><div class=\"ds-terminal-band\"><pre class=\"ds-terminal-actions\"><strong>[ ← games ] [ close ]</strong></pre><pre class=\"ds-terminal-board\"><span class=\"ds-terminal-yellow\">╭─────────────────────────╮</span>\n<span class=\"ds-terminal-yellow\">│</span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-yellow\"> │</span>\n<span class=\"ds-terminal-yellow\">│</span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-text\">    2 </span><span class=\"ds-terminal-yellow\"> │</span>\n<span class=\"ds-terminal-yellow\">│</span><span class=\"ds-terminal-text\">    2 </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-yellow\"> │</span>\n<span class=\"ds-terminal-yellow\">│</span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-dim\">    · </span><span class=\"ds-terminal-yellow\"> │</span>\n<span class=\"ds-terminal-yellow\">╰─────────────────────────╯</span></pre><pre class=\"ds-terminal-status ds-terminal-dim\">2048 · score 0 · click here, then arrows or wasd · r restarts · best 0</pre><div class=\"ds-terminal-rule ds-terminal-dim\" aria-hidden=\"true\">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div><pre class=\"ds-terminal-prompt\">❯ <span class=\"ds-terminal-cursor\" aria-hidden=\"true\"></span></pre><div class=\"ds-terminal-rule ds-terminal-dim\" aria-hidden=\"true\">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</div></div></div></div><div class=\"ds-arcade-controls\"><div class=\"ds-arcade-directions\" aria-label=\"Move tiles\"><button type=\"button\" aria-label=\"Move left\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"19\" height=\"19\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg></button><button type=\"button\" aria-label=\"Move up\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"19\" height=\"19\"><path d=\"m5 12 7-7 7 7\"></path><path d=\"M12 19V5\"></path></svg></button><button type=\"button\" aria-label=\"Move down\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"19\" height=\"19\"><path d=\"M12 5v14\"></path><path d=\"m19 12-7 7-7-7\"></path></svg></button><button type=\"button\" aria-label=\"Move right\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"19\" height=\"19\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg></button></div><div class=\"ds-arcade-actions\"><button type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><line x1=\"6\" x2=\"10\" y1=\"11\" y2=\"11\"></line><line x1=\"8\" x2=\"8\" y1=\"9\" y2=\"13\"></line><line x1=\"15\" x2=\"15.01\" y1=\"12\" y2=\"12\"></line><line x1=\"18\" x2=\"18.01\" y1=\"10\" y2=\"10\"></line><path d=\"M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z\"></path></svg>Play</button><button type=\"button\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"15\" height=\"15\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>Restart</button><button type=\"button\" disabled><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" width=\"16\" height=\"16\"><path d=\"M9 14 4 9l5-5\"></path><path d=\"M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11\"></path></svg>Undo</button></div></div><p class=\"ds-arcade-instructions\">Click the text board, then use arrows or WASD. R restarts. Esc returns to the prompt. On your phone, swipe the board or use the buttons.</p><p class=\"ds-arcade-note\">Browser preview · 2048 only · no Claude session connected.</p></section>",
+      "css": ".ds-arcade{width:100%;max-width:1040px;min-width:0;color:var(--ink,#24241f);font-family:Inter,sans-serif;font-size:14px}.ds-arcade svg{flex-shrink:0}.ds-arcade-terminal{padding:18px;border:1px solid #303030;border-radius:7px;background:#0d0d0d;color:#dedede;touch-action:pinch-zoom}.ds-terminal-host{height:324px;display:flex;flex-direction:column;overflow:hidden;font-family:Menlo,Monaco,Consolas,monospace;font-size:13px;font-weight:400;line-height:1.25}.ds-terminal-host:focus-visible{outline:1px solid #c8b65f;outline-offset:6px}.ds-terminal-host pre{margin:0;font-family:Menlo,Monaco,Consolas,monospace;font-size:13px;line-height:1.25;white-space:pre;overflow:hidden}.ds-terminal-host strong{font-weight:700}.ds-terminal-band{margin-top:auto}.ds-terminal-dim{color:#999999}.ds-terminal-text{color:#dedede}.ds-terminal-yellow{color:#c8b65f}.ds-terminal-rule{height:16.25px;overflow:hidden;white-space:pre}.ds-terminal-cursor{display:inline-block;width:7.8px;height:13px;background:#dedede;vertical-align:text-bottom}.ds-arcade-controls{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-top:16px}.ds-arcade-directions,.ds-arcade-actions{display:flex;gap:8px}.ds-arcade-controls button{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:44px;border:1px solid #bcbdb3;border-radius:5px;background:transparent;color:var(--ink,#24241f);font-family:Inter,sans-serif;font-size:12px;font-weight:400;cursor:pointer;transition:background-color 120ms}.ds-arcade-directions button{width:44px}.ds-arcade-actions button{padding-inline:12px}.ds-arcade-controls button:disabled{cursor:default;opacity:.45}.ds-arcade-controls button:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px}.ds-arcade-instructions{margin:14px 0 0;color:var(--muted,#5e6067);font-size:12px;line-height:1.7;max-width:720px}.ds-arcade-note{margin:8px 0 0;color:var(--muted,#5e6067);font-size:11px;line-height:1.7}@media(hover:hover){.ds-arcade-controls button:hover:not(:disabled){background:#eeeee6}}@media(max-width:760px){.ds-arcade-terminal{padding:12px}}@media(prefers-reduced-motion:reduce){.ds-arcade-controls button{transition:none}}"
     }
   ],
   "narrative": {
     "northStar": "The Community Shelf",
-    "overview": "Modshelf combines warm paper, charcoal lettering, and hand-drawn objects into an approachable community catalog. The illustrations share ink contours, muted fills, and familiar desk materials; the surrounding interface gives titles, descriptions, and controls room to be read.\n\nThe same restrained controls and editorial type continue through repository contribution guidance, installation instructions, and mod details. Color marks actions and saved states; thin dividers and modest corners organize the rest.",
+    "overview": "Modshelf combines warm paper, charcoal lettering, and hand-drawn objects into an approachable community catalog. The illustrations share ink contours, muted fills, and familiar desk materials; the surrounding interface gives titles, descriptions, and controls room to be read.\n\nThe same restrained controls and editorial type continue through repository contribution guidance, installation instructions, and mod details. Color marks actions and saved states; thin dividers and modest corners organize the rest. Embedded mod previews retain their native text interface inside this surrounding shelf treatment.",
     "keyCharacteristics": [
       "Warm ivory surfaces and charcoal ink.",
       "Newsreader headings paired with Inter controls and prose.",
       "One family of hand-drawn ink illustrations with muted color.",
       "Flat resting surfaces, soft hover depth, and visible keyboard focus.",
-      "A short authored bookmark settle with reduced-motion support."
+      "A short authored bookmark settle with reduced-motion support.",
+      "Scoped native terminal text within the illustrated reading and control system."
     ],
     "rules": [
       {
         "name": "The Action Ink Rule",
-        "body": "Use rust for actionable or selected interface states; keep ordinary prose in ink or muted text.",
+        "body": "Use rust for actionable or selected states in the surrounding Modshelf interface; keep ordinary prose in ink or muted text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Terminal Color Rule",
+        "body": "Keep ANSI and true-color game states within terminal text; retain paper, ink, and rust for the surrounding shelf controls.",
         "section": "colors"
       },
       {
         "name": "The Two Voices Rule",
-        "body": "Use Newsreader for headings and Inter for controls and prose; reserve monospace for commands and code.",
+        "body": "Use Newsreader for headings and Inter for controls and prose; reserve monospace for commands, code, and native terminal content.",
+        "section": "typography"
+      },
+      {
+        "name": "The Terminal Cell Rule",
+        "body": "Preserve the terminal font size and cell geometry across viewport sizes; reflow the surrounding controls and context rather than enlarging game numerals or turning text cells into filled tiles.",
         "section": "typography"
       },
       {
@@ -430,13 +704,15 @@
       "Do use the paper, ink, and rust roles consistently across catalog, contribution, and guidance.",
       "Do continue the hand-drawn ink illustration family with muted fills and fully visible objects.",
       "Do keep visible labels, rust keyboard focus, and the established phone control sizes.",
-      "Do preserve the authored bookmark state change and reduced-motion behavior."
+      "Do preserve the authored bookmark state change and reduced-motion behavior.",
+      "Do preserve native terminal text geometry and ANSI states within mod previews while retaining the shelf treatment around them."
     ],
     "donts": [
       "Don't replace the heading and body pairing with a single display voice.",
       "Don't add resting card shadows when a surface tone and fine border provide the existing separation.",
-      "Don't use monospace for ordinary descriptions or action labels.",
-      "Don't crop catalog illustrations into generic icon badges."
+      "Don't use monospace for ordinary shelf descriptions or external action labels.",
+      "Don't crop catalog illustrations into generic icon badges.",
+      "Don't replace the cc-arcade terminal with filled tiles, serif numerals, or a separate score-card toolbar."
     ]
   }
 }

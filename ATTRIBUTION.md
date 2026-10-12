@@ -33,7 +33,9 @@ Each mod retains its own license and authorship. Listings contain source links a
 
 ## cc-arcade browser demo
 
-The 2048 rules in `lib/cc-arcade-2048.ts` are adapted from [cc-arcade's twenty48.ts](https://github.com/sezaakgun/cc-arcade/blob/0baff06d31295850283c2eebe052f39bbc35473f/hooks/games/twenty48.ts), pinned to commit `0baff06d31295850283c2eebe052f39bbc35473f`. Copyright (c) 2026 Seza Akgün, licensed under MIT. The full upstream [license](public/licenses/cc-arcade-MIT.txt) is retained in the repository and source download. Modshelf adds the browser interface, keyboard and touch input, undo, and game-state feedback. The preview runs locally in the visitor's browser and does not execute a Claude Code session or the mod's terminal host.
+The 2048 rules in `lib/cc-arcade-2048.ts` are adapted from [cc-arcade's twenty48.ts](https://github.com/sezaakgun/cc-arcade/blob/0baff06d31295850283c2eebe052f39bbc35473f/hooks/games/twenty48.ts), pinned to commit `0baff06d31295850283c2eebe052f39bbc35473f`. Its live terminal output in `lib/arcade-terminal.ts` follows the [original board renderer](https://github.com/sezaakgun/cc-arcade/blob/0baff06d31295850283c2eebe052f39bbc35473f/hooks/boards/twenty48.tsx) and [AbovePrompt wrapper](https://github.com/sezaakgun/cc-arcade/blob/0baff06d31295850283c2eebe052f39bbc35473f/hooks/register.tsx) at the same commit. Copyright (c) 2026 Seza Akgün, licensed under MIT. The full upstream [license](public/licenses/cc-arcade-MIT.txt) is retained in the repository and source download. Modshelf supplies the xterm.js browser host, limited local command flow, supplemental touch controls, undo, and accessibility feedback. The preview includes only 2048, runs locally in the visitor's browser, and does not execute a Claude Code session or the mod's terminal host.
+
+The browser terminal uses [xterm.js](https://github.com/xtermjs/xterm.js) and its fit addon. Their MIT license texts are included at [public/licenses/xterm-MIT.txt](public/licenses/xterm-MIT.txt) and [public/licenses/xterm-addon-fit-MIT.txt](public/licenses/xterm-addon-fit-MIT.txt).
 
 ## Website assets
 

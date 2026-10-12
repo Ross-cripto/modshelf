@@ -17,9 +17,9 @@ Open http://localhost:3000. Search, categories, sorting, browser-local saved mod
 
 ## Try a mod
 
-The cc-arcade listing includes **Try this mod**, opening a playable [2048 browser demo](https://modshelf.vercel.app/mods/cc-arcade/demo). Use arrow keys or WASD while the board is focused, swipe on touch screens, or use the direction buttons. The demo includes score, best tile, one-step undo, new games, and win/continue and game-over states.
+The cc-arcade listing includes **Try this mod**, opening a playable [2048 terminal preview](https://modshelf.vercel.app/mods/cc-arcade/demo). Its xterm.js frontend follows the original compact text board, colored numbers, bracketed controls, and inline status above the prompt. Click the board or press Play, then use arrows or WASD. R restarts; Esc returns to the prompt. `/arcade` opens the 2048 picker, `/arcade 2048` starts it, and `/arcade stop` closes it. Touch swipes and 44px direction/restart/undo buttons supplement the terminal on phones. Reaching 2048 continues automatically, and best scores track completed games within the preview session.
 
-This is a browser adaptation of cc-arcade's MIT-licensed rules, with creator credit and pinned source in [ATTRIBUTION.md](ATTRIBUTION.md). It needs no credentials or server execution. Game rules and input/state helpers live in `lib/cc-arcade-2048.ts` and `lib/arcade-demo.ts`; the isolated client interface is in `components/arcade-2048.tsx`.
+This is a browser adaptation of cc-arcade's MIT-licensed rules and terminal renderer, with creator credit and pinned source in [ATTRIBUTION.md](ATTRIBUTION.md). Only 2048 is included; no Claude Code session, model responses, or arbitrary shell commands are executed. It needs no credentials or backend. Rules and state helpers live in `lib/cc-arcade-2048.ts` and `lib/arcade-demo.ts`; terminal formatting and interaction live in `lib/arcade-terminal.ts` and `lib/arcade-terminal-session.ts`. The isolated client interface is in `components/arcade-2048.tsx`.
 
 ## Contribute through the repository
 

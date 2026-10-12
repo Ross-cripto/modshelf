@@ -1,14 +1,13 @@
 import { createGame, moveGame, type Direction, type Game2048 } from "./cc-arcade-2048.ts";
 const MIN_SWIPE_DISTANCE = 24;
 type Point = { x: number; y: number };
-export type DemoState = { game: Game2048; previousGame: Game2048 | null; hasContinued: boolean; message: string };
+export type DemoState = { game: Game2048; previousGame: Game2048 | null; bestScore: number; message: string };
 export type DemoAction =
   | { type: "move"; direction: Direction; positionSample: number; valueSample: number }
   | { type: "undo" }
-  | { type: "continue" }
   | { type: "reset"; game: Game2048 };
 export function createDemoState(game: Game2048): DemoState {
-  return { game, previousGame: null, hasContinued: false, message: "Combine matching tiles to reach 2048." };
+  return { game, previousGame: null, bestScore: 0, message: "Click the board to play. Escape returns to the prompt." };
 }
 
 export function createOpeningState(): DemoState {
@@ -35,28 +34,25 @@ function moveWithSamples(game: Game2048, action: Extract<DemoAction, { type: "mo
 
 export function reduceDemo(state: DemoState, action: DemoAction): DemoState {
   switch (action.type) {
-    case "reset": return createDemoState(action.game);
+    case "reset": return { ...createDemoState(action.game), bestScore: state.bestScore };
     case "undo": {
       if (!state.previousGame) return state;
       return {
         game: state.previousGame,
         previousGame: null,
-        hasContinued: state.previousGame.won && state.hasContinued,
+        bestScore: state.bestScore,
         message: `Last move undone. Score: ${state.previousGame.score}.`,
       };
     }
-    case "continue": {
-      if (!state.game.won || state.game.over || state.hasContinued) return state;
-      return { ...state, hasContinued: true, message: "Keep going. How high can you get?" };
-    }
     case "move": {
-      if (state.game.over || (state.game.won && !state.hasContinued)) return state;
+      if (state.game.over) return state;
       const game = moveWithSamples(state.game, action);
       if (game === state.game) return state;
       return {
         ...state,
         game,
         previousGame: state.game,
+        bestScore: game.over ? Math.max(state.bestScore, game.score) : state.bestScore,
         message: getMoveMessage(state.game, game, action.direction),
       };
     }
