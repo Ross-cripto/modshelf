@@ -80,6 +80,8 @@ Keep the original creator's name and repository. Prefer one listing per installa
 
 ## Other contributions
 
+Browser demos are curated code contributions, separate from catalog submissions. The first example is cc-arcade's 2048 at `/mods/cc-arcade/demo`. Keep game rules and input/state helpers separate from the browser interface, test their behavior, and preserve the shared design. Include commit-pinned upstream source, creator credit, and the complete license for any adapted code. State clearly that a browser adaptation is a preview, rather than a running Claude Code session. A catalog entry must never load or execute arbitrary remote mod code.
+
 Use the bug-report template for reproducible website problems. For a new feature, open an issue explaining the use case before preparing a large change. Keep changes focused and preserve the documented design system. Be respectful, credit other contributors, and discuss the work rather than the person.
 
-Site code is licensed under MIT. By contributing code, copy, or original artwork, you agree to make that contribution available under the project license. Third-party mod packages remain in their own repositories under their own licenses; link to them rather than copying their code into this project. Report security problems using [SECURITY.md](SECURITY.md).
+Site code is licensed under MIT. By contributing code, copy, or original artwork, you agree to make that contribution available under the project license. Third-party mod packages remain in their own repositories under their own licenses. Any small, licensed code adaptation for an approved browser demo must retain its upstream attribution and license, as documented above. Report security problems using [SECURITY.md](SECURITY.md).

@@ -21,6 +21,7 @@ import { CATEGORIES, filterMods, type Mod } from "@/lib/catalog";
 import { artworkUrl } from "@/lib/artwork";
 import { catalogHeading, catalogDescription } from "@/lib/catalog-presentation";
 import { SEED_MODS } from "@/lib/seed-mods";
+import { getModDemoHref } from "@/lib/mod-demos";
 import { CopyButton } from "./copy-button";
 
 import { getBookmarkSnapshot, getServerBookmarkSnapshot, subscribeBookmarks, writeBookmarks } from "@/lib/bookmarks";
@@ -53,6 +54,7 @@ function ModCard({
   onSave: (id: string) => void;
   onOpen: (mod: Mod) => void;
 }) {
+  const demoHref = getModDemoHref(mod.id);
   return (
     <article className="mod-card">
       <button
@@ -93,6 +95,11 @@ function ModCard({
           <Bookmark size={17} strokeWidth={1.6} />
         </button>
       </div>
+      {demoHref && (
+        <Link href={demoHref} className="card-demo-action" aria-label={`Try this mod: ${mod.name}`}>
+          <Gamepad2 size={16} aria-hidden="true" /> Try this mod <ArrowRight size={14} aria-hidden="true" />
+        </Link>
+      )}
     </article>
   );
 }
@@ -108,6 +115,7 @@ function ModDetail({
   isSaved: boolean;
   onSave: (id: string) => void;
 }) {
+  const demoHref = getModDemoHref(mod.id);
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -185,6 +193,11 @@ function ModDetail({
           </Link>
         </section>
         <div className="detail-bottom">
+          {demoHref && (
+            <Link className="button button-rust" href={demoHref}>
+              Try this mod <Gamepad2 size={16} aria-hidden="true" />
+            </Link>
+          )}
           {mod.repository ? (
             <a
               className="button button-dark"
