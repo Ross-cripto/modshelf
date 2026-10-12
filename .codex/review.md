@@ -1,21 +1,33 @@
-# Prompt-driven mod demos review
+# Native mod fidelity review
 
-Base: main @ 4c9bb9d711df064611f7369bb174804f8f4343f7
-Branch: feat/prompt-driven-mod-demos
-Scope: all 24 catalog demos, shared browser-local work loop, native mod interactions, contributor/source documentation.
+Base: main @ 9d1dd54d190ba04a73cc9bd240db644b7b657ae6
+Branch: fix/native-mod-demo-fidelity
+Scope: all 24 source comparisons, terminal adapters and lifecycle transitions, concise preview pages and catalog detail actions.
 
-## Code review
+## Source comparison
 
-TypeScript review: READY. Nine findings resolved: keyboard shortcuts, idle/Stop queue drain and dispatch interval, busy /q send, Dino restart/collision bounds, current-turn Prismantis streaming, one risk fixture, captured file context, Unicode cell widths.
+The three family audits record pinned/current upstream revisions and exact hook/render references for every mod: docs/fidelity-core.md (7), docs/fidelity-hooks.md (9), docs/fidelity-panes.md (8). Current revisions were inspected from official GitHub repositories, including changed Prismantis and Flightdeck HEADs whose registration hooks match the earlier snapshots. Adapted Mindful Claude, Dino and Clawd artwork retains full upstream MIT notices.
 
-React review: scoped Approve. Six findings resolved: equivalent keyboard controls, plain Tab focus traversal, reduced-motion artwork, explicit status helper, Clipboard fallback, stable transcript IDs on history rollover. Screen-reader conversation additions/status remain polite; current mod output is browseable non-live text.
+## Independent code review
 
-## Validation
+TypeScript reviewer: APPROVE. Resolved stopped Flowpane runs changing status on a later prompt, prompt rail truncating selected historical replies, and Mermaid accepting an unsupported graph containing extra edges. Regression tests cover each. A narrow Mermaid followup approved exact supported-fence matching and completed-history rendering.
 
-All 24 adapters tested across idle/work/completion/second-turn at desktop and phone terminal widths. Browser checks covered arbitrary prompt and Stop on all 24, arcade move/completion, native Mission Code shortcut and Tab exit, selected file context, PR feedback submission, local browser navigation and context insertion. Queue and guards have pure transition regressions. Catalog validates 24 entries; production build generates all 24 demo pages and returns unknown IDs as 404. 127 tests pass, catalog validation passes, and the production build generates 31 pages including all 24 demos. A local production server returned 200 for all 24 demo routes and 404 for an unknown route. Runtime and docs in the source archive match local files, with no environment entries. CI and deployment evidence are recorded in the PR.
+React reviewer: scoped APPROVE. Named pure Markdown parsing replaces parsing inside render callbacks. PR text selection disables xterm mouse reporting and separates click controls from native drags; cleanup removes pointer listeners. Actual normal Mac browser drag was verified after the code review, retaining its quoted passage in a review comment.
 
-Screenshots: .impeccable/review/desktop.jpg, mobile.jpg, user-1280.jpg. Impeccable full review returned five material fixes; its verdict pass scored all five resolved with disposition ship. This ship verdict covers the scored fixes. The inherited homepage numerical gate at 0.8152 remains outside this terminal-extension scope. Existing narrow Inter design exception preserved; no new ignore added.
+## Verification
+
+198 tests pass. Catalog validation covers all 24 mods. TypeScript and git diff whitespace checks pass. The production build generates all 24 demo routes; local HTTP checks return 200 for each and 404 for an unknown mod. Source archive tests verify contributor/source coverage and exclude local credentials. Final build and publication results are recorded in the pull request.
+
+Browser checks: arbitrary prompt and playable 2048, desktop 1440, phone 390 and user-width 1280 layouts; normal Mac PR text selection and quoted feedback; native Browser Grab fills the composer without automatic submission; closed Mermaid renders in history while another prompt works. Catalog has 24 card demo links and no duplicate demo action in its details dialog.
+
+## Fresh design review
+
+Disposition: ship. The fresh full review covers the terminal correction and catalog action cleanup, with all five contract sections returned (persistence, fidelity, ceiling, material_fixes, keep) and no material fixes. All seven required evidence files were opened and validated: fidelity-desktop.jpg, fidelity-mobile.jpg, fidelity-user-1280.jpg, fidelity-user-1280-viewport.jpg, fidelity-pr-selection.jpg, fidelity-browser.jpg and fidelity-mermaid.jpg in .impeccable/review/. The full-page provider's skip-link overlay is a capture artifact; the native top viewport has no overlay.
+
+The reviewer verified inherited type/material/ground, concise hierarchy, card-to-terminal flow, 44px phone actions, native pane/cell treatment and the source-audit boundaries. The inherited homepage reproduction gate at 0.8152 remains outside this scope. Existing narrow intentional Inter exception preserved; no new suppression. Final DESIGN.md and its sidecar are synchronized after review.
 
 ## Boundaries
 
-No model calls, remote mod execution, account telemetry, GitHub comments, real audio or browser services. Per-mod supported subsets and pinned source evidence are documented in docs/mod-demos.md and visible in each demo. Messages stay in browser memory. Source archive includes the runtime, views, tests and docs; local credentials are excluded.
+These are scripted browser previews, not Claude Code or remote mod execution. Audits explicitly document fixtures for accounts, files, images, browser pages and Spotify; Arcade exposes 2048 only, Flowpane has reduced configuration, Dino samples slower physics and Clawd exposes selected native poses. Native event triggers, shown controls and terminal geometry follow the inspected sources, without claiming complete upstream runtime parity.
+
+Publish the reviewed GitHub/main state to Vercel and synchronize the older Sites source with the same catalog/runtime. Sites retains owner-private access and its static-export hosting adaptation.

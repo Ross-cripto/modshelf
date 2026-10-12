@@ -16,7 +16,7 @@ test("all 24 adapters render prompt, work, completion and another turn at deskto
       for (const width of [43, 132]) {
         const frame = buildDemoTerminalFrame(state, width, 30);
         assert.equal(frame.lines.length, 30, id);
-        assert.match(stripAnsi(frame.lines[1]), /Local simulation/, id);
+        assert.match(stripAnsi(frame.lines[0]), /Claude Code/, id);
         for (const target of frame.targets) {
           assert.ok(target.column > 0 && target.column + target.width <= width + 1, id);
           assert.ok(target.row > 0 && target.row <= 30, id);
@@ -32,7 +32,7 @@ test("all 24 adapters render prompt, work, completion and another turn at deskto
 });
 
 test("frame button hit targets drive source-native tab switching and full resize painting", () => {
-  let state = submitPrompt(createSimulation("mission-control"), "Improve the handler");
+  let state = submitPrompt(submitPrompt(createSimulation("mission-control"), "/mission"), "Improve the handler");
   for (let tick = 0; tick < 32; tick += 1) state = tickSimulation(state);
   const frame = buildDemoTerminalFrame(state, 132, 30);
   const target = frame.targets.find(item => item.action.type === "tab" && item.action.value === "Code");
@@ -70,12 +70,12 @@ test("a CJK prompt wraps without shifting docked pane columns or dropping its la
   assert.equal(visiblePromptCharacters, 40);
   const coachTarget = frame.targets.find(target => target.action.type === "tab" && target.action.value === "Coach");
   assert.ok(coachTarget);
-  assert.equal(coachTarget.column, 78);
-  assert.deepEqual(findDemoAction(frame, 78, coachTarget.row), { type: "tab", value: "Coach" });
+  assert.equal(coachTarget.column, 85);
+  assert.deepEqual(findDemoAction(frame, 85, coachTarget.row), { type: "tab", value: "Coach" });
 });
 
 test("pane-native keyboard hints survive placement into a terminal frame", () => {
-  const frame = buildDemoTerminalFrame(createSimulation("mission-control"), 132, 30);
+  const frame = buildDemoTerminalFrame(submitPrompt(createSimulation("mission-control"), "/mission"), 132, 30);
   const codeTarget = frame.targets.find(target => target.action.type === "tab" && target.action.value === "Code");
   assert.ok(codeTarget);
   assert.equal(codeTarget.key, "c");

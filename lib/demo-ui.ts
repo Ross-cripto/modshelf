@@ -1,10 +1,11 @@
-import { browserContextPrompt, getFixtureFilePath } from "./demo-fixtures.ts";
+import { getFixtureFilePath } from "./demo-fixtures.ts";
 import type { DemoAction, DemoButton, DemoDefinition, SimulationState } from "./demo-types.ts";
 import type { DemoTerminalFrame } from "./demo-terminal-frame.ts";
 import type { DemoId } from "./mod-demos.ts";
 
 function actionsMatch(first: DemoAction, second: DemoAction): boolean {
   if (first.type !== second.type) return false;
+  if (first.type === "copy" && second.type === "copy") return first.format === second.format && first.text === second.text;
   if ("index" in first && "index" in second) return first.index === second.index;
   if ("value" in first && "value" in second) return first.value === second.value;
   if ("format" in first && "format" in second) return first.format === second.format;
@@ -42,6 +43,23 @@ function actionLabel(id: DemoId, action: DemoAction): string {
     case "queue-now": return `Send or steer queued message ${action.index + 1}`;
     case "queue-edit": return `Edit queued message ${action.index + 1}`;
     case "queue-remove": return `Remove queued message ${action.index + 1}`;
+    case "queue-send":
+      if (action.index === undefined) return "Send queued messages";
+      return `Send queued message ${action.index + 1}`;
+    case "queue-unsteer": return `Cancel steering message ${action.index + 1}`;
+    case "md-refresh": return "Render Markdown preview";
+    case "md-browser": return "Open Markdown page";
+    case "file-up": return "Open parent directory";
+    case "file-cwd": return "Return to project directory";
+    case "file-refresh": return "Refresh files";
+    case "browser-back": return "Go back";
+    case "browser-forward": return "Go forward";
+    case "browser-reload": return "Reload page";
+    case "browser-menu": return "Browser menu";
+    case "browser-grab": return "Select page context";
+    case "dino-duck": return "Duck";
+    case "game-clear-best": return "Reset best score";
+    case "ascii-toggle": return "Toggle ASCII diagram glyphs";
     case "proceed": return "Proceed with held command";
     case "deny": return "Cancel held request";
     case "copy": return `Copy ${action.format}`;
@@ -82,15 +100,6 @@ export async function copyDemoText(text: string): Promise<string> {
   }
 }
 
-export function getDemoControls(definition: DemoDefinition, state: SimulationState): DemoButton[] {
-  if (state.modId !== "terminal-browser") return definition.controls;
-  const controls: DemoButton[] = [];
-  for (const button of definition.controls) {
-    if (button.action.type === "fill-composer") {
-      controls.push({ ...button, action: { type: "fill-composer", text: browserContextPrompt(state.browserUrl) } });
-    } else {
-      controls.push(button);
-    }
-  }
-  return controls;
+export function getDemoControls(definition: DemoDefinition): DemoButton[] {
+  return definition.controls;
 }

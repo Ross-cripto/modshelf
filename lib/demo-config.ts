@@ -10,4 +10,4 @@ export const MAX_QUEUED_PROMPTS = 8;
 export const MAX_TRANSCRIPT_ENTRIES = 40;
 export const MUSIC_DURATION_SECONDS = 194;
 export const DINO_LEFT_COLUMN = 4;
-export const DINO_WIDTH = 5;
+export const DINO_WIDTH = 3;

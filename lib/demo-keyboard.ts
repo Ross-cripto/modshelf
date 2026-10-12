@@ -10,6 +10,7 @@ export function getDemoKeyAction(key: string, state: SimulationState, frame: Dem
   }
   if (state.panel.open && state.modId === "cc-dino") {
     if ([" ", "ArrowUp", "w", "W", "Enter"].includes(key)) return { type: "dino-jump" };
+    if (["ArrowDown", "s", "S"].includes(key)) return { type: "dino-duck" };
     if (key.toLowerCase() === "p") return { type: "pause" };
     if (key.toLowerCase() === "r") return { type: "game-restart" };
   }
