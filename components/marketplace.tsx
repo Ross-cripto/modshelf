@@ -116,7 +116,6 @@ function ModDetail({
   isSaved: boolean;
   onSave: (id: string) => void;
 }) {
-  const demoHref = getModDemoHref(mod.id);
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -194,11 +193,6 @@ function ModDetail({
           </Link>
         </section>
         <div className="detail-bottom">
-          {demoHref && (
-            <Link className="button button-rust" href={demoHref}>
-              Try this mod <Terminal size={16} aria-hidden="true" />
-            </Link>
-          )}
           {mod.repository ? (
             <a
               className="button button-dark"

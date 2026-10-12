@@ -33,7 +33,7 @@ Each mod retains its own license and authorship. Listings contain source links a
 
 ## Prompt-driven local demos
 
-Every listing has a source-grounded local adapter. The [behavior and source matrix](docs/mod-demos.md) links each pinned implementation. These browser simulations do not distribute or execute upstream mod packages. Creator credit, source links, fixture disclosures and subset limitations remain visible on every demo route. All newly written session and adapter code uses the site MIT license.
+Every listing has a source-grounded local adapter. The [behavior and source matrix](docs/mod-demos.md) links each pinned implementation. These browser simulations do not distribute or execute upstream mod packages. Creator credit and source links remain visible on every demo route. Fixture and subset boundaries are recorded in the [core](docs/fidelity-core.md), [hooks](docs/fidelity-hooks.md) and [panes](docs/fidelity-panes.md) source audits; the page carries one Interactive preview label. All newly written session and adapter code uses the site MIT license.
 
 ## cc-arcade browser demo
 
@@ -46,3 +46,11 @@ The browser terminal uses [xterm.js](https://github.com/xtermjs/xterm.js) and it
 Original Modshelf illustrations are generated with the built-in image-generation tool. Each image has an adjacent prompt/time sidecar; the new batch also records references and source evidence. Website code and original project artwork are distributed under the MIT project license.
 
 Self-hosted typefaces: Newsreader and Inter, from Google Fonts, SIL OFL 1.1. Their license texts are included in public/fonts/licenses/. Lucide icons are distributed under ISC.
+
+## Other adapted terminal renderers
+
+- Mindful Claude breathing exercises and shape rendering adapt `hooks/breath/exercises.ts` and `hooks/breath/shapes.ts` at commit `411c9c4f4f1c3d128159be7315823341ae7d9e2d`. MIT, copyright (c) 2026 Halluton. Full notice: [mindful-claude-MIT.txt](public/licenses/mindful-claude-MIT.txt).
+- cc-dino's half-cell sprites and ground rendering adapt `hooks/boards/dino.tsx` at commit `2d0221b6650ebe6287114cf9deec13b0b30850ec`. MIT, copyright (c) 2026 manfye. Full notice: [cc-dino-MIT.txt](public/licenses/cc-dino-MIT.txt).
+- Clawd Buddy's stage palette, standing pose and work props adapt `mods/clawd-buddy/hooks/stage.ts` and `clips/work.ts` at commit `4498aa6ce4b10006e6daf4f02bd6c3412afb308c`. MIT, copyright (c) 2026 Fynn Hansen. Full notice: [clawd-buddy-MIT.txt](public/licenses/clawd-buddy-MIT.txt).
+
+These adaptations are rendered by Modshelf's local browser host. They do not execute the upstream plugin or connect to a Claude Code session.

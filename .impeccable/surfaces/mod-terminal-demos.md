@@ -1,13 +1,19 @@
-# Prompt-driven terminal demos
+# Source-faithful terminal previews
 
-Mode: Operate. Preserve the shipped Community Shelf world, approved paper palette, Newsreader/Inter, spacing and hand-drawn illustrations. Inherited candidate 5/7 seed feab238c and API pool c3b204a1eed6 remain the marketplace direction. Pinned mod source governs each terminal's inner behavior.
+Mode: Operate. Preserve the shipped Community Shelf world, approved paper palette, Newsreader/Inter, spacing and hand-drawn catalog artwork. Inner terminal appearance and lifecycle come from each mod's actual hook/render implementation.
 
-The user rejected a standalone game because it did not show the mod during a Claude turn. Latest authorized scope: every catalog card has a bottom Try this mod action, its own terminal route, arbitrary message input, local scripted working/reply loops, and source-specific controls; finish and push all 24. This brief supersedes the former cc-arcade-only brief's prohibition on scripted replies/usage. All new replies and account/project data must visibly be local fixtures, never a claimed real session.
+Latest user correction: audit and fix all24 demos against real mods; remove Try another mod, example prompt controls, repeated local-simulation explanations and the duplicate Try this mod action inside catalog details. Keep Back to the shelf, mod Enable/Disable and native controls, Stop, Reset session. A concise Make it yours install block and source link provide the next step. One Interactive preview label establishes context; factual browser boundaries and source links belong in contributor documentation.
 
-Routes: /mods/[modId]/demo for all 24 catalog IDs, with real 404s for unknown IDs. Short title, mod selector, broad dark xterm surface, visible composer, mod controls, example prompt, limitation and author/source/install context. Phones stack panes above the composer. Preserve terminal text cells and 44px supplemental targets.
+Every catalog card retains its bottom Try this mod entry. Each route accepts arbitrary input, shows a scripted working/tool/reply loop and reproduces source-specific mod events and controls. No AI service, remote code execution or external account access. Source audit records pinned and current upstream revisions for every mod and identifies unavoidable fixture boundaries explicitly.
 
-Signature interaction: visitor types any prompt; simulated Claude starts work, tools and agents appear, source-specific UI responds, a reply streams, and completion changes the appropriate mod. An additional prompt repeats the cycle. Normal busy input does not silently enqueue. Queue, budget and blast-radius retain their distinct after-tool/before-prompt/before-tool semantics. Stop and reset dispose/cancel pending work.
+Signature: input starts work; source-triggered native panes, mascots, usage and gates respond at their correct lifecycle boundaries; completion changes the mod appropriately and a second turn repeats. Distinguish before-tool gates, before-prompt gates, after-tool queue injection and independent clocks. Native terminal cell geometry, keyboard access, reachable 44px equivalents and phone stacking remain required.
 
-Visual authority and factual limits are pinned in each DemoDefinition.source and docs/mod-demos.md. Breathing is orange block art only while working; games use native text and completion banner; dashboards/panes use their own source glyphs; image/browser/Markdown pages are bounded local graphics, not invented generic cards. Preserve fixture disclosure and open source authorship. No new brand artwork is needed.
+Finish evidence: all24 source comparisons, lifecycle regressions, working/complete/second-turn UI, desktop/phone/1280 views, native controls and relevant queue/guard/navigation interactions. Fresh finish review against this user critique and final documentation of shipped results. No new font or global detector suppression. The inherited homepage comp gate remains outside the terminal extension scope.
 
-Finish evidence must show idle, working, completion and a second prompt, desktop and phone, plus native controls, queues/guards, rail viewport navigation, copy, file filtering and PR feedback. Validate all 24 routes and catalog links; production source download must include the complete demo implementation without secrets.
+## Direction contract
+THESIS: The mod's own terminal interaction leads, with less page instruction around it.
+OWN-WORLD: Warm paper, Newsreader headings, quiet Inter controls, rust links and a neutral black Menlo terminal.
+STORY: Enter from a catalog card, send a message, interact with the mod, then install or return.
+FIRST VIEWPORT: Back link and mod name above the wide terminal; message field immediately below output, native controls underneath.
+FORM: A precisely scoped correction to the inherited Community Shelf terminal pages; retain candidate 5/7, seed feab238c.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

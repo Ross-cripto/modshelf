@@ -156,13 +156,16 @@ test("Jump restarts a crashed dinosaur before applying the jump", () => {
   assert.ok(next.dino.score > 0);
 });
 
-test("dinosaur collision starts when the cactus reaches its visible body", () => {
+test("dinosaur collision follows the native three-column hitbox inside its sprite", () => {
   let state = createSimulation("cc-dino");
   state = { ...state, dino: { ...state.dino, started: true, obstacle: 10 } };
   state = tickSimulation(state);
   assert.equal(state.dino.over, false);
   state = tickSimulation(state);
   assert.equal(state.dino.obstacle, 8);
+  assert.equal(state.dino.over, false);
+  state = tickSimulation(tickSimulation(state));
+  assert.equal(state.dino.obstacle, 6);
   assert.equal(state.dino.over, true);
 });
 
@@ -177,16 +180,16 @@ test("a timely dinosaur jump clears its entire visible collision width", () => {
 
 test("database removal uses the same migration fixture in the gate, pane and execution transcript", () => {
   const fixture = getHeldCommandFixture("Remove the database schema");
-  assert.equal(fixture?.command, "npm run db:migrate");
+  assert.equal(fixture?.command, "npx prisma migrate deploy");
   assert.ok(fixture?.details.some(detail => /cannot.*preview/i.test(detail)));
   let state = submitPrompt(createSimulation("blast-radius"), "Remove the database schema");
   for (let tick = 0; tick < CHECK_TICK; tick += 1) state = tickSimulation(state);
   assert.equal(state.decision, "command");
   const pane = stripAnsi(renderHooksDemo(state, 80).rows.map(row => row.text).join("\n"));
-  assert.match(pane, /npm run db:migrate/);
+  assert.match(pane, /npx prisma migrate deploy/);
   assert.doesNotMatch(pane, /240.*rows|1 table/);
   state = applyDemoAction(state, { type: "proceed" });
-  assert.match(state.transcript.at(-1)?.text ?? "", /npm run db:migrate/);
+  assert.match(state.transcript.at(-1)?.text ?? "", /npx prisma migrate deploy/);
   assert.doesNotMatch(state.transcript.at(-1)?.text ?? "", /rm -rf/);
 });
 
@@ -248,6 +251,7 @@ test("playing after a reply dismisses the game's done banner without clearing tu
 
 test("Markdown navigation starts from the displayed README before moving to the next file", () => {
   let state = createSimulation("md-preview");
+  state = { ...state, markdownFiles: ["README.md", "CONTRIBUTING.md"] };
   state = applyDemoAction(state, { type: "navigate", delta: 1 });
   assert.equal(state.panel.selection, 1);
   state = applyDemoAction(state, { type: "navigate", delta: -1 });

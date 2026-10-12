@@ -1,6 +1,10 @@
 export type FixtureFile = { path: string; label: string; size: string; hidden: boolean; index: number };
 export type HeldCommandFixture = { command: string; summary: string; details: string[] };
 
+export function mermaidReplyFixture(prompt: string): string {
+  return `Here is a sample flow for “${prompt}”.\n\n\`\`\`mermaid\ngraph TD\n  Request --> Plan --> Result\n\`\`\``;
+}
+
 export const FIXTURE_FILES: FixtureFile[] = [
   { path: "src/app.ts", label: "  · app.ts", size: "1.4 KB", hidden: false, index: 1 },
   { path: "src/styles.css", label: "  · styles.css", size: "2.1 KB", hidden: false, index: 2 },
@@ -31,7 +35,7 @@ export function getHeldCommandFixture(prompt: string): HeldCommandFixture | null
   }
   if (requestsDatabaseChange(prompt)) {
     return {
-      command: "npm run db:migrate",
+      command: "npx prisma migrate deploy",
       summary: "Run the pending database migration.",
       details: ["Database impact cannot be previewed safely.", "Review the migration before proceeding · local fixture"],
     };
