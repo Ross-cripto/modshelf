@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T23:29:48Z",
+  "generatedAt": "2026-10-13T09:44:25Z",
   "title": "Design System: Modshelf",
   "extensions": {
     "colorMeta": {
@@ -638,10 +638,10 @@
     {
       "name": "Demo Action",
       "kind": "button",
-      "refersTo": "demo-action",
-      "description": "Soft-clay Try this mod link on each catalog card, below its author/bookmark footer, with the shared terminal and arrow SVGs. Mod details continue through Make it yours, installation and View source.",
-      "html": "<a class=\"ds-demo-action\" href=\"/mods/cctop/demo\" aria-label=\"Try this mod: cctop\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m4 17 6-6-6-6\"/><path d=\"M12 19h8\"/></svg>Try this mod<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a>",
-      "css": ".ds-demo-action{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin:4px 17px 14px;border:1px solid #cfb9ab;border-radius:5px;background:var(--soft,#f4e8de);color:var(--rust,#a94f34);font-family:Inter,sans-serif;font-size:12px;font-weight:500;text-decoration:none;}.ds-demo-action:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px;}@media(hover:hover){.ds-demo-action:hover{background:#ecdbcb;}}"
+      "refersTo": "button-primary",
+      "description": "Opened mod-detail actions below the installation block: the shared rust Try this mod button beside the charcoal View source button. Catalog cards end at their author/bookmark footer; the action row wraps on phones.",
+      "html": "<div class=\"ds-detail-bottom\"><a class=\"ds-detail-button ds-detail-demo\" href=\"/mods/cctop/demo\" aria-label=\"Try this mod: cctop\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m4 17 6-6-6-6\"/><path d=\"M12 19h8\"/></svg>Try this mod<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></a><a class=\"ds-detail-button ds-detail-source\" href=\"https://github.com/tomstagl/cctop\" target=\"_blank\" rel=\"noopener noreferrer\">View source<svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"/><path d=\"M7 17 17 7\"/></svg></a></div>",
+      "css": ".ds-detail-bottom{display:flex;gap:12px;margin-top:24px}.ds-detail-button{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:0 21px;border:1px solid transparent;border-radius:5px;font-family:Inter,sans-serif;font-size:13px;font-weight:500;text-decoration:none;cursor:pointer;transition:background-color 150ms,color 150ms,transform 150ms}.ds-detail-demo{background:var(--rust,#a94f34);color:#fff}.ds-detail-source{background:#262723;color:#fff}.ds-detail-button:focus-visible{outline:2px solid var(--rust,#a94f34);outline-offset:4px}.ds-detail-button:active{transform:scale(.98)}@media(hover:hover) and (pointer:fine){.ds-detail-demo:hover{background:#913f28}.ds-detail-source:hover{background:#41453a}}@media(max-width:760px){.ds-detail-bottom{flex-wrap:wrap}}@media(prefers-reduced-motion:reduce){.ds-detail-button{transition-duration:0s}.ds-detail-button:active{transform:none}}"
     },
     {
       "name": "Prompt-driven Terminal and Controls",

@@ -144,11 +144,6 @@ components:
     rounded: "{rounded.inset}"
     padding: "8px 10px"
     height: "44px"
-  demo-action:
-    backgroundColor: "{colors.soft}"
-    textColor: "{colors.rust}"
-    rounded: "{rounded.control}"
-    height: "44px"
   demo-terminal:
     backgroundColor: "{colors.terminal-ground}"
     textColor: "{colors.terminal-text}"
@@ -359,7 +354,7 @@ Contribution steps use an unboxed ordered list, a rust serif ordinal, a serif ti
 
 ### Demo Actions
 
-Every current catalog card has a “Try this mod” link below its author/bookmark footer. Rust text, a fine clay border, (44px) minimum height and stroked terminal/arrow SVGs preserve the shelf controls. Each route opens the chosen mod. The detail layer continues through “Make it yours,” its installation command and guide, and the charcoal “View source” action.
+Catalog cards end at their divided author/bookmark footer. The opened mod-detail dialog places “Try this mod” beside “View source” beneath “Make it yours,” its installation command and guide. The demo action reuses the rust-and-white primary button with stroked terminal and arrow SVGs (16px); the source action reuses the charcoal-and-white button. Both retain the shared (48px) minimum height. Their row uses a (12px) gap and (24px) top margin, wrapping at (760px) and below. Each demo link opens the chosen mod’s route.
 
 ### Prompt-driven Terminals and Controls
 
