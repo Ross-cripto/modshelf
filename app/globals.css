@@ -707,23 +707,6 @@ select {
   gap: 12px;
   margin-top: 24px;
 }
-.card-demo-action {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  min-height: 44px;
-  margin: 4px 17px 14px;
-  border: 1px solid #cfb9ab;
-  border-radius: 5px;
-  background: var(--soft);
-  color: var(--rust);
-  font-size: 12px;
-  font-weight: 500;
-}
-@media (hover: hover) {
-  .card-demo-action:hover { background: #ecdbcb; }
-}
 .sr-only {
   position: absolute;
   width: 1px;

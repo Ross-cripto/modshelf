@@ -55,7 +55,6 @@ function ModCard({
   onSave: (id: string) => void;
   onOpen: (mod: Mod) => void;
 }) {
-  const demoHref = getModDemoHref(mod.id);
   return (
     <article className="mod-card">
       <button
@@ -96,11 +95,6 @@ function ModCard({
           <Bookmark size={17} strokeWidth={1.6} />
         </button>
       </div>
-      {demoHref && (
-        <Link href={demoHref} className="card-demo-action" aria-label={`Try this mod: ${mod.name}`}>
-          <Terminal size={16} aria-hidden="true" /> Try this mod <ArrowRight size={14} aria-hidden="true" />
-        </Link>
-      )}
     </article>
   );
 }
@@ -116,6 +110,7 @@ function ModDetail({
   isSaved: boolean;
   onSave: (id: string) => void;
 }) {
+  const demoHref = getModDemoHref(mod.id);
   const dialogRef = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -193,6 +188,13 @@ function ModDetail({
           </Link>
         </section>
         <div className="detail-bottom">
+          {demoHref && (
+            <Link href={demoHref} className="button button-rust" aria-label={`Try this mod: ${mod.name}`}>
+              <Terminal size={16} aria-hidden="true" />
+              Try this mod
+              <ArrowRight size={16} aria-hidden="true" />
+            </Link>
+          )}
           {mod.repository ? (
             <a
               className="button button-dark"
